@@ -1,7 +1,7 @@
 # Semana del 22 de septiembre
 
 Agradeceré que contestes la
-[encuesta inicial](). Se
+[encuesta inicial](https://docs.google.com/forms/d/e/1FAIpQLSeMknM68xF9D-n_ej6ppjEDi3xkxjzMBcSu_zopwLIZ1LRfJQ/viewform). Se
 recuerda al estudiante que es su responsabilidad asistir a clase o, si
 no es posible,
 enterarse de los contenidos impartidos en la misma a través de esta web, el grupo de Telegram o los compañeros.
@@ -32,7 +32,7 @@ enterarse de los contenidos impartidos en la misma a través de esta web, el gru
   asignatura: [web](http://jj.github.io/IV)
   y [Twitter `@iv_gii`](http://twitter.com/iv_gii), incluyendo el
   grupo de Telegram.
-* [Visión general de la asignatura]( ).
+* [Visión general de la asignatura](https://grados.ugr.es/informatica/pages/infoacademica/guias_docentes/curso_actual/cuarto/tecnologiasdelainformacion/infraestructuravirtual).
 * Metodología
   docente:
   [Clase invertida](http://www.tecnologiasparalaeducacion.es/la-clase-inversa-flip-classroom-tecnologias/),
