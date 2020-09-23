@@ -23,19 +23,29 @@ recurso.
 
 ## Contenidos
 
-* Antes de esta clase, haber entregado el [hito 0](http://jj.github.io/IV/documentos/proyecto/0.Repositorio). 
+* Antes de esta clase, haber entregado el [hito 0](http://jj.github.io/IV/documentos/proyecto/0.Repositorio).
 * Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura; si no es posible, asegurarse de que el sistema operativo del ordenador es capaz de manejar, al menos, varias máquinas virtuales Linux a la vez, así como contenedores Docker.
 * Manejar de forma básica la línea de órdenes de Linux.
 * Aprender a instalar software libre en Linux.
 * Entender el concepto de sistema de ficheros virtual usado en Linux para diferentes menesteres.
 * Recordatorio: hay que [poner al final de cada semana los objetivos alcanzados](Cumpliendo_Objetivos.md),
   y siempre antes de la entrega del hito del proyecto.
-* Revisar algún ejercicio de un compañero y sugerir cambios o mejoras. Se puede hacer, de la misma forma, mediante un *pull request*, en este caso al repo del compañero.
+* Revisar algún ejercicio de un compañero/a y sugerir cambios o
+  mejoras. Se puede hacer, de la misma forma, mediante un *pull
+  request*, en este caso al repo del compañero.
+* Entender qué es lo que se pide en el proyecto de la asignatura, y
+  por tanto en el
+  [primer hito del proyecto](http://jj.github.io/IV/documentos/proyecto/1.Infraestructura)
+  al final de la semana y entregarlo al principio de la semana siguiente.
 
 ## Material para la clase
 
 * *Teoría*: [Introducción, concepto y soporte físico](http://jj.github.io/IV/documentos/temas/Intro_concepto_y_soporte_fisico#introduccin)
 
+* *Práctica*:
+  [Guión del primer hito del proyecto](http://jj.github.io/IV/documentos/proyecto/1.Infraestructura). Plazo
+  para la entrega de este primer hito: **11:30 del 6 de octubre de 2019**.
+  
 ## Material adicional
 
 Podéis añadir trucos o enlaces a material adicional en esta zona,
