@@ -7,6 +7,9 @@ no es posible,
 enterarse de los contenidos impartidos en la misma a través de esta
 web, el grupo de Telegram o los compañeros.
 
+**Importante** comienza el *hacktoberfest*. Buscad *issues* en GitHub con la
+etiqueta *hacktoberfest* en todo GitHub y referenciarlos al hacer los
+pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
 
 ## Objetivos a cubrir en la sesión
 
