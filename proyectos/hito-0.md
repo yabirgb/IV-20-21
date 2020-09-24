@@ -12,7 +12,7 @@
 | DEL POZO MORENO, RAUL| | |
 | FERNANDEZ TORRALBO, MIGUEL ANGEL| | |
 | GAMIZ DELGADO, ANTONIO| | |
-| GARCIA BENCHAKHTIR, YABIR| https://github.com/yabirgb/bukhgalter | v0.1.1 |
+| GARCIA BENCHAKHTIR, YABIR| https://github.com/yabirgb/bukhgalter | v0.1.2 |
 | GARCIA CASTILLO, ANTONIO| | |
 | GARCIA COLLADO, JOSE ALBERTO| | |
 | GARCIA MARTINEZ, DAVID| | |
