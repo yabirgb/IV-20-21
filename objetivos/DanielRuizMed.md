@@ -8,3 +8,4 @@
 - [x] Vernos las caras.
 - [x] Explicar el [hito 0](http://jj.github.io/IV/documentos/proyecto/0.Repositorio). Fecha de entrega: martes 29 de septiembre, 11:30 de la mañana.
 - [x] Realizar los ejercicios de la sesión 1, [ejercicios](https://github.com/DanielRuizMed/EjerciciosIV/tree/master/session1).
+- [x] Entender que la plantilla de PR está para algo y no debo borrarla
