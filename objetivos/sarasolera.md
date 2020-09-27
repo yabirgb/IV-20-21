@@ -1,6 +1,6 @@
 # Objetivos
 
-## Primera semana
+## Primera semana 22 Septiembre
 
 - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
 - [x] Darse de alta (si no se está) y comprender el funcionamiento básico de GitHub y el grupo de Telegram de la asignatura y conocer el resto de los recursos de la misma.
