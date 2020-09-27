@@ -1,4 +1,4 @@
-# Objetivos
+# Lista objetivos
 
 ## Primera semana 22 Septiembre
 
