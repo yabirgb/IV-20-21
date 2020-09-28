@@ -1,4 +1,4 @@
------------------------------- Borra esto si no son objetivos --------------------------------------
+------------------------------ Borrar esto si no son objetivos --------------------------------------
 
 # Entrega de objetivos semanales de IV
 
@@ -12,7 +12,7 @@
 * [ ] He llevado a cabo las actividades correspondientes al objetivo y he entendido para qué sirven.
 * [ ] He actualizado con la última versión del fichero de entrega usando `pull --rebase`
 
------------------------------ Borra esto si no es un hito -----------------------------------------
+----------------------------- Borrar esto si no es un hito -----------------------------------------
 
 # Entrega del hito del proyecto de Infraestructura virtual
 
