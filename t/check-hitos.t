@@ -27,6 +27,7 @@ my $github;
 
 SKIP: {
   my ($this_hito) = ($diff =~ $diff_regex);
+  my @ficheros_objetivos = glob "$prefix/objetivos/*.*";
   unless ( defined $this_hito ) {
     my ($fichero_objetivos) = ( $diff =~ /[ab]\/objetivos\/(\S+)\.$extensions/ );
     ok( $fichero_objetivos, "El envío es del fichero de objetivos y tiene la extensión correcta" );
@@ -47,9 +48,8 @@ SKIP: {
 
   # Comprobación de envío de objetivos cuando hay nombre de usuario
   my $prefix = ($repo->{'opts'}->{'WorkingSubdir'} eq 't/')?"..":".";
-  my @ficheros_objetivos = glob "$prefix/objetivos/*.*";
   my ($este_fichero) =  grep( /$user/i, @ficheros_objetivos);
-  ok( $este_fichero, "$user ha enviado objetivos" ); # Test 4
+  ok( $este_fichero, "$user ha enviado fichero de objetivos con el nombre correcto" ); # Test 4
 
   # Comprobar que los ha actualizado
   my $objetivos_actualizados = objetivos_actualizados( $repo, $este_fichero );
