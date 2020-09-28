@@ -1,6 +1,6 @@
 # LISTADO DE OBJETIVOS
 
-## Semana del 21/09
+## Semana del 21/09/2020
 - [x] Crearse una cuenta en Github y configurar tu perfil de una forma correcta.
 - [x] Unirse al grupo de Telegram e inscribirse con tus nick en la hoja.
 - [x] Conocer a los profesores y tener una tutoría con ellos.
