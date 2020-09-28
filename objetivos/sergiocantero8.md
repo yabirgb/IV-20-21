@@ -5,4 +5,4 @@
 - [x] Verse la cara con el profesor.
 - [x] Darse de alta (si no se está) y comprender el funcionamiento básico de GitHub y el grupo de Telegram de la asignatura y conocer el resto de los recursos de la misma.
 - [x] Entender el concepto de software libre y su aplicación práctica en esta asignatura.
-- [x] Empezar a usar git y GitHub.
+- [x] Empezar a usar git y GitHub correctamente.
