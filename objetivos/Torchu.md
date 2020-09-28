@@ -1,4 +1,4 @@
-# Objetivos de Víctor Cabrita
+# Objetivos de Víctor Cabrita a.k.a. Torchu
 ## Primera semana
 
 - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
