@@ -43,7 +43,7 @@
 | ROMERO ORTEGA, JOSE MANUEL| | |
 | RUBIO RODRIGUEZ, JUAN MANUEL| | |
 | RUIZ FERNANDEZ, TOMAS| | |
-| RUIZ GARCIA, PAULA| | |
+| RUIZ GARCIA, PAULA| [TinkDiary](https://github.com/aluruiz/IV-TinkDiary.git) | V0.0.1 |
 | RUIZ MEDINA, DANIEL| [PAndemium](https://github.com/DanielRuizMed/PAndemium) | v0.0.1 |
 | SANZ SANCHEZ, MARIA| | |
 | SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v0.0.1 |
