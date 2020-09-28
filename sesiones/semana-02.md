@@ -25,8 +25,20 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
 
 * Antes de esta clase, haber entregado el [hito 0](http://jj.github.io/IV/documentos/proyecto/0.Repositorio).
 * Errores comunes en la entrega:
-  * En esta asignatura, todo tiene sentido y está encaminado a asentar un objetivo de aprendizaje; desde la creación de un PR hasta cómo se organiza un repositorio ⇒ no lo hagáis por hacerlo y dejarlo hecho. Hacedlo porque lo habéis entendido.
-	* En particular, mirad la plantilla que se ha creado para haceros más fáciles los PRs. Borrad lo que no corresponda, rellenad lo que se os pida.
+  * Tolerancia 0 con plagios de cualquier tipo.
+  * En esta asignatura, todo tiene sentido y está encaminado a asentar
+    un objetivo de aprendizaje; desde la creación de un PR hasta cómo
+    se organiza un repositorio ⇒ no lo hagáis por hacerlo y dejarlo
+    hecho. Hacedlo porque lo habéis entendido.
+	* Los PRs son la forma habitual de trabajar en el desarrollo de
+      software. Hay que *aprender* a usarlos, no simplemente usarlos
+      "como sea" para entregar "lo que piden". Por ejemplo [se usan
+      PRs para añadir nuevos módulos al ecosistema de Raku](https://github.com/Raku/ecosystem/pulls?q=is%3Apr+is%3Aclosed).
+          * En particular, mirad la plantilla que se ha creado para
+            haceros más fáciles los PRs. Borrad lo que no corresponda,
+            rellenad lo que se os pida.
+          * Leed lo que habéis puesto y ver si corresponde realmente a
+            lo que estáis haciendo.
 	* Los ejercicios son de autoevaluación, y el que lo hayáis hecho se refleja en el fichero de objetivos. No entrguéis el fichero cuando y si tenéis que entregar el hito. Hacedlo cuando hayáis cumplido los objetivos. Normalmente es un porcentaje de todos los que aparecen, podéis elegir los que os parezcan más útiles.
 		* Recordatorio: hay que [poner al final de cada semana los objetivos alcanzados](Cumpliendo_Objetivos.md),
   y siempre antes de la entrega del hito del proyecto.
