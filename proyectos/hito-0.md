@@ -26,7 +26,7 @@
 | LUQUE JARAVA, BLANCA| | |
 | MARTIN LEON, ANTONIO| | |
 | MENOR MOLINERO, ALEJANDRO| [que-vemos](https://github.com/AlexMenor/que-vemos) | v0.0.1 |
-| MERELO MOLINA, CECILIA| | |
+| MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v0.0.1 |
 | MERELO MOLINA, ELENA| [goFit](https://github.com/ElenaMerelo/goFit)| v0.0.1 |
 | MOLINERO CASTILLO, JONATHAN| | |
 | MONTESINOS PERUJO, ISMAEL| | |
