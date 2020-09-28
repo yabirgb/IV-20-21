@@ -41,7 +41,7 @@
 | RIVERA PEÑA, JUAN ALBERTO| [YourLife](https://github.com/juanalberto58/AppIV)| v0.0.1 |
 | RODRIGUEZ LOPEZ, ALEJANDRO|[HDN.PG](https://github.com/alexrodriguezlop/HDN.PG)  |*v0.0.1* |
 | ROMERO ORTEGA, JOSE MANUEL| | |
-| RUBIO RODRIGUEZ, JUAN MANUEL| | |
+| RUBIO RODRIGUEZ, JUAN MANUEL| [NBA API](https://github.com/juanmrr/NBA-API)| v0.0.1 |
 | RUIZ FERNANDEZ, TOMAS| | |
 | RUIZ GARCIA, PAULA| | |
 | RUIZ MEDINA, DANIEL| [PAndemium](https://github.com/DanielRuizMed/PAndemium) | v0.0.1 |
