@@ -39,7 +39,7 @@ enterarse de los contenidos impartidos en la misma a través de esta web, el gru
   incluyendo eliminación de la distinción teoría/prácticas y las
   consecuencias que trae. 
 * [Metodología y criterios de evaluación](../Metodología_y_criterios_de_evaluación.md).
-* Tutorías y como hacerlas
+* Tutorías y como hacer.as
 * Fechas para seminarios y recuperaciones de clase y forma de los mismos (streaming, por ejemplo).
 * Alta en [GitHub](http://github.com) y grupo de Telegram (enviar nick
   a @jjmerelo). Para ver las notas, se compartirá documento de Google
