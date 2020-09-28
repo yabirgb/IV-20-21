@@ -1,4 +1,4 @@
-# Objetivos de Alex en IV
+# Objetivos de Leandro Vega
 
 ## Primera semana
 
