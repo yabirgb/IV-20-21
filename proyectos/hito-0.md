@@ -14,7 +14,7 @@
 | GAMIZ DELGADO, ANTONIO| [Manga API](https://github.com/antoniogamiz/manga-api) | v0.0.2 |
 | GARCIA BENCHAKHTIR, YABIR| https://github.com/yabirgb/bukhgalter | v0.1.2 |
 | GARCIA CASTILLO, ANTONIO| | |
-| GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v0.0.2 |
+| GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v0.0.1 |
 | GARCIA MARTINEZ, DAVID| | |
 | GONZALEZ ARGUDO, VICTOR JOSE| | |
 | HEREDIA CORTES, DAVID| | |
@@ -26,7 +26,7 @@
 | LUQUE JARAVA, BLANCA| | |
 | MARTIN LEON, ANTONIO| | |
 | MENOR MOLINERO, ALEJANDRO| [que-vemos](https://github.com/AlexMenor/que-vemos) | v0.0.1 |
-| MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v0.0.1 |
+| MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v0.0.2 |
 | MERELO MOLINA, ELENA| [goFit](https://github.com/ElenaMerelo/goFit)| v0.0.1 |
 | MOLINERO CASTILLO, JONATHAN| | |
 | MONTESINOS PERUJO, ISMAEL| | |
