@@ -1,6 +1,6 @@
 | Nombre | Enlace | Versión |
 |--------|--------|---------|
-| AZAÑON CANTERO, SERGIO| [ReserveIt-API](https://github.com/sergiocantero8/ReserveIt-API) | v0.0.1 |
+| AZAÑON CANTERO, SERGIO| [ReserveIt-API](https://github.com/sergiocantero8/ReserveIt-API) | v0.0.2 |
 | BELTRAN SANCHEZ, FRANCISCO| | |
 | BENAVIDES RODRIGUEZ, JAVIER| | |
 | CABRITA GOMEZ, VICTOR| | |
