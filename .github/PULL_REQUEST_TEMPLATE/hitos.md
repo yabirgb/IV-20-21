@@ -2,19 +2,12 @@
 
 Corresponde al hito <incluir número del hito aquí>
 
-o
-
-Entrega de fichero de objetivos 
-
-*Borrar lo que no corresponda*
-** Y estas notas también **
-
 ## Primero y mas importante
 
 * [ ] Prometo no cerrar ningún PR pase lo que pase.
 * [ ] Ni abrir más de un PR simultáneamente de lo mismo (objetivos o hitos).
 
-## Lista de comprobación para hitos (*borrar si no es un hito*)
+## Lista de comprobación para hitos
 
 * [ ] He leído el guión del hito
 * [ ] Cumplo los prerrequisitos (he aprobado el hito anterior, por ejemplo)
@@ -23,17 +16,13 @@ Entrega de fichero de objetivos
 * [ ] Si estoy enviando otra versión porque no pasó los tests la
 anterior, he [seguido las instrucciones para reenvíos](http://jj.github.io/IV/documentos/proyecto/Reenvios).
 
-## Lista de comprobación para objetivos (sólo objetivos)
-
-* [ ] He llevado a cabo las actividades correspondientes al objetivo y he entendido para qué sirve.
-* [ ] He actualizado con la última versión del fichero de entrega usando `pull --rebase`
-  
-  
 ## Descripción de la entrega (sólo si es un reenvío)
 
-<Breve descripción de lo entregado>
+<Breve descripción de lo entregado... Borrar en otro caso>
 
-## Hitos e *issues* del repositorio que se han cerrado con esta entrega (si se trata de un hito (*a partir del primer hito, borrar si no es un hito*)
+## Hitos e *issues* del repositorio que se han cerrado con esta entrega
 
-<incluir aquí la descripción de los issues y enlaces a los mismos, agrupados por milestones>
+<incluir aquí la descripción de los issues y enlaces a los mismos,
+agrupados por milestones. Borrar esto siempre. No se aplica en el hito
+0>
 
