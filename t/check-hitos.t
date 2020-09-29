@@ -19,7 +19,7 @@ use v5.14; # For say
 # Allowed extensions for outline documents
 my $extensions = "(md|org)";
 my $repo = Git->repository ( Directory => '.' );
-my $mi_repo = $repo->command('remote', 'show', 'origin') =~ /Fetch.+JJ/;
+my $mi_repo = $repo->command('remote', 'show', 'origin') =~ /JJ\/IV/;
 my $diff = $repo->command('diff','HEAD^1','HEAD');
 my $diff_regex = qr/a\/proyectos\/hito-(\d)\.md/;
 my $ua =  Mojo::UserAgent->new(connect_timeout => 10);
@@ -27,7 +27,6 @@ my $github;
 
 SKIP: {
   my ($this_hito) = ($diff =~ $diff_regex);
-  my @ficheros_objetivos = glob "$prefix/objetivos/*.*";
   unless ( defined $this_hito ) {
     my ($fichero_objetivos) = ( $diff =~ /[ab]\/objetivos\/(\S+)\.$extensions/ );
     ok( $fichero_objetivos, "El envío es del fichero de objetivos y tiene la extensión correcta" );
@@ -40,14 +39,15 @@ SKIP: {
   my @lines = split("\n",$diff_hito);
   my @adds = grep(/^\+[^+]/,@lines);
   is( $#adds, 0, "Añade sólo una línea"); # Test 1
-  my ($url_repo) = ($adds[0] =~ /(https?:\S+)\b/);
+  my ($url_repo) = ( $adds[0] =~ /(https?:[^\)\|\s]+)\)(|\||\s|\b)/ );
   say $url_repo;
   isnt($url_repo,"","El envío incluye un URL"); # Test 2
   like($url_repo,qr/github.com/,"El URL es de GitHub"); # Test 3
-  my ($user,$name) = ($url_repo=~ /github.com\/(\S+)\/([^\.]+)/);
+  my ($user,$name) = ($url_repo=~ /github.com\/(\S+)\/([^\)\.]+)/);
 
   # Comprobación de envío de objetivos cuando hay nombre de usuario
   my $prefix = ($repo->{'opts'}->{'WorkingSubdir'} eq 't/')?"..":".";
+  my @ficheros_objetivos = glob "$prefix/objetivos/*.*";
   my ($este_fichero) =  grep( /$user/i, @ficheros_objetivos);
   ok( $este_fichero, "$user ha enviado fichero de objetivos con el nombre correcto" ); # Test 4
 
