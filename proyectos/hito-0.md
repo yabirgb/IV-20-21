@@ -22,7 +22,7 @@
 | HIDALGO CARMONA, MANUEL| [ragaeton](https://github.com/venrra/ragaeton) | v0.0.1 |
 | IZQUIERDO GARCIA,ANGELA|[efood](https://github.com/angelaig-ugr/efood)|v0.0.2|
 | LEJARRAGA RUBIO, ALBERTO| | |
-| LUPIAÑEZ TAPIA, GUILLERMO| | |
+| LUPIAÑEZ TAPIA, GUILLERMO| [FiltradoInfo](https://github.com/guillelpnz/FiltradoInfo) | v0.0.1 |
 | LUQUE JARAVA, BLANCA| | |
 | MARTIN LEON, ANTONIO| [Buscador-Partidos](https://github.com/antonioml97/BuscadorPartidos) | v0.0.4 |
 | MENOR MOLINERO, ALEJANDRO| [que-vemos](https://github.com/AlexMenor/que-vemos) | v0.0.1 |
