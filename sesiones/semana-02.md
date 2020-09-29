@@ -39,6 +39,13 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
             rellenad lo que se os pida.
           * Leed lo que habéis puesto y ver si corresponde realmente a
             lo que estáis haciendo.
+          * Errores habituales:
+          ![Cerrado involuntario](/img/cerrado-involuntario.png)
+
+          ![Mal configurado el email](/img/no-email.png)
+
+          ![No usar pull --rebase](/img/mezclado.png)
+          
 	* Los ejercicios son de autoevaluación, y el que lo hayáis hecho se refleja en el fichero de objetivos. No entrguéis el fichero cuando y si tenéis que entregar el hito. Hacedlo cuando hayáis cumplido los objetivos. Normalmente es un porcentaje de todos los que aparecen, podéis elegir los que os parezcan más útiles.
 		* Recordatorio: hay que [poner al final de cada semana los objetivos alcanzados](Cumpliendo_Objetivos.md),
   y siempre antes de la entrega del hito del proyecto.
