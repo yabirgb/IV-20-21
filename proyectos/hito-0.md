@@ -1,6 +1,6 @@
 | Nombre | Enlace | Versión |
 |--------|--------|---------|
-| AZAÑON CANTERO, SERGIO| | |
+| AZAÑON CANTERO, SERGIO| [ReserveIt-API](https://github.com/sergiocantero8/ReserveIt-API) | v0.0.2 |
 | BELTRAN SANCHEZ, FRANCISCO| [F1-Predictor](https://github.com/currobeltran/F1-Predictor) | v0.0.1 |
 | BENAVIDES RODRIGUEZ, JAVIER| | |
 | CABRITA GOMEZ, VICTOR| | |
