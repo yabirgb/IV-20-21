@@ -6,7 +6,7 @@
 | CABRITA GOMEZ, VICTOR| | |
 | CANO JEREZ, IRENE| [IdiomasIV](https://github.com/irenecj/ProyectoIdiomasIV) | v0.0.1 |
 | CHAVES CABALLERO, MARIO| | |
-| CHEKFEH AL-SABBAGH, MOHAMED BILAL| | |
+| CHEKFEH AL-SABBAGH, MOHAMED BILAL| [GameStore](https://github.com/BilalKxK99/GameStore) | v0.0.1 |
 | COCA CRUZ, SIXTO| | |
 | CUADROS LAPRESTA, ANTONIO| [WhenToClass](https://github.com/antoniocuadros/WhenToClass) | v0.0.3 |
 | DEL POZO MORENO, RAUL| | |
