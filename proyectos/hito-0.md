@@ -1,10 +1,10 @@
 | Nombre | Enlace | Versión |
 |--------|--------|---------|
 | AZAÑON CANTERO, SERGIO| | |
-| BELTRAN SANCHEZ, FRANCISCO| | |
+| BELTRAN SANCHEZ, FRANCISCO| [F1-Predictor](https://github.com/currobeltran/F1-Predictor) | v0.0.1 |
 | BENAVIDES RODRIGUEZ, JAVIER| | |
 | CABRITA GOMEZ, VICTOR| | |
-| CANO JEREZ, IRENE| | |
+| CANO JEREZ, IRENE| [IdiomasIV](https://github.com/irenecj/ProyectoIdiomasIV) | v0.0.1 |
 | CHAVES CABALLERO, MARIO| | |
 | CHEKFEH AL-SABBAGH, MOHAMED BILAL| | |
 | COCA CRUZ, SIXTO| | |
@@ -16,11 +16,11 @@
 | GARCIA CASTILLO, ANTONIO| | |
 | GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v0.0.1 |
 | GARCIA MARTINEZ, DAVID| | |
-| GONZALEZ ARGUDO, VICTOR JOSE| | |
+| GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.0.1 |
 | HEREDIA CORTES, DAVID| | |
 | HERNANDEZ MORENO, DIEGO| | |
 | HIDALGO CARMONA, MANUEL| | |
-| IZQUIERDO GARCIA, ANGELA| | |
+| IZQUIERDO GARCIA,ANGELA|[efood](https://github.com/angelaig-ugr/efood)|v0.0.2|
 | LEJARRAGA RUBIO, ALBERTO| | |
 | LUPIAÑEZ TAPIA, GUILLERMO| | |
 | LUQUE JARAVA, BLANCA| | |
@@ -31,21 +31,21 @@
 | MOLINERO CASTILLO, JONATHAN| | |
 | MONTESINOS PERUJO, ISMAEL| | |
 | MORENO VILCHEZ, FRANCISCO JOSE| | |
-| NUÑEZ RUIZ, MANUEL JESUS| | |
+| NUÑEZ RUIZ, MANUEL JESUS| [footStats](https://github.com/ManuelJNunez/footStats) | v0.0.1 |
 | PALOMINO SANCHEZ, GUILLERMO| | |
-| PELEGRINA PELEGRINA, JOSE MIGUEL| | |
+| PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v0.0.1 |
 | PEREZ MENDEZ, PABLO| | |
 | PINEDA MUÑOZ, JUAN CARLOS| | |
 | PRIETO INFANTE, JAVIER| | |
-| REVELLES PEREZ, ANTONIO JOSE| | |
+| REVELLES PEREZ, ANTONIO JOSE| [ListerYourMood](https://github.com/AntonioRev/ListenYourMood) | v0.0.1 |
 | RIVERA PEÑA, JUAN ALBERTO| [YourLife](https://github.com/juanalberto58/AppIV)| v0.0.1 |
 | RODRIGUEZ LOPEZ, ALEJANDRO|[HDN.PG](https://github.com/alexrodriguezlop/HDN.PG)  |*v0.0.1* |
 | ROMERO ORTEGA, JOSE MANUEL| | |
-| RUBIO RODRIGUEZ, JUAN MANUEL| | |
+| RUBIO RODRIGUEZ, JUAN MANUEL| [NBA API](https://github.com/juanmrr/NBA-API)| v0.0.1 |
 | RUIZ FERNANDEZ, TOMAS| | |
-| RUIZ GARCIA, PAULA| | |
+| RUIZ GARCIA, PAULA| [TinkDiary](https://github.com/aluruiz/IV-TinkDiary.git) | v0.0.1 |
 | RUIZ MEDINA, DANIEL| [PAndemium](https://github.com/DanielRuizMed/PAndemium) | v0.0.1 |
-| SANZ SANCHEZ, MARIA| | |
+| SANZ SANCHEZ, MARIA|[MakeupIV](https://github.com/mariasanzs/makeupIV) | v0.0.2 |
 | SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v0.0.1 |
 | STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v0.0.1 |
 | TORRES BAREA, FRANCISCO JAVIER| | |
