@@ -36,7 +36,7 @@
 | PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v0.0.1 |
 | PEREZ MENDEZ, PABLO| | |
 | PINEDA MUÑOZ, JUAN CARLOS| | |
-| PRIETO INFANTE, JAVIER| | |
+| PRIETO INFANTE, JAVIER| [PeluqueriaUnisex](https://github.com/JaviPrieto/PeluqueriaUnisex) | v0.0.1 |
 | REVELLES PEREZ, ANTONIO JOSE| [ListerYourMood](https://github.com/AntonioRev/ListenYourMood) | v0.0.1 |
 | RIVERA PEÑA, JUAN ALBERTO| [YourLife](https://github.com/juanalberto58/AppIV)| v0.0.1 |
 | RODRIGUEZ LOPEZ, ALEJANDRO|[HDN.PG](https://github.com/alexrodriguezlop/HDN.PG)  |*v0.0.1* |
