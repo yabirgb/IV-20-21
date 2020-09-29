@@ -43,7 +43,7 @@
 | ROMERO ORTEGA, JOSE MANUEL| | |
 | RUBIO RODRIGUEZ, JUAN MANUEL| [NBA API](https://github.com/juanmrr/NBA-API)| v0.0.1 |
 | RUIZ FERNANDEZ, TOMAS| | |
-| RUIZ GARCIA, PAULA| | |
+| RUIZ GARCIA, PAULA| [TinkDiary](https://github.com/aluruiz/IV-TinkDiary.git) | v0.0.1 |
 | RUIZ MEDINA, DANIEL| [PAndemium](https://github.com/DanielRuizMed/PAndemium) | v0.0.1 |
 | SANZ SANCHEZ, MARIA|[MakeupIV](https://github.com/mariasanzs/makeupIV) | v0.0.2 |
 | SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v0.0.1 |
