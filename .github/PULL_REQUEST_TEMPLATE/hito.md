@@ -1,20 +1,4 @@
------------------------------- Borrar esto si no son objetivos --------------------------------------
-
-# Entrega de objetivos semanales de IV
-
-## Primero y mas importante
-
-* [ ] Prometo no cerrar ningún PR pase lo que pase.
-* [ ] Ni abrir más de un PR simultáneamente de lo mismo (objetivos o hitos).
-
-## Lista de comprobación para objetivos
-
-* [ ] He llevado a cabo las actividades correspondientes al objetivo y he entendido para qué sirven.
-* [ ] He actualizado con la última versión del fichero de entrega usando `pull --rebase`
-
------------------------------ Borrar esto si no es un hito -----------------------------------------
-
-# Entrega del hito del proyecto de Infraestructura virtual
+# Entrega del un hito del proyecto de Infraestructura virtual
 
 Corresponde al hito <incluir número del hito aquí>
 
