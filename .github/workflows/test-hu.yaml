@@ -1,0 +1,28 @@
+on:
+  # Trigger the workflow on push or pull request
+  pull_request:
+      - 'proyectos/hito-[1234567].md'
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Extrae URL del repositorio
+        uses: JJ/github-pr-contains-action@releases/v1
+        with:
+          github-token: ${{github.token}}
+          filesChanged: 1
+      - uses: actions/github-script@v3
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const diff = process.env.diff as string;
+            const ghRepoMatch = /github.com\/(\S+)\/(.+?)(:\s+|\))/.exec(diff)
+            if  ( ghRepoMatch === null ) {
+                core.setFailed("❌ There's no repo URL in this diff with required format")
+            } else {
+                const user = ghRepoMatch[1]
+                const repo = ghRepoMatch[2]
+                console.log( "» Retrieving repo " + repo + " for user " + user )
+            }
+
