@@ -1,4 +1,4 @@
-# Tercera semana, 23 de septiembre
+# Tercera semana, 6 de octubre
 
 
 ## Objetivos de la semana
@@ -14,20 +14,13 @@
 
 ## Otros objetivos
 
+* Los tests que pasan los objetivos y proyecto están en el propio
+  repositorio; por ejemplo, el test para los hitos está en el
+  subdirectorio [`t`](../t). Los tests que se pasan están en los
+  requisitos del hito, pero en todo caso se puede mirar el programa
+  para ver qué se hace.
+  
 * Poner de relieve los problemas que haya podido haber en el hito cero y solucionarlos.
-  * El proyecto es personal y sólo tiene que ajustarse a la asignatura.
-  * Entender el concepto de *aprendizaje autónomo* aka "No sé qué hacer". 
-  * Entender qué es lo que se debe aprender en una asignatura de informática y su independencia de lo que diga el profesor.
-  * Problemas frecuentemente planteados.
-	* Hay que entender git y GitHub. 
-		* Rebases y otras cosas que es posible que sean más importantes que los diagramas UML. 
-	* "Tengo un error"
-	* "Tengo *este* error"
-	* Todo lo anterior, en un mensaje privado a alguno de los profesores.
-  * Los objetivos tienen que cumplirse, no marcarse.
-  * "Voy a hacer un API"
-  * "Voy a hacer un microservicio que hace 40 cosas".
-  * "Voy a hacer (cosas que|que|sistema que) haga x".
 
 * Entender qué son los objetivos y cómo hacerlos correctamente.
 
@@ -40,7 +33,7 @@
   otra forma. node.js se usa extensivamente en los ejemplos de la asignatura.
 
 * Comprender la utilidad de la virtualización y definición en un
-  fichero de herramientas de desarrollo (makefiles, rakefiles, requiments.txt, package.json, ficpanfile, ficheros de Maven...).
+  fichero de herramientas de desarrollo (makefiles, rakefiles, `requirements.txt`, `package.json`, `cpanfile`, ficheros de Maven...).
 
 * Instalar las herramientas necesarias para crear y aplicar tests en
   un proyecto.
