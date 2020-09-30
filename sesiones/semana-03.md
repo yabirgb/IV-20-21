@@ -14,6 +14,13 @@
 
 ## Otros objetivos
 
+* Comentarios sobre la corrección del hito 0
+  * Confusión de "un problema" (como dice
+    en
+    [el guión](http://jj.github.io/IV/documentos/proyecto/0.Repositorio) con
+    una posible solución: "Un API". En informática se tiene que partir
+    siempre por el problema a resolver.
+
 * Los tests que pasan los objetivos y proyecto están en el propio
   repositorio; por ejemplo, el test para los hitos está en el
   subdirectorio [`t`](../t). Los tests que se pasan están en los
