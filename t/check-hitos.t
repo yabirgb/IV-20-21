@@ -50,7 +50,8 @@ SKIP: {
   my $prefix = ($repo->{'opts'}->{'WorkingSubdir'} eq 't/')?"..":".";
   my @ficheros_objetivos = glob "$prefix/objetivos/*.*";
   my ($este_fichero) =  grep( /$user/i, @ficheros_objetivos);
-  ok( $este_fichero, "$user ha enviado fichero de objetivos con el nombre correcto" ); # Test 4
+  skip "Sin este fichero no se puede continuar"
+    unless ok( $este_fichero, "$user ha enviado fichero de objetivos con el nombre correcto. Buscaba $user.md" ); # Test 4
 
   # Comprobación de lo diferentes que son los ficheros de objetivos (o no)
   for my $f (@ficheros_objetivos) {
