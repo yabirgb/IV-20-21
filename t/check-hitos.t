@@ -51,6 +51,14 @@ SKIP: {
   my ($este_fichero) =  grep( /$user/i, @ficheros_objetivos);
   ok( $este_fichero, "$user ha enviado fichero de objetivos con el nombre correcto" ); # Test 4
 
+  # Comprobación de lo diferentes que son los ficheros de objetivos (o no)
+  for my $f (@ficheros_objetivos) {
+    if ($f ne $este_fichero ) {
+      my $diff = `diff $f $este_fichero`;
+      nok $diff, "El fichero de objetivos enviado es idéntico a $f";
+    }
+  }
+
   # Comprobar que los ha actualizado
   my $objetivos_actualizados = objetivos_actualizados( $repo, $este_fichero );
   is( $objetivos_actualizados, "",
