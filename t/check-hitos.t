@@ -57,12 +57,13 @@ SKIP: {
        "Fichero de objetivos $este_fichero está actualizado")
     or skip "Fichero de objetivos actualizados hace $objetivos_actualizados";
 
-  my $repo_dir = create_student_repo_dir( $user, $name );
+  my $repo_dir = create_student_repo_dir( $url_repo, $mi_repo, $user, $name );
   my $student_repo = Git->repository ( Directory => $repo_dir );
   
   my @repo_files = $student_repo->command("ls-files");
   say "Ficheros\n\t→", join( "\n\t→", @repo_files);
 
+  doing("hito 0");
   for my $f (qw( README\.(org|md|rst) \.gitignore LICENSE )) { # Tests 5-7
     isnt( grep( /$f/, @repo_files), 0, "$f presente" );
   }
@@ -186,7 +187,7 @@ done_testing();
 
 # Crea el repo del estudiante
 sub create_student_repo_dir {
-  my ($user, $name) = @_;
+  my ($url_repo, $mi_repo, $user, $name) = @_;
   my $repo_dir;
   if ($mi_repo) {
     $repo_dir = "/tmp/$user-$name";
@@ -197,7 +198,7 @@ sub create_student_repo_dir {
   } else {
     $repo_dir = ".";
   }
-
+  return $repo_dir;
 }
 
 
