@@ -41,7 +41,7 @@
 | RODRIGUEZ LOPEZ, ALEJANDRO|[HDN.PG](https://github.com/alexrodriguezlop/HDN.PG)  |*v0.0.1* |
 | ROMERO ORTEGA, JOSE MANUEL| | |
 | RUBIO RODRIGUEZ, JUAN MANUEL| [NBA API](https://github.com/juanmrr/NBA-API)| v0.0.1 |
-| RUIZ FERNANDEZ, TOMAS| | |
+| RUIZ FERNANDEZ, TOMAS| [AskingPpl](https://github.com/thomasruizfdez/AskingPpl) | v0.0.1 |
 | RUIZ GARCIA, PAULA| [TinkDiary](https://github.com/aluruiz/IV-TinkDiary.git) | v0.0.1 |
 | RUIZ MEDINA, DANIEL| [PAndemium](https://github.com/DanielRuizMed/PAndemium) | v0.0.1 |
 | SANZ SANCHEZ, MARIA|[MakeupIV](https://github.com/mariasanzs/makeupIV) | v0.0.2 |
