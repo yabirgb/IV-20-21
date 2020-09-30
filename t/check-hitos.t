@@ -57,18 +57,9 @@ SKIP: {
        "Fichero de objetivos $este_fichero está actualizado")
     or skip "Fichero de objetivos actualizados hace $objetivos_actualizados";
 
-  # Se crea el repo y se hacen cosas.
-  my $repo_dir;
-  if ($mi_repo) {
-    $repo_dir = "/tmp/$user-$name";
-    if (!(-e $repo_dir) or  !(-d $repo_dir) ) {
-      mkdir($repo_dir);
-      `git clone $url_repo $repo_dir`;
-    }
-  } else {
-    $repo_dir = ".";
-  }
-  my $student_repo =  Git->repository ( Directory => $repo_dir );
+  my $repo_dir = create_student_repo_dir( $user, $name );
+  my $student_repo = Git->repository ( Directory => $repo_dir );
+  
   my @repo_files = $student_repo->command("ls-files");
   say "Ficheros\n\t→", join( "\n\t→", @repo_files);
 
@@ -76,12 +67,13 @@ SKIP: {
     isnt( grep( /$f/, @repo_files), 0, "$f presente" );
   }
 
-  doing("hito 1");
+
   # Get the extension used for the README
   my ($readme_file) = grep( /^README/, @repo_files );
   my $README =  read_text( "$repo_dir/$readme_file");
   unlike( $README, qr/[hH]ito/, "El README no debe incluir la palabra hito");
 
+  doing("hito 1");
   my $with_pip = grep(/req\w+\.txt/, @repo_files);
   if ($with_pip) {
      ok( grep( /requirements.txt/, @repo_files), "Fichero de requisitos de Python con nombre correcto" );
@@ -191,6 +183,24 @@ SKIP: {
 done_testing();
 
 # Subs -------------------------------------------------------------
+
+# Crea el repo del estudiante
+sub create_student_repo_dir {
+  my ($user, $name) = @_;
+  my $repo_dir;
+  if ($mi_repo) {
+    $repo_dir = "/tmp/$user-$name";
+    if (!(-e $repo_dir) or  !(-d $repo_dir) ) {
+      mkdir($repo_dir);
+      `git clone $url_repo $repo_dir`;
+    }
+  } else {
+    $repo_dir = ".";
+  }
+
+}
+
+
 # Antes de cada hito
 sub doing {
   my $what = shift;
