@@ -30,7 +30,7 @@
 | MERELO MOLINA, ELENA| [goFit](https://github.com/ElenaMerelo/goFit)| v0.0.1 |
 | MOLINERO CASTILLO, JONATHAN| | |
 | MONTESINOS PERUJO, ISMAEL| | |
-| MORENO VILCHEZ, FRANCISCO JOSE| | |
+| MORENO VILCHEZ, FRANCISCO JOSE| [GetItDone](https://github.com/morevi/GetItDone) | v0.0.1 |
 | NUÑEZ RUIZ, MANUEL JESUS| [footStats](https://github.com/ManuelJNunez/footStats) | v0.0.1 |
 | PALOMINO SANCHEZ, GUILLERMO| | |
 | PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v0.0.1 |
