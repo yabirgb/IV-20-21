@@ -13,6 +13,7 @@ use File::Slurper qw(read_text);
 use JSON;
 use Net::Ping;
 use Term::ANSIColor qw(:constants);
+use YAML qw(LoadFile);
 
 use v5.14; # For say
 
@@ -83,11 +84,19 @@ SKIP: {
   my $README =  read_text( "$repo_dir/$readme_file");
   unlike( $README, qr/[hH]ito/, "El README no debe incluir la palabra hito");
 
-  doing("hito 1");
-  my $with_pip = grep(/req\w+\.txt/, @repo_files);
-  if ($with_pip) {
-     ok( grep( /requirements.txt/, @repo_files), "Fichero de requisitos de Python con nombre correcto" );
+  my $iv; # Fichero de configuración
+  if ( $this_hito >= 1 ) {
+    doing("hito 1");
+    $iv = LoadFile("$repo_dir/iv.yaml");
+    ok( $iv, "Fichero de configuración para corrección iv.yaml cargado correctamente" );
+    my $with_pip = grep(/req\w+\.txt/, @repo_files);
+    if ($with_pip) {
+      ok( grep( /requirements.txt/, @repo_files), "Fichero de requisitos de Python con nombre correcto" );
+    }
+
+    file_present( $iv->{'entidad'}, \@repo_files, " de implementación de una entidad" );
   }
+  
   if ( $this_hito > 1 ) { # Comprobar milestones y eso
     doing("hito 2");
     isnt( grep( /.travis.yml/, @repo_files), 0, ".travis.yml presente" );
@@ -215,6 +224,16 @@ sub create_student_repo_dir {
 sub doing {
   my $what = shift;
   diag "\n\t✔ Comprobando $what\n";
+}
+
+# Está este fichero en el repo?
+sub file_present {
+  my ($file, $ls_files_ref, $name ) = @_;
+  my @files = (ref($file) eq 'ARRAY')?@$file:($file);
+  for my $file (@files ) {
+    ok( grep( /$file/, @$ls_files_ref ), "Fichero $name → $file presente" );
+  }
+
 }
 
 sub check_ip {
