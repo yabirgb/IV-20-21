@@ -27,13 +27,10 @@ jobs:
                 const user = ghRepoMatch[1] // segundo resultado
                 const repo = ghRepoMatch[2] // tercer resultado
                 console.log( "» Retrieving repo " + repo + " for user " + user )
-                const non_paginated_issues = await github.issues.listForRepo( {
-                    owner: user,
-                    repo: repo
-                })
+                const non_paginated_issues = await github.issues.listForRepo( { owner: user, repo: repo })
                 const issues = await github.paginate( non_paginated_issues )
                 console.log( issues )
-                const user_stories = issues.filter( issue => issue.label == "user_stories" and issue.description.includes('HU') ) 
+                const user_stories = issues.filter( issue => issue.label == "user_stories" && issue.description.includes('HU') )
                 if ( user_stories ) {
                     console.log( " ✅ Hay al menos una historia de usuario " )
                 } else {
