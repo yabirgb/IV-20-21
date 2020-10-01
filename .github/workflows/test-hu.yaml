@@ -39,5 +39,5 @@ jobs:
                 } else {
                     core.setFailed( " ❌ No hay ninguna historia de usuario en el repo " )
                 }
-          }
+            }
 
