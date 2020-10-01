@@ -8,3 +8,12 @@
 - [x] Vernos las caras.
 - [x] Explicar el [hito 0](http://jj.github.io/IV/documentos/proyecto/0.Repositorio). Fecha de entrega: martes 29 de septiembre, 11:30 de la mañana.
 - [x] Empezar a usar git y GitHub. Por ejemplo, [seguir este vídeo](https://www.youtube.com/watch?v=gmXyJI01qa8) o cualquier otro tutorial online.
+
+## Segunda semana
+
+- [x] Conocer un poco más la Computación Virtual, de dónde surgió y por qué.
+- [x] Familiarizarme más con el concepto de virtualización.
+- [x] Indagar un poco en la virtualización a nivel de SO y técnicas hardware.
+- [x] Tener una visión global sobre la Infraestructura Virtual.
+- [x] Leer sobre los *X as a service*. 
+- [x] Aprender sobre el sistema de issues, hitos y estructuración del proyecto de la asignatura.
