@@ -23,5 +23,9 @@ jobs:
             console.log(ghRepoMatch)
             if  ( ghRepoMatch === null ) {
                 core.setFailed("❌ There's no repo URL in this diff with required format")
+            } else {
+                const user = ghRepoMatch[1] // segundo resultado
+                const repo = ghRepoMatch[2] // tercer resultado
+                console.log( "» Retrieving repo " + repo + " for user " + user )
             }
 
