@@ -1,6 +1,6 @@
 # Objetivos
 
-## Primara Semana
+## Primera Semana
 
 - [X] Crear una cuenta en GitHub además de entrar en el grupo de Telegram.
 - [X] Configurar mi perfil en GitHub añadiendo mi localización, mi universidad y una nueva foto de perfil.
@@ -12,3 +12,11 @@
 - [X] Entender como se usan y como funcionan los diferentes comando de git.
 - [X] Ver videos/tutoriales de iniciación en GitHub.
 - [X] Hacer una tutoría con el profesor.
+
+## Segunda Semana
+
+- [X] Entender conceptos básicos y ventajas de la virtualización, como que permite hacer un sistema más eficiente y versátil además de la posibilidad de aislar diferentes servicios.
+- [X] Entender la virtualización de CPU que usan nuestros equipos, con Intel VT y AMD-V y sus ventajas (como permitir que un solo procesador se comporte como varios).
+- [X] Comprender los distintos tipos de virtualización existentes.
+- [X] Comprender el concepto de X as a service (PaaS, SaaS,IaaS... ) y el uso que pueden desempeñar cada uno.
+- [X] Entender lo implicado por el desarrollo que se desarrollará en la asignatura.
