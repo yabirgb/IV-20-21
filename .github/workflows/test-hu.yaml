@@ -1,5 +1,7 @@
+name: "Comprueba la existencia de historias de usuario"
 on:
   pull_request:
+    paths:
       - 'proyectos/hito-[1234567].md'
 
 jobs:
