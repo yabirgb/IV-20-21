@@ -5,7 +5,7 @@ on:
       - 'proyectos/hito-[1234567].md'
 
 jobs:
-  comment:
+  user_story_check:
     runs-on: ubuntu-latest
     steps:
       - name: Extrae URL del repositorio
@@ -13,17 +13,13 @@ jobs:
         with:
           github-token: ${{github.token}}
           filesChanged: 1
-      - uses: actions/github-script@v3
+      - name: Busca historias de usuario
+        uses: actions/github-script@v3
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            const diff = process.env.diff as string;
+            const diff = process.env.diff;
             const ghRepoMatch = /github.com\/(\S+)\/(.+?)(:\s+|\))/.exec(diff)
-            if  ( ghRepoMatch === null ) {
-                core.setFailed("❌ There's no repo URL in this diff with required format")
-            } else {
-                const user = ghRepoMatch[1]
-                const repo = ghRepoMatch[2]
-                console.log( "» Retrieving repo " + repo + " for user " + user )
-            }
+            console.log(ghRepoMatch)
+
 

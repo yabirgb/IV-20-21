@@ -19,6 +19,9 @@
   nada. Desarrollar para la nube es un proceso que incluye controles
   de calidad en todos los pasos, y el proceso de entrega de hitos es
   el mismo que se usa para desplegar en la nube.
+      * De la misma forma, hay patrones que se repiten una y otra vez
+        en las entregas. No copiéis la forma de hacer las cosas de los
+        compañeros/as. Vosotros sabéis hacerlo. 
 * Comentarios sobre la corrección del hito 0
   * Confusión de "un problema" (como dice
     en
