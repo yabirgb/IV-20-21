@@ -14,14 +14,20 @@
 
 ## Otros objetivos
 
+* Comentario general: no tengáis miedo de romper cosas. Para eso están
+  los tests y la revisión, para asegurarse de que no rompéis
+  nada. Desarrollar para la nube es un proceso que incluye controles
+  de calidad en todos los pasos, y el proceso de entrega de hitos es
+  el mismo que se usa para desplegar en la nube.
 * Comentarios sobre la corrección del hito 0
   * Confusión de "un problema" (como dice
     en
     [el guión](http://jj.github.io/IV/documentos/proyecto/0.Repositorio) con
     una posible solución: "Un API". En informática se tiene que partir
-    siempre por el problema a resolver.
+    siempre del problema a resolver.
   * Ejemplo de [hito 0](https://github.com/irenecj/ProyectoIdiomasIV)
     con todos los elementos calificables de la mejor forma posible.
+    
 
 * Los tests que pasan los objetivos y proyecto están en el propio
   repositorio; por ejemplo, el test para los hitos está en el
