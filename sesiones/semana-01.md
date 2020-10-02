@@ -67,7 +67,13 @@ enterarse de los contenidos impartidos en la misma a través de esta web, el gru
 * Todos los estudiantes deberán solicitar una tutoría virtual al profesor para
   aclarar cualquier aspecto de la asignatura que
   no esté suficientemente claro y poder comenzar el proyecto que se hará a lo largo
-  del curso. La cita será por la mañana, incluyendo el horario de las prácticas.
+  del curso. La cita será por la mañana, incluyendo el horario de las
+  prácticas.
+* Los objetivos y prácticas se corrigen automáticamente usando
+  sistemas integrados en GitHub. Cuando los indicadores están en rojo,
+  es que ha habido algún error. Hay que pinchar en el mismo y navegar
+  hasta encontrar el error concreto en la página del sistema que lanza
+  los tests.
 
 ## Material de la asignatura
 

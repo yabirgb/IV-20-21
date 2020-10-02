@@ -42,7 +42,7 @@
 
 * Entender qué son los objetivos y cómo hacerlos correctamente.
 
-* Entender el formato JSON y su importancia para ficheros de
+* Entender el formato JSON y el YAML y su importancia para ficheros de
   configuración e intercambio genérico de datos.
 
 * Comenzar el aprendizaje de un nuevo lenguaje de programación; por ejemplo,
@@ -64,7 +64,7 @@
 
 * *Teoría*: [Desarrollo basado en pruebas (TDD)](http://jj.github.io/IV/documentos/temas/Desarrollo_basado_en_pruebas).
 
-
+* *Práctica*: [Tests unitarios](https://jj.github.io/IV/documentos/proyecto/2.Tests).
 
 ## Siguiente semana
 
