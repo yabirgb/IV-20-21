@@ -26,7 +26,7 @@ volver a hacer los cambios, haz lo siguiente.
        2. `git clone https://github.com/JJ/IV-18-19.git`
        3. Ahora: `git remote rm origin # Borras como origen el de la
        asignatura; git remote add origin
-       git@github.com:<minick>/IV-18-19.git # Añades el tuyo; git remote add upstream https://github.com/JJ/IV-18-19.git`
+       git@github.com:<minick>/IV-20-21.git # Añades el tuyo; git remote add upstream https://github.com/JJ/IV-20-21.git`
     3. Sobre la copia *fresca* del repositorio, copia los dos ficheros
     que hayas cambiado.
     4. `git push --force` pisará tu repositorio y pondrá el original +
