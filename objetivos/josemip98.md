@@ -9,7 +9,7 @@
 - [x] Explicar el [hito 0](http://github.com/josemip98/OrganizeUDiet). Fecha de entrega: martes 29 de septiembre, 11:30 de la mañana.
 - [x] Empezar a usar git y GitHub. Por ejemplo, [seguir este vídeo](https://www.youtube.com/watch?v=gmXyJI01qa8) o cualquier otro tutorial online.
 
-## Segundaa semana
+## Segunda semana
 
 - [x] Comenzar a entender los conceptos fundamentales relacionados con la virtualización.
 - [x] Comprender las técnicas de cálculo del coste de amortización de un equipo informático y aplicarlo al cálculo del coste de uso de un recurso.
