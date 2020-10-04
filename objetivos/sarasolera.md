@@ -13,5 +13,5 @@
  - [x] He entendido los conceptos fundamentales, recurso virtual, realidad virtual, recurso en la nube...
  - [x] He entendido el soporte en hardware y he aprendido a comprobar si mi pc dispone de tecnología de virtualización.
  - [x] He aprendido los niveles de virtualización y sus denominaciones.
- - [x] He apredido el concepto X as a service, he consultado algunos nuevos tipos que surgen  y los criterios para su elección.
+ - [x] He aprendido el concepto "X as a service" y los criterios para su elección, además he consultado algunos nuevos tipos que surgen.
  - [x] He entendido un poco más que implica el diseño de mi proyecto.
