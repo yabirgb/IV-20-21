@@ -28,7 +28,7 @@
 | MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v1.0.3 |
 | MERELO MOLINA, ELENA| | |
 | MOLINERO CASTILLO, JONATHAN| | |
-| MONTESINOS PERUJO, ISMAEL| | |
+| MONTESINOS PERUJO, ISMAEL| [Diraya2.0](https://github.com/ismaelmontesinos/RegistroDiraya) | v1.0.0 |
 | MORENO VILCHEZ, FRANCISCO JOSE| | |
 | NUÑEZ RUIZ, MANUEL JESUS| [footStats](https://github.com/ManuelJNunez/footStats) | v1.0.1 |
 | PALOMINO SANCHEZ, GUILLERMO| | |
