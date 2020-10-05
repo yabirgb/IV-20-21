@@ -41,7 +41,8 @@ jobs:
                             core.setFailed( "❌ Problema recuperando datos de " + issue.number );
                         } else {
                             const last_event = events.data[events.data.length-1]
-                            if ( last_event.event == 'closed' && ! last_event.commit_id ) {
+                            if ( last_event.event == 'closed'
+                               && ( ! last_event.commit_id || events.data[events.data.length-2] != 'connected' ) ) {
                                core.setFailed( "❌ Issue " + issue.number + " wasn't closed with a commit");
                             }
                         }
