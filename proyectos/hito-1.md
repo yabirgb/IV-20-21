@@ -13,7 +13,7 @@
 | GAMIZ DELGADO, ANTONIO | [MangaAPI](https://github.com/antoniogamiz/manga-api) | v1.0.2 |
 | GARCIA BENCHAKHTIR, YABIR| [bukhgalter](https://github.com/yabirgb/bukhgalter) | v1.0.0 |
 | GARCIA CASTILLO, ANTONIO| | |
-| GARCIA COLLADO, JOSE ALBERTO| | |
+| GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v1.0.1 |
 | GARCIA MARTINEZ, DAVID| | |
 | GONZALEZ ARGUDO, VICTOR JOSE| | |
 | HEREDIA CORTES, DAVID| | |
