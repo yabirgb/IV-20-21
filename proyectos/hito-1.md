@@ -32,7 +32,7 @@
 | MORENO VILCHEZ, FRANCISCO JOSE| | |
 | NUÑEZ RUIZ, MANUEL JESUS| [footStats](https://github.com/ManuelJNunez/footStats) | v1.0.1 |
 | PALOMINO SANCHEZ, GUILLERMO| | |
-| PELEGRINA PELEGRINA, JOSE MIGUEL| | |
+| PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v1.0.1 |
 | PEREZ MENDEZ, PABLO| | |
 | PINEDA MUÑOZ, JUAN CARLOS| | |
 | PRIETO INFANTE, JAVIER| | |
