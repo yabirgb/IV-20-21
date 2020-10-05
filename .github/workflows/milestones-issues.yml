@@ -27,7 +27,7 @@ jobs:
                 const user = ghRepoMatch[1] // segundo resultado
                 const repo = ghRepoMatch[2] // tercer resultado
                 console.log( "» Trabajando con el repo " + repo + " para el usuario " + user )
-                const milestones = await github.issues.listMilestonesForRepo( { owner: user, repo: repo } )
+                const milestones = await github.issues.listMilestones( { owner: user, repo: repo } )
                 if ( ! milestones.data.length ) {
                     core.setFailed("❌ Tiene que haber por lo menos un milestone")
                 }
