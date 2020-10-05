@@ -6,7 +6,7 @@ on:
       - '!objetivos/*.(md|org)'
 
 jobs:
-  obtain-repo:
+  check_milestones:
     runs-on: ubuntu-latest
     steps:
       - name: Extrae URL del repositorio
@@ -47,4 +47,4 @@ jobs:
                 } else if ( ! totalClosedIssues ) {
                     core.setFailed( "❌ No hay ningún issue cerrado milestones")
                 }
-           }
+            }
