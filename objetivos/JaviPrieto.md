@@ -1,6 +1,6 @@
 # Fichero de objetivos
 
-## Objetivos primera semana, 22 octubre
+## Objetivos primera semana, 22 septiembre
 
 - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
 - [x] Darse de alta y comprender el funcionamiento básico de GitHub y el grupo de Telegram de la asignatura.
@@ -8,7 +8,7 @@
 - [x] Explicar el [hito 0](http://jj.github.io/IV/documentos/proyecto/0.Repositorio).
 - [x] Vernos las caras.
 
-## Objetivos segunda semana, 29 octubre
+## Objetivos segunda semana, 29 septiembre
 
 - [x] Comenzar a entender los conceptos fundamentales relacionados con la virtualización.
 - [x] Entender el soporte en hardware de las técnicas de virtualización y cómo se extiende ese soporte al núcleo de los sistemas operativos. Saber si el ordenador habitual lo usa.
