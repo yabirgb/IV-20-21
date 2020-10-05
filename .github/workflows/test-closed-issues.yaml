@@ -1,0 +1,52 @@
+name: "Comprueba la existencia de historias de usuario"
+on:
+  pull_request:
+    paths:
+      - 'proyectos/hito-[1234567].md'
+
+jobs:
+  user_story_check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Extrae URL del repositorio
+        uses: JJ/github-pr-contains-action@releases/v1
+        with:
+          github-token: ${{github.token}}
+          filesChanged: 1
+      - name: Busca historias de usuario
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const diff = process.env.diff;
+            const ghRepoMatch = /github.com\/(\S+)\/(.+?)(:\s+|\))/.exec(diff)
+            console.log(ghRepoMatch)
+            if  ( ghRepoMatch === null ) {
+                core.setFailed("❌ There's no repo URL in this diff with required format")
+            } else {
+                const user = ghRepoMatch[1] // segundo resultado
+                const repo = ghRepoMatch[2] // tercer resultado
+                console.log( "» Retrieving repo " + repo + " for user " + user )
+                const non_paginated_issues = await github.issues.listForRepo.endpoint.merge( { owner: user,
+                                                                                               repo: repo,
+                                                                                               state: closed } )
+                const issues = await github.paginate( non_paginated_issues )
+                console.log( issues )
+                issues.forEach( async function( issue ) {
+                    if ( ! issue.pull_request ) {
+                        const events = await github.issues.listEvents( { owner: user,
+                                                                         repo: repo,
+                                                                         issue_number: issue.number } )
+                        if ( !events.data ) {
+                            core.setFailed( "❌ Problema recuperando datos de " + issue.number );
+                        } else {
+                            const last_event = events.data[events.data.length-1]
+                            if ( last_event.event == 'closed' && ! last_event.commit_id ) {
+                               core.setFailed( "❌ Issue " + issue.number + " wasn't closed with a commit");
+                            }
+                        }
+                  }
+                })
+
+            }
+
