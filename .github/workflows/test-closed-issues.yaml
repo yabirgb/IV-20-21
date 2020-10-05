@@ -38,11 +38,15 @@ jobs:
                         if ( !events.data ) {
                             core.setFailed( "❌ Problema recuperando datos de " + issue.number );
                         } else {
-                            const last_event = events.data[events.data.length-1]
-                            console.log( "Data ", events.data );
-                            console.log( "Evento anterior", events.data[events.data.length-2].event )
-                            if ( last_event.event == 'closed'
-                               && ( ! last_event.commit_id || (events.data[events.data.length-2].event != 'connected') )  ) {
+                            var closing_event
+                            for (let i = 0; i < events.data.length; i ++ ) {
+                                if ( events.data[i].event == 'closed' ) {
+                                    closing_event = i
+                                }
+                            }
+                            console.log( "Data ", events.data[closing_event] );
+                            console.log( "Evento anterior ", events.data[closing_event-1] )
+                            if ( ! events.data[closing_event].commit_id || (events.data[closing_event-1].event != 'connected') )  ) {
                                core.setFailed( "❌ Issue " + issue.number + " wasn't closed with a commit");
                             }
                         }
