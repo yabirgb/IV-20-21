@@ -1,5 +1,4 @@
-
-#Lista de objetivos de Sergio Azañon Cantero
+Lista de objetivos de Sergio Azañon Cantero
 
 ============================
 
