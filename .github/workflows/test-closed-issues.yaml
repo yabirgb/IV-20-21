@@ -36,13 +36,13 @@ jobs:
                         const events = await github.issues.listEvents( { owner: user,
                                                                          repo: repo,
                                                                          issue_number: issue.number } )
-                        console.log( events.data )
                         if ( !events.data ) {
                             core.setFailed( "❌ Problema recuperando datos de " + issue.number );
                         } else {
                             const last_event = events.data[events.data.length-1]
+                            console.log( "Evento anterior", events.data[events.data.length-2].event )
                             if ( last_event.event == 'closed'
-                               && ( ! last_event.commit_id || events.data[events.data.length-2] != 'connected' ) ) {
+                               && ( ! last_event.commit_id || (events.data[events.data.length-2].event != 'connected') )  ) {
                                core.setFailed( "❌ Issue " + issue.number + " wasn't closed with a commit");
                             }
                         }
