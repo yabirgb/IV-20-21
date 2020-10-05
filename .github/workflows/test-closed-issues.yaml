@@ -1,11 +1,11 @@
-name: "Comprueba la existencia de historias de usuario"
+name: "Comprueba cómo se han cerrado los issues"
 on:
   pull_request:
     paths:
       - 'proyectos/hito-[1234567].md'
 
 jobs:
-  user_story_check:
+  closing_issue_check:
     runs-on: ubuntu-latest
     steps:
       - name: Extrae URL del repositorio
@@ -13,7 +13,7 @@ jobs:
         with:
           github-token: ${{github.token}}
           filesChanged: 1
-      - name: Busca historias de usuario
+      - name: Busca eventos de cierre
         uses: actions/github-script@v3
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
@@ -29,7 +29,7 @@ jobs:
                 console.log( "» Retrieving repo " + repo + " for user " + user )
                 const non_paginated_issues = await github.issues.listForRepo.endpoint.merge( { owner: user,
                                                                                                repo: repo,
-                                                                                               state: closed } )
+                                                                                               state: "closed" } )
                 const issues = await github.paginate( non_paginated_issues )
                 console.log( issues )
                 issues.forEach( async function( issue ) {
