@@ -1,9 +1,8 @@
-name: "Comprueba hitos y milestones"
+name: "Comprueba hitos"
 on:
   pull_request:
     paths:
       - 'proyectos/hito-[1234567].md'
-      - '!objetivos/*.(md|org)'
 
 jobs:
   check_milestones:
