@@ -46,7 +46,7 @@ jobs:
                             }
                             console.log( "Data ", events.data[closing_event] );
                             console.log( "Evento anterior ", events.data[closing_event-1] )
-                            if ( ! events.data[closing_event].commit_id || (events.data[closing_event-1].event != 'connected') )  ) {
+                            if ( ! events.data[closing_event].commit_id || (events.data[closing_event-1].event != 'connected') )  {
                                core.setFailed( "❌ Issue " + issue.number + " wasn't closed with a commit");
                             }
                         }
