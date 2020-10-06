@@ -31,7 +31,7 @@
 | MONTESINOS PERUJO, ISMAEL| [Diraya2.0](https://github.com/ismaelmontesinos/RegistroDiraya) | v1.0.2 |
 | MORENO VILCHEZ, FRANCISCO JOSE| | |
 | NUÑEZ RUIZ, MANUEL JESUS| [footStats](https://github.com/ManuelJNunez/footStats) | v1.0.1 |
-| PALOMINO SANCHEZ, GUILLERMO| [NumisApp](https://github.com/Riikari/NumisApp) | v.1.0.0 |
+| PALOMINO SANCHEZ, GUILLERMO| [NumisApp](https://github.com/Riikari/NumisApp) | v.1.0.1 |
 | PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v1.0.1 |
 | PEREZ MENDEZ, PABLO| | |
 | PINEDA MUÑOZ, JUAN CARLOS| | |
