@@ -19,7 +19,7 @@
 | HEREDIA CORTES, DAVID| | |
 | HERNANDEZ MORENO, DIEGO| [Order&Go](https://github.com/LCinder/Order-Go)|v0.1.1|
 | HIDALGO CARMONA, MANUEL| | |
-| IZQUIERDO GARCIA,ANGELA| | |
+| IZQUIERDO GARCIA,ANGELA|[efood](https://github.com/angelaig-ugr/efood)|v0.0.2|
 | LEJARRAGA RUBIO, ALBERTO| | |
 | LUPIAÑEZ TAPIA, GUILLERMO | [TextAnalyzer](https://github.com/guillelpnz/TextAnalyzer)| v1.0.2 |
 | LUQUE JARAVA, BLANCA| | |
