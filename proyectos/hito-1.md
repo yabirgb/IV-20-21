@@ -45,7 +45,7 @@
 | RUIZ GARCIA, PAULA| | |
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.1.3 |
 | SANZ SANCHEZ, MARIA| | |
-| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v1.0.1 |
+| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v1.0.2 |
 | STETSKIY , NIKITA| | |
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v1.0.1 |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
