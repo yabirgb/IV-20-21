@@ -17,7 +17,11 @@
 | GARCIA MARTINEZ, DAVID| | |
 | GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.1.1 |
 | HEREDIA CORTES, DAVID| | |
+<<<<<<< HEAD
 | HERNANDEZ MORENO, DIEGO| [Order&Go](https://github.com/LCinder/Order-Go.git)|v0.1.1|
+=======
+| HERNANDEZ MORENO, DIEGO|[Order&Go](https://github.com/LCinder/Order-Go)|v0.1.0|
+>>>>>>> db6f3097f561df4068b5e3075d494557cb522a4b
 | HIDALGO CARMONA, MANUEL| | |
 | IZQUIERDO GARCIA,ANGELA| | |
 | LEJARRAGA RUBIO, ALBERTO| | |
