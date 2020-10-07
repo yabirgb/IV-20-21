@@ -6,7 +6,7 @@
 | CANO JEREZ, IRENE|[IdiomasIV](https://github.com/irenecj/ProyectoIdiomasIV) | v1.0.3 |
 | CHAVES CABALLERO, MARIO| | |
 | CHEKFEH AL-SABBAGH, MOHAMED BILAL| [GameStore](https://github.com/BilalKxK99/GameStore) | v1.0.3 |
-| COCA CRUZ, SIXTO| | |
+| COCA CRUZ, SIXTO|[DreamBLeague](https://github.com/SixtoCoca/DreamBLeague) | v1.0.2 |
 | CUADROS LAPRESTA, ANTONIO| [WhenToClass](https://github.com/antoniocuadros/WhenToClass) | v1.0.1 |
 | DEL POZO MORENO, RAUL|[InmobilIV](https://github.com/rauldpm/InmobilIV)| v1.1.0 |
 | FERNANDEZ TORRALBO, MIGUEL ANGEL| [MyOutlet](https://github.com/miguelfdez99/MyOutlet) | v1.0.1 |
@@ -14,14 +14,14 @@
 | GARCIA BENCHAKHTIR, YABIR| [bukhgalter](https://github.com/yabirgb/bukhgalter) | v1.0.0 |
 | GARCIA CASTILLO, ANTONIO| [TenisLeagueAdmin](https://github.com/antOnioOnio/antOnioOnio-TenisLeagueAdmin-) | v1.0.2 |
 | GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v1.0.1 |
-| GARCIA MARTINEZ, DAVID| [AroundTheWorld](https://github.com/Davidspace/AroundTheWorld) | v1.0.6 |
+| GARCIA MARTINEZ, DAVID| [AroundTheWorld](https://github.com/Davidspace/AroundTheWorld) | v1.0.7 |
 | GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.1.1 |
 | HEREDIA CORTES, DAVID| [PacketService](https://github.com/XDavid1999/PacketService) | v0.0.3 |
 | HERNANDEZ MORENO, DIEGO| [Order&Go](https://github.com/LCinder/Order-Go)|v0.1.1|
 | HIDALGO CARMONA, MANUEL| | |
 | IZQUIERDO GARCIA,ANGELA| | |
 | LEJARRAGA RUBIO, ALBERTO| | |
-| LUPIAÑEZ TAPIA, GUILLERMO | [TextAnalyzer](https://github.com/guillelpnz/TextAnalyzer)| v1.0.2 |
+| LUPIAÑEZ TAPIA, GUILLERMO | [TextAnalyzer](https://github.com/guillelpnz/TextAnalyzer)| v1.0.3 |
 | LUQUE JARAVA, BLANCA| [Lecturas](https://github.com/blancaazz/Lecturas) | v.1.0.0 |
 | MARTIN LEON, ANTONIO| | |
 | MENOR MOLINERO, ALEJANDRO| [que-vemos](https://github.com/AlexMenor/que-vemos) | v1.0.2 |
@@ -45,7 +45,7 @@
 | RUIZ GARCIA, PAULA| [Diaryfy](https://github.com/aluruiz/diaryfy) | v1.0.1 |
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.1.4 |
 | SANZ SANCHEZ, MARIA|[MakeUpIV](https://github.com/mariasanzs/makeupIV) |v.1.0.1 |
-| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v1.0.3 |
+| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v1.0.4 |
 | STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v1.0.2 |
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v1.0.1 |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
