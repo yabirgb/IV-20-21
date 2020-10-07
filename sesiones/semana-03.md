@@ -66,7 +66,8 @@
 
 * *Práctica*:
   [Tests unitarios](https://jj.github.io/IV/documentos/proyecto/2.Tests). La
-  entrega de la práctica será el 14 de octubre a las 23:59.
+  entrega de la práctica será el 16 de octubre a las 11:30 (final de
+  la clase de prácticas).
 
 ## Siguiente semana
 
