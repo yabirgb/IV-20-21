@@ -20,4 +20,4 @@
 - [x] Entender qué implica diseñar un proyecto que se irá elaborando. Una aplicación que podamos desplegar en la nube con practicas como DevOPs.
    durante la asignatura.
 - [x] Comprender el funcionamiento del lengueje go e [instalar su herramienta](https://golang.org/doc/). [Mini-guia](https://github.com/venrra/ragaeton/blob/master/docs/guia-go.md)
-- [x] investigar sobre el desarroyo de un [API Rest con GO](https://blog.logrocket.com/how-to-build-a-rest-api-with-golang-using-gin-and-gorm/)
+- [x] investigar sobre el desarroyo de un [API Rest con GO](https://blog.logrocket.com/how-to-build-a-rest-api-with-golang-using-gin-and-gorm/).
