@@ -30,14 +30,14 @@
     siempre del problema a resolver.
   * Ejemplo de [hito 0](https://github.com/irenecj/ProyectoIdiomasIV)
     con todos los elementos calificables de la mejor forma posible.
-    
+
 
 * Los tests que pasan los objetivos y proyecto están en el propio
   repositorio; por ejemplo, el test para los hitos está en el
   subdirectorio [`t`](../t). Los tests que se pasan están en los
   requisitos del hito, pero en todo caso se puede mirar el programa
   para ver qué se hace.
-  
+
 * Poner de relieve los problemas que haya podido haber en el hito cero y solucionarlos.
 
 * Entender qué son los objetivos y cómo hacerlos correctamente.
@@ -64,7 +64,10 @@
 
 * *Teoría*: [Desarrollo basado en pruebas (TDD)](http://jj.github.io/IV/documentos/temas/Desarrollo_basado_en_pruebas).
 
-* *Práctica*: [Tests unitarios](https://jj.github.io/IV/documentos/proyecto/2.Tests).
+* *Práctica*:
+  [Tests unitarios](https://jj.github.io/IV/documentos/proyecto/2.Tests). La
+  entrega de la práctica será el 16 de octubre a las 11:30 (final de
+  la clase de prácticas).
 
 ## Siguiente semana
 

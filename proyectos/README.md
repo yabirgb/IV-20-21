@@ -23,7 +23,7 @@ volver a hacer los cambios, haz lo siguiente.
        Stackoverflow](https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git)
     2. La otra opción incluye *pisar* tu repositorio. Hazlo así.
        1. Mueve tu directorio `IV-XX-XX` a otro nombre
-       2. `git clone https://github.com/JJ/IV-18-19.git`
+       2. `git clone https://github.com/JJ/IV-20-21.git`
        3. Ahora: `git remote rm origin # Borras como origen el de la
        asignatura; git remote add origin
        git@github.com:<minick>/IV-20-21.git # Añades el tuyo; git remote add upstream https://github.com/JJ/IV-20-21.git`
