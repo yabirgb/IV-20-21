@@ -97,8 +97,16 @@ SKIP: {
 
     file_present( $iv->{'entidad'}, \@repo_files, " de implementación de una entidad" );
   }
+
+  if ( $this_hito >= 2 ) {
+    doing("hito 2");
+    for my $f (qw(test taskfile)) {
+      file_present( $iv->{$f}, \@repo_files, " de $f" );
+    }
+    ok( $iv->{'lenguaje'}, "Declaración de lenguaje correcta" );
+  }
   
-  if ( $this_hito > 1 ) { # Comprobar milestones y eso
+  if ( $this_hito >= 3 ) { # Comprobar milestones y eso
     doing("hito 2");
     isnt( grep( /.travis.yml/, @repo_files), 0, ".travis.yml presente" );
     my $travis_domain = travis_domain( $README, $user, $name );
