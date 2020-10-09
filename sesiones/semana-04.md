@@ -26,6 +26,15 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
   * Las historias o historia de usuario deben estar relacionadas con
     el proyecto y deben mostrar que se ha entendido cuál es la entidad
     principal del proyecto, con la que hay que empezar a trabajar.
+
+* Evitar las *faltas de ortografía* en el
+  README. Añadir
+  [este fichero](https://github.com/JJ/IV/blob/master/.github/workflows/check-readme.yml) en
+  el mismo directorio (.github/workflows), y corregir los errores que
+  aparezca, o añadir palabras adicionales en el diccionario en un
+  fichero [words.dic](https://github.com/JJ/IV/blob/master/words.dic).
+      * Es un ejemplo de configuración de un sistema de integración
+        continua que te puede ser útil en tu proyecto.
 * Configuración de shell y línea de órdenes para que se pueda ver
   claramente cómo está el desarrollo en un repositorio.
 * Comprender los *hooks* de git.
