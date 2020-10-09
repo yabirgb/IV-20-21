@@ -19,3 +19,15 @@
 - [x] Comprender los niveles de virtualización y sus denominaciones genéricas.
 - [x] Comprender el concepto de *X as a service* y comprender los criterios necesarios para su elección.
 - [x] Entender qué implica diseñar un proyecto que se irá elaborando durante la asignatura.
+
+## Semana 3
+
+
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
+- [x] Entender los ficheros de *requisitos* o *dependencias* y su utilidad en las infraestructuras virtuales.
+- [ ] Ejercicios de autoevaluación: la dejo sin marcar pero los considero hechos porque los he hecho en otros proyectos diferentes a la asignatura.
+- [x] Buscar alternativas de las herramientas usadas en Node.js para Deno:
+	- Task runner: no hay package.json pero hay existe [drake](https://deno.land/x/drake@v1.2.6), que es parecido a un Makefile pero en TS.
+	- Test runner: `deno test` (en esto y la importación de paquetes por URL se parece un poco a `Go`).
+	- Middleware Framework: [oak](https://deno.land/x/oak@v6.3.1) inspirado en `Koa`, que a su vez fue hecho por algunos de los creadores de ExpressJS.- [x] Repasar como hacer test unitarios útiles y que sean fáciles de mantener.
