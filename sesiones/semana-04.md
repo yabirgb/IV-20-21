@@ -17,6 +17,11 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
 ## Otros objetivos
 
 * Entender los errores en el hito 1:
+  * El proceso de un proyecto tiene que ir en esta
+    dirección. Milestones → historias de usuario → issues →
+    código. Todo tiene que estar relacionado con el anterior. Ninguna
+    de las cosas se hacen por hacer, todo se hace para llevar el
+    proyecto a cabo.
   * Lo que no está en el README.md, no existe. Debe haber enlaces a un
     documento en el README.md, preferiblemente al final del mismo, que
     permita evaluar las diferentes rúbricas al profesor.
@@ -26,6 +31,8 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
   * Las historias o historia de usuario deben estar relacionadas con
     el proyecto y deben mostrar que se ha entendido cuál es la entidad
     principal del proyecto, con la que hay que empezar a trabajar.
+  * Es prácticamente imposible que todas las clases correspondan a la
+    misma historia de usuario.
 
 * Evitar las *faltas de ortografía* en el
   README. Añadir
