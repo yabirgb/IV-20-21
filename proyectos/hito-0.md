@@ -48,7 +48,7 @@
 | SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v0.0.1 |
 | STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v0.0.1 |
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v0.0.1 |
-| TORRES CEBALLOS, ALBERTO JESUS|[GestionPeniaFutbol](https://github.com/albertotc99/GestionPeniaFutbol) | v0.0.1 |
+| TORRES CEBALLOS, ALBERTO JESUS|[GestionPeniaFutbol](https://github.com/albertotc99/GestionPeniaFutbol) | v0.0.2 |
 | VEGA JIMENEZ, ALEJANDRO| [RecipeFinder](https://github.com/aleveji/RecipeFinder) | v0.0.1 |
 | VEGA PALMA, LEANDRO| [PiHoleUpdater](https://github.com/LeandroVP/PiHoleUpdater) | v0.0.1 |
 | VELA PELEGRINA, SERGIO| [Organize&Go](https://github.com/sergiovp/IV-OrganizeAndGo) | v0.0.1 |
