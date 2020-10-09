@@ -23,6 +23,9 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
   * Entender cuál es el objetivo principal del hito, qué es lo que se
     pide y qué es lo que hay que incluir para que se pueda corregir
     correctamente.
+  * Las historias o historia de usuario deben estar relacionadas con
+    el proyecto y deben mostrar que se ha entendido cuál es la entidad
+    principal del proyecto, con la que hay que empezar a trabajar.
 * Configuración de shell y línea de órdenes para que se pueda ver
   claramente cómo está el desarrollo en un repositorio.
 * Comprender los *hooks* de git.
