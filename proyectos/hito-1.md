@@ -6,7 +6,7 @@
 | CANO JEREZ, IRENE|[IdiomasIV](https://github.com/irenecj/ProyectoIdiomasIV) | v1.0.6 |
 | CHAVES CABALLERO, MARIO| | |
 | CHEKFEH AL-SABBAGH, MOHAMED BILAL| [GameStore](https://github.com/BilalKxK99/GameStore) | v1.0.3 |
-| COCA CRUZ, SIXTO|[DreamBLeague](https://github.com/SixtoCoca/DreamBLeague) | v1.0.2 |
+| COCA CRUZ, SIXTO|[DreamBLeague](https://github.com/SixtoCoca/DreamBLeague) | v1.0.3 |
 | CUADROS LAPRESTA, ANTONIO| [WhenToClass](https://github.com/antoniocuadros/WhenToClass) | v1.0.1 |
 | DEL POZO MORENO, RAUL|[InmobilIV](https://github.com/rauldpm/InmobilIV)| v1.1.1 |
 | FERNANDEZ TORRALBO, MIGUEL ANGEL| [MyOutlet](https://github.com/miguelfdez99/MyOutlet) | v1.0.1 |
