@@ -22,3 +22,11 @@
 
 ### Bonus 
 - [ ] Hacer al menos un ejercicio de la autoevaluación.
+
+## Semana 3
+
+- [ ] Completar algunos de los objetivos de la semana pasada
+- [ ] Comprender qué hay que hacer para el Hito 2
+- [ ] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [ ] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
+- [ ] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
