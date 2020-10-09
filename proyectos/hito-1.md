@@ -1,9 +1,9 @@
-| Nombre | Enlace | Versión |
+ | Nombre | Enlace | Versión |
 |--------|--------|---------|
 | AZAÑON CANTERO, SERGIO| [ReserveIt](https://github.com/sergiocantero8/ReserveIt-API) | v1.0.0 |
 | BELTRAN SANCHEZ, FRANCISCO| [F1 Predictor](https://github.com/currobeltran/F1-Predictor) | v1.0.0 |
 | CABRITA GOMEZ, VICTOR| [GymBot](https://github.com/Torchu/GymBot) | v1.0.2 |
-| CANO JEREZ, IRENE|[IdiomasIV](https://github.com/irenecj/ProyectoIdiomasIV) | v1.0.6 | 
+| CANO JEREZ, IRENE|[IdiomasIV](https://github.com/irenecj/ProyectoIdiomasIV) | v1.0.6 |
 | CHAVES CABALLERO, MARIO| | |
 | CHEKFEH AL-SABBAGH, MOHAMED BILAL| [GameStore](https://github.com/BilalKxK99/GameStore) | v1.0.3 |
 | COCA CRUZ, SIXTO|[DreamBLeague](https://github.com/SixtoCoca/DreamBLeague) | v1.0.2 |
@@ -23,7 +23,7 @@
 | LEJARRAGA RUBIO, ALBERTO| | |
 | LUPIAÑEZ TAPIA, GUILLERMO | [TextAnalyzer](https://github.com/guillelpnz/TextAnalyzer)| v1.0.3 |
 | LUQUE JARAVA, BLANCA| [Lecturas](https://github.com/blancaazz/Lecturas) | v.1.0.1 |
-| MARTIN LEON, ANTONIO| [Buscador-Partidos](https://github.com/antonioml97/BuscadorPartidos) | v.1.0.4 |
+| MARTIN LEON, ANTONIO| [Buscador-Partidos](https://github.com/antonioml97/BuscadorPartidos) | v.1.0.4 | 
 | MENOR MOLINERO, ALEJANDRO| [que-vemos](https://github.com/AlexMenor/que-vemos) | v1.0.2 |
 | MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v1.0.3 |
 | MERELO MOLINA, ELENA| [goFit](https://github.com/ElenaMerelo/goFit)| v1.0.1 |
