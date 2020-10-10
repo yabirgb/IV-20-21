@@ -16,3 +16,10 @@
 - [x] Comprender el concepto de X as a service y comprender los criterios necesarios para su elección.
 - [x] Entender qué implica diseñar un proyecto que se irá elaborando durante la asignatura.
 Para comprobar la realización de los objetivos, visite [este enlace](https://github.com/Torchu/IV-Ejercicios-y-Objetivos/blob/main/Objetivos/Semana02.md).
+
+## Tercera semana
+
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual. 
+- [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
+- [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
+- [x] Entender el funcionamiento de node.js y express, ya que me servirán durante el desarrollo del proyecto.
