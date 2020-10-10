@@ -19,7 +19,7 @@
 | HEREDIA CORTES, DAVID| [PacketService](https://github.com/XDavid1999/PacketService) | v0.0.5 |
 | HERNANDEZ MORENO, DIEGO| [Order&Go](https://github.com/LCinder/Order-Go)|v0.1.1|
 | HIDALGO CARMONA, MANUEL| [ragaeton](https://github.com/venrra/ragaeton) | v1.0.2 |
-| IZQUIERDO GARCIA,ANGELA|[efood](https://github.com/angelaig-ugr/efood)|v1.0.2 |
+| IZQUIERDO GARCIA,ANGELA|[efood](https://github.com/angelaig-ugr/efood)|v1.0.3  **Reenvío**|
 | LEJARRAGA RUBIO, ALBERTO| [percepcion-relativa-deportistas](https://github.com/AlbertoLejarraga/percepcion-relativa-deportistas)| v0.1.1 |
 | LUPIAÑEZ TAPIA, GUILLERMO | [TextAnalyzer](https://github.com/guillelpnz/TextAnalyzer)| v1.0.3 |
 | LUQUE JARAVA, BLANCA| [Lecturas](https://github.com/blancaazz/Lecturas) | v.1.0.1 |
