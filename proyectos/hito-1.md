@@ -25,7 +25,7 @@
 | LUQUE JARAVA, BLANCA| [Lecturas](https://github.com/blancaazz/Lecturas) | v.1.0.1 |
 | MARTIN LEON, ANTONIO| [Buscador-Partidos](https://github.com/antonioml97/BuscadorPartidos) | v.1.0.4 | 
 | MENOR MOLINERO, ALEJANDRO| [que-vemos](https://github.com/AlexMenor/que-vemos) | v1.0.2 |
-| MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v1.0.3 |
+| MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v2.0.3 |
 | MERELO MOLINA, ELENA| [goFit](https://github.com/ElenaMerelo/goFit)| v1.0.1 |
 | MOLINERO CASTILLO, JONATHAN| | |
 | MONTESINOS PERUJO, ISMAEL| [Diraya2.0](https://github.com/ismaelmontesinos/RegistroDiraya) | v1.0.2 |
