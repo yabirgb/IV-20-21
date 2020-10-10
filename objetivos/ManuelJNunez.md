@@ -18,3 +18,9 @@
 - [x] Comprender el concepto de X as a service y comprender los criterios necesarios para su elección.
 - [x] Entender qué implica diseñar un proyecto que se irá elaborando durante la asignatura.
 - [x] Finalizar los ejercicios de autoevaluación del tema 1. Se encuentran en [este repositorio](https://github.com/ManuelJNunez/autoevaluacionIV).
+
+## Tercera semana
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
+- [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
+- [x] Entender cómo usar los frameworks para tests unitarios de TypeScript/JavaScript en node.
