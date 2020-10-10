@@ -17,6 +17,10 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
 ## Otros objetivos
 
 * Entender los errores en el hito 1:
+  * *Nadie* ha documentado que la clase fuera sintácticamente
+    correcta, ni implementado una tarea "loquesea check" que
+    efectivamente lo haga. A falta de esa comprobación, tenemos que
+    ver "a ojo" si lo que se ha presentado es o no correcto.
   * El proceso de un proyecto tiene que ir en esta
     dirección. Milestones → historias de usuario → issues →
     código. Todo tiene que estar relacionado con el anterior. Ninguna
@@ -38,6 +42,10 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
     puede ser un array (u otro tipo de estructura) de esas
     entidades. En general, el cliente (programa principal) no debe ser
     el encargado de almacenar grupos de entidades.
+  * "Añadir iv.yaml" no es parte del proyecto. Es necesario para
+    evaluarlo. Prefiero no mirar quién lo puso primero para no ver
+    quién se ha podido copiar.
+  
 
 * Evitar las *faltas de ortografía* en el
   README. Añadir
