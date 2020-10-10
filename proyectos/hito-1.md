@@ -10,20 +10,20 @@
 | CUADROS LAPRESTA, ANTONIO| [WhenToClass](https://github.com/antoniocuadros/WhenToClass) | v1.0.2 **Reenvío** |
 | DEL POZO MORENO, RAUL|[InmobilIV](https://github.com/rauldpm/InmobilIV)| v1.1.1 |
 | FERNANDEZ TORRALBO, MIGUEL ANGEL| [MyOutlet](https://github.com/miguelfdez99/MyOutlet) | v1.0.1 |
-| GAMIZ DELGADO, ANTONIO | [MangaAPI](https://github.com/antoniogamiz/manga-api) | v1.0.0 |
+| GAMIZ DELGADO, ANTONIO | [MangaAPI](https://github.com/antoniogamiz/manga-api) | v2.0.1 *Reenvio* |
 | GARCIA BENCHAKHTIR, YABIR| [bukhgalter](https://github.com/yabirgb/bukhgalter) | v1.0.1 |
 | GARCIA CASTILLO, ANTONIO| [TenisLeagueAdmin](https://github.com/antOnioOnio/antOnioOnio-TenisLeagueAdmin-) | v1.0.2 |
 | GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v1.0.2 **Reenvío** |
 | GARCIA MARTINEZ, DAVID| [AroundTheWorld](https://github.com/Davidspace/AroundTheWorld) | v1.0.8 |
 | GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.1.1 |
-| HEREDIA CORTES, DAVID| [PacketService](https://github.com/XDavid1999/PacketService) | v0.0.3 |
+| HEREDIA CORTES, DAVID| [PacketService](https://github.com/XDavid1999/PacketService) | v0.0.5 |
 | HERNANDEZ MORENO, DIEGO| [Order&Go](https://github.com/LCinder/Order-Go)|v0.1.1|
 | HIDALGO CARMONA, MANUEL| [ragaeton](https://github.com/venrra/ragaeton) | v1.0.2 |
 | IZQUIERDO GARCIA,ANGELA|[efood](https://github.com/angelaig-ugr/efood)|v1.0.3 **Reenvío**|
 | LEJARRAGA RUBIO, ALBERTO| [percepcion-relativa-deportistas](https://github.com/AlbertoLejarraga/percepcion-relativa-deportistas)| v0.1.1 |
 | LUPIAÑEZ TAPIA, GUILLERMO | [TextAnalyzer](https://github.com/guillelpnz/TextAnalyzer)| v1.0.3 |
 | LUQUE JARAVA, BLANCA| [Lecturas](https://github.com/blancaazz/Lecturas) | v.1.0.1 |
-| MARTIN LEON, ANTONIO| [Buscador-Partidos](https://github.com/antonioml97/BuscadorPartidos) | v.1.0.4 | 
+| MARTIN LEON, ANTONIO| [Buscador-Partidos](https://github.com/antonioml97/BuscadorPartidos) | v.1.0.5 **REENVÓ**| 
 | MENOR MOLINERO, ALEJANDRO| [que-vemos](https://github.com/AlexMenor/que-vemos) | v1.0.2 |
 | MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v2.0.3 **Reenvío**|
 | MERELO MOLINA, ELENA| [goFit](https://github.com/ElenaMerelo/goFit)| v1.0.1 |
@@ -45,7 +45,7 @@
 | RUIZ GARCIA, PAULA| [Diaryfy](https://github.com/aluruiz/IV-Diaryfy) | v1.0.4 |
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.1.5 |
 | SANZ SANCHEZ, MARIA|[MakeUpIV](https://github.com/mariasanzs/makeupIV) |v.1.0.2 |
-| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v1.0.5 |
+| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v1.0.6 *REENVÍO* |
 | STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v1.0.2 |
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v1.0.1 |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
