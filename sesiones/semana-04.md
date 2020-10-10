@@ -17,6 +17,14 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
 ## Otros objetivos
 
 * Entender los errores en el hito 1:
+  * Reglas generales sobre diseño de las clases. Algunos
+    ejemplos. Factores a tener en cuenta
+    * Mutabilidad y privacidad/publicidad de los atributos.
+    * Tipos de los atributos.
+    * Ámbito de la clase: ¿un sólo objeto del ámbito, o colección de
+      objetos? ¿O defino ambos?
+    * Clases de error o excepción. ¿Qué puede salir mal dentro de la
+      clase o fuera?
   * *Nadie* ha documentado que la clase fuera sintácticamente
     correcta, ni implementado una tarea "loquesea check" que
     efectivamente lo haga. A falta de esa comprobación, tenemos que
