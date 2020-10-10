@@ -33,6 +33,11 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
     principal del proyecto, con la que hay que empezar a trabajar.
   * Es prácticamente imposible que todas las clases correspondan a la
     misma historia de usuario.
+  * La traslación directa entidad → clase con un elemento de esa
+    entidad que tiene solo setters no es correcta. La clase principal
+    puede ser un array (u otro tipo de estructura) de esas
+    entidades. En general, el cliente (programa principal) no debe ser
+    el encargado de almacenar grupos de entidades.
 
 * Evitar las *faltas de ortografía* en el
   README. Añadir
