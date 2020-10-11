@@ -20,7 +20,6 @@ jobs:
           script: |
             const diff = process.env.diff;
             const ghRepoMatch = /github.com\/(\S+)\/(.+?)(:\s+|\))/.exec(diff)
-            console.log(ghRepoMatch)
             if  ( ghRepoMatch === null ) {
                 core.setFailed("❌ There's no repo URL in this diff with required format")
             } else {

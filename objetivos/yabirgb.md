@@ -18,3 +18,11 @@
 - [x] Estudiar como usar mongodb desde rust ([mongo-rust-driver](https://github.com/mongodb/mongo-rust-driver)).
 - [x] Recordar conceptos sobre virtualización y metodos que existen.
 - [x] Comprender el escrepto de XaaS.
+
+## Tercera semana
+
+- [x] Entender el concepto de DevOps y entender que herramientas se usan y por qué.
+- [x] Aprender cómo utilizar la integración continua.
+- [x] Aprender acerca del desarrollo de tests en Rust ([https://doc.rust-lang.org/book/ch11-01-writing-tests.html](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)).
+- [x] Conocer como manejar errores correctamente en Rust utilizando `Result`.
+- [x] Aprender cómo utilizar `caching` para optimizar la compilación y el _testing_ de programas escritos en `Rust` en CI ([https://levans.fr/rust_travis_cache.html](https://levans.fr/rust_travis_cache.html))

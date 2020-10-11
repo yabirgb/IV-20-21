@@ -17,3 +17,10 @@
 - [x] Tener una visión global sobre la Infraestructura Virtual.
 - [x] Leer sobre los *X as a service*. 
 - [x] Aprender sobre el sistema de issues, hitos y estructuración del proyecto de la asignatura.
+
+## Tercera semana
+
+- [x] Entender la importancia de los tests y su relación con devops.
+- [x] Entender los beneficios de user un gestor de versiones versus versiones de repositorio de diferentes lenguajes de programación.
+- [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
+

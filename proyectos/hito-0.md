@@ -33,7 +33,7 @@
 | NUÑEZ RUIZ, MANUEL JESUS| [footStats](https://github.com/ManuelJNunez/footStats) | v0.0.1 |
 | PALOMINO SANCHEZ, GUILLERMO|[NumisApp](https://github.com/Riikari/NumisApp) | v.0.0.1 |
 | PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v0.0.2  *REENVÍO* |
-| PEREZ MENDEZ, PABLO| | |
+| PEREZ MENDEZ, PABLO| [Apus](https://github.com/Megatorpon/Apus) | v.0.0.1 |
 | PINEDA MUÑOZ, JUAN CARLOS| [LaLigaStats](https://github.com/juancpineda97/LaLigaStats.git) | v0.0.2 |
 | PRIETO INFANTE, JAVIER| [PeluqueriaUnisex](https://github.com/JaviPrieto/PeluqueriaUnisex) | v0.0.1 |
 | REVELLES PEREZ, ANTONIO JOSE| [ListerYourMood](https://github.com/AntonioRev/ListenYourMood) | v0.0.1 |
@@ -48,7 +48,7 @@
 | SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v0.0.1 |
 | STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v0.0.1 |
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v0.0.1 |
-| TORRES CEBALLOS, ALBERTO JESUS| | |
+| TORRES CEBALLOS, ALBERTO JESUS|[GestionPeniaFutbol](https://github.com/albertotc99/GestionPeniaFutbol) | v0.0.2 |
 | VEGA JIMENEZ, ALEJANDRO| [RecipeFinder](https://github.com/aleveji/RecipeFinder) | v0.0.1 |
 | VEGA PALMA, LEANDRO| [PiHoleUpdater](https://github.com/LeandroVP/PiHoleUpdater) | v0.0.1 |
 | VELA PELEGRINA, SERGIO| [Organize&Go](https://github.com/sergiovp/IV-OrganizeAndGo) | v0.0.1 |

@@ -8,3 +8,12 @@
 - [x] Vernos las caras.
 - [x] Explicar el [hito 0](http://jj.github.io/IV/documentos/proyecto/0.Repositorio). Fecha de entrega: martes 29 de septiembre, 11:30 de la mañana.
 - [x] Empezar a usar git y GitHub. Por ejemplo, [seguir este vídeo](https://www.youtube.com/watch?v=gmXyJI01qa8) o cualquier otro tutorial online.
+
+## Segunda semana 
+
+- [x] Qué comprende DevOps
+- [x] Entender qué es un recurso en la nube
+- [x] Conocer el background de las tecnologías de información
+- [x] What's all the fuss about con la infraestructura virtual
+- [x] Ver algunos de los distintos tipos de virtualización
+- [x] Leer sobre infraestructure, platform y software as a service
