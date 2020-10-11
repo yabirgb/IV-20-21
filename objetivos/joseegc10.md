@@ -19,3 +19,11 @@
 - [X] Investigar sobre el uso y funcionamiento de los issues.
 - [X] Realizar los [ejercicios de autoevaluación del Tema 1](https://github.com/joseegc10/ejercicios-IV/blob/master/Tema%201/ejercicios.md).
 
+## Tercera semana
+
+- [X] Comprender la importancia de las pruebas de software y como encajan dentro del concepto de Infraestructura Virtual.
+- [X] Entender las ventajas que tiene el uso de los gestores de versiones en los lenguajes de programación.
+- [X] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
+- [X] Estudiar el funcionamiento de **RSPEC** para realizar las pruebas de software en Ruby.
+- [X] Comprender el funcionamiento de **Rake** como herramienta de construcción.
+
