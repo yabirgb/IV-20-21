@@ -17,7 +17,7 @@
 | GARCIA MARTINEZ, DAVID| [AroundTheWorld](https://github.com/Davidspace/AroundTheWorld) | v1.0.8 |
 | GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.1.1 |
 | HEREDIA CORTES, DAVID| [PacketService](https://github.com/XDavid1999/PacketService) | v0.0.5 |
-| HERNANDEZ MORENO, DIEGO| [Order&Go](https://github.com/LCinder/Order-Go)|v0.1.1|
+| HERNANDEZ MORENO, DIEGO| [Order&Go](https://github.com/LCinder/Order-Go)|v0.1.2 **Reenvio**|
 | HIDALGO CARMONA, MANUEL| [ragaeton](https://github.com/venrra/ragaeton) | v1.0.2 |
 | IZQUIERDO GARCIA,ANGELA|[efood](https://github.com/angelaig-ugr/efood)|v1.0.3  **Reenvío**|
 | LEJARRAGA RUBIO, ALBERTO| [percepcion-relativa-deportistas](https://github.com/AlbertoLejarraga/percepcion-relativa-deportistas)| v0.1.1 |
