@@ -19,3 +19,11 @@
 - [X] Comprender que se entiende por Iaas, Paas, Saas.
 - [X] Comprender los pasos que conlleva el diseño de un proyecto como el que vamos a elaborar en esta asignatura.
 - [X] Familiarizarse con el uso de Issues y Milestones en GitHub.
+
+## Semana del 6 de octubre
+- [X] Entender la necesidad de las pruebas software y el desarrollo basado en pruebas.
+- [X] Comprender las ventajas que aporta un gestor de versiones, más concretamente se ha profundizado en los de Ruby como por ejemplo [RVM](https://rvm.io/)
+- [X] Entender los ficheros de dependencias.
+- [X] Profundizar en las pruebas software en Ruby haciendo uso concretamente de [RSPEC](https://rspec.info/).
+- [X] Profundizar en la gestión de dependencias en Ruby, más concretamente se ha entendido el funcionamiento de [Bundler](https://bundler.io/)
+- [X] Se ha profundizado en el uso de [rake](https://rubygems.org/gems/rake/versions/11.2.2?locale=es) como herramienta de automatización.
