@@ -17,3 +17,12 @@
 - [x] What's all the fuss about con la infraestructura virtual
 - [x] Ver algunos de los distintos tipos de virtualización
 - [x] Leer sobre infraestructure, platform y software as a service
+
+## Tercera semana 
+
+- [X] Por qué hay que automatizar en lo posible el ciclo de vida del software
+- [X] En qué consisten el desarrollo basado en pruebas y las pruebas unitarias
+- [X] Cómo van los tests (en diferentes lenguajes y en general)
+- [X] Por qué se usan entornos virtuales de desarrollo
+- [X] Aprender sobre las herramientas de construcción, y el proceso de construcción, minificación o transpilación
+- [X] Qué es la integración contínua y por qué será nuestra amiga y enemiga
