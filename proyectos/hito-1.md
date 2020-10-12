@@ -23,7 +23,7 @@
 | LEJARRAGA RUBIO, ALBERTO| [percepcion-relativa-deportistas](https://github.com/AlbertoLejarraga/percepcion-relativa-deportistas)| v0.1.1 |
 | LUPIAÑEZ TAPIA, GUILLERMO | [TextAnalyzer](https://github.com/guillelpnz/TextAnalyzer)| v1.0.3 |
 | LUQUE JARAVA, BLANCA| [Lecturas](https://github.com/blancaazz/Lecturas) | v.1.0.1 |
-| MARTIN LEON, ANTONIO| [Buscador-Partidos](https://github.com/antonioml97/BuscadorPartidos) | v.1.0.5 **REENVÓ**| 
+| MARTIN LEON, ANTONIO| [Buscador-Partidos](https://github.com/antonioml97/BuscadorPartidos) | v.1.0.5 **REENVÓ**|
 | MENOR MOLINERO, ALEJANDRO| [que-vemos](https://github.com/AlexMenor/que-vemos) | v1.0.2 |
 | MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v2.0.3 **Reenvío**|
 | MERELO MOLINA, ELENA| [goFit](https://github.com/ElenaMerelo/goFit)| v1.0.3 **Reenvío** |
@@ -44,7 +44,7 @@
 | RUIZ FERNANDEZ, TOMAS| | |
 | RUIZ GARCIA, PAULA| [Diaryfy](https://github.com/aluruiz/IV-Diaryfy) | v1.0.4 |
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.1.5 |
-| SANZ SANCHEZ, MARIA|[MakeUpIV](https://github.com/mariasanzs/makeupIV) |v.1.0.2 |
+| SANZ SANCHEZ, MARIA|[MakeUpIV](https://github.com/mariasanzs/makeupIV) |v.1.0.3 *REENVIO* |
 | SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v1.0.6 *REENVÍO* |
 | STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v1.0.4 *Reenvío* |
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v1.0.3 **REENVÍO** |
