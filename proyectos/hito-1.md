@@ -15,7 +15,7 @@
 | GARCIA CASTILLO, ANTONIO| [TenisLeagueAdmin](https://github.com/antOnioOnio/antOnioOnio-TenisLeagueAdmin-) | v1.0.3 **Reenvío** |
 | GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v1.0.2 **Reenvío** |
 | GARCIA MARTINEZ, DAVID| [AroundTheWorld](https://github.com/Davidspace/AroundTheWorld) | v1.0.8 |
-| GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.1.1 |
+| GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.1.2 **Reenvío** |
 | HEREDIA CORTES, DAVID| [PacketService](https://github.com/XDavid1999/PacketService) | v0.0.5 |
 | HERNANDEZ MORENO, DIEGO| [Order&Go](https://github.com/LCinder/Order-Go)|v0.1.2 **Reenvio**|
 | HIDALGO CARMONA, MANUEL| [ragaeton](https://github.com/venrra/ragaeton) | v1.0.2 |
