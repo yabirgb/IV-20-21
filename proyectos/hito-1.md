@@ -9,7 +9,7 @@
 | COCA CRUZ, SIXTO|[DreamBLeague](https://github.com/SixtoCoca/DreamBLeague) | v1.0.3 |
 | CUADROS LAPRESTA, ANTONIO| [WhenToClass](https://github.com/antoniocuadros/WhenToClass) | v1.0.2 **Reenvío** |
 | DEL POZO MORENO, RAUL|[InmobilIV](https://github.com/rauldpm/InmobilIV)| v1.1.1 |
-| FERNANDEZ TORRALBO, MIGUEL ANGEL| [MyOutlet](https://github.com/miguelfdez99/MyOutlet) | v1.0.2 **Reenvío** |
+| FERNANDEZ TORRALBO, MIGUEL ANGEL| [MyOutlet](https://github.com/miguelfdez99/MyOutlet) | v1.0.3 **REENVÍO** |
 | GAMIZ DELGADO, ANTONIO | [MangaAPI](https://github.com/antoniogamiz/manga-api) | v2.0.1 *Reenvio* |
 | GARCIA BENCHAKHTIR, YABIR| [bukhgalter](https://github.com/yabirgb/bukhgalter) | v1.0.1 |
 | GARCIA CASTILLO, ANTONIO| [TenisLeagueAdmin](https://github.com/antOnioOnio/antOnioOnio-TenisLeagueAdmin-) | v1.0.3 **Reenvío** |
