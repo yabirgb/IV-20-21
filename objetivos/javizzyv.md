@@ -23,3 +23,11 @@
 - [x] Aprender a instalar software libre en Linux.
 - [x] Entender el concepto de sistema de ficheros virtual usado en Linux para diferentes menesteres.
 - [x] Entender qué es lo que se pide en el proyecto de la asignatura, y por tanto en el primer hito del proyecto al final de la semana y entregarlo al principio de la semana siguiente.
+
+## Semana 3
+
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
+- [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
+- [x] Conocer los conceptos relacionados con el proceso de virtualización tanto de software como de hardware.
+- [ ] Hacer ejercicios de [este](http://jj.github.io/IV/documentos/temas/Desarrollo_basado_en_pruebas) tema.
