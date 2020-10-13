@@ -15,3 +15,9 @@
  - [x] He aprendido los niveles de virtualización y sus denominaciones.
  - [x] He aprendido el concepto "X as a service" y los criterios para su elección, además he consultado algunos nuevos tipos que surgen.
  - [x] He entendido un poco más que implica el diseño de mi proyecto.
+
+
+## Tercera semana 6 Octubre
+- [x] He comprendido, qué son, cómo funcionan y para qué necesitamos nosotros las pruebas software.
+- [x] He usado el gestor de versiones de nodejs, en concreto **nvm**, que es el que usare en mi proyecto, y he entendido su utilidad.
+- [x] He entendido qué son los ficheros de requisitos o dependencias y su utilidad.
