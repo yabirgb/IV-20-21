@@ -16,3 +16,9 @@
 - [X] Comprender las implicaciones que tiene el diseño del proyecto de la asignatura.
 - [X] Comenzar a comprender los conceptos de X as a service.
 - [X] Realizar los [ejercicios de autoevaluación del Tema 1](https://github.com/antonioml97/IV-Ejercicios).
+
+## Tercera semana
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
+- [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
+- [x] Aplicar un framework de test unitario para node y entender su funcionamiento 
