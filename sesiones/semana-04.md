@@ -6,16 +6,14 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
 
 ## Objetivos de la semana
 
-1. Comenzar con la configuración de los sistemas de integración
-   continua.
+1. Entender Docker y el ecosistema de contenedores.
 
 2. Comprender cómo las pruebas de software encajan dentro del concepto
    de infraestructura virtual.
 
-2. Comprender el nivel *plataforma* de la infraestructura virtual y su uso en prueba y producción.
-
 ## Otros objetivos
 
+* Introducción a Docker.
 * Entender los errores en el hito 1:
   * Reglas generales sobre diseño de las clases. Algunos
     ejemplos. Factores a tener en cuenta
@@ -76,8 +74,7 @@ del
 (viernes).
 
 Comenzamos con el
-[tercer hito del proyecto](http://jj.github.io/IV/documentos/proyecto/3.CI),
-que se entregará a las  **23:59 del 21 de octubre**.
+[tercer tema](http://jj.github.io/IV/documentos/temas/Contenedores.md)
 
 ## Siguiente semana
 
