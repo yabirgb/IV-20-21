@@ -19,3 +19,12 @@
 - [x] Actualizar e ir empezando el microservicio
 - [x] Crear y entender que son los *issues* y los *milestones*
 - [x] Cercar toda la informacion que necesito para el servicio
+
+---
+
+## Semana 3: 13/10
+- [x] Entender qué significa *integración continua* y el por qué de su existencia
+- [x] Entender qué son los test, su objetivo, como realizarlos, comprobaciones, etc.
+- [x] Probar diferentes herramientas de construcción, sobretodo para el lenguaje a usar (Node.js)
+- [x] Investigar todos los *frameworks* dedicados a test, cuáles son mejores y por qué y elegir uno
+- [x] Probar *Grunt.js* y *Gulp.js* y ver su funcionalidad y cómo automatizar tareas.
