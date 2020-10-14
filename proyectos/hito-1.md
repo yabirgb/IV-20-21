@@ -41,7 +41,7 @@
 | RODRIGUEZ LOPEZ, ALEJANDRO|[HDN.PG](https://github.com/alexrodriguezlop/HDN.PG)  | v1.0.3 *Reenvío* |
 | ROMERO ORTEGA, JOSE MANUEL| | |
 | RUBIO RODRIGUEZ, JUAN MANUEL| | |
-| RUIZ FERNANDEZ, TOMAS| | |
+| RUIZ FERNANDEZ, TOMAS| [AskingPpl](https://github.com/thomasruizfdez/AskingPpl) | v0.1.0 |
 | RUIZ GARCIA, PAULA| [Diaryfy](https://github.com/aluruiz/IV-Diaryfy) | v1.0.4 |
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.1.5 |
 | SANZ SANCHEZ, MARIA|[MakeUpIV](https://github.com/mariasanzs/makeupIV) |v.1.0.3 *REENVÍO* |
