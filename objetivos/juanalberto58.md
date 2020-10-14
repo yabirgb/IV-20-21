@@ -10,7 +10,6 @@
 - [x] Empezar a usar git y GitHub. 
 
 ## Segunda semana
-
 - [x] Empezar a familiarizarse con el concepto de virtualización.
 - [x] Entender el soporte en Hardware relativo a las técnicas de virtualización.
 - [x] Comprender los diferentes niveles de virtualización.
