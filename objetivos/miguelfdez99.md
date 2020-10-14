@@ -16,3 +16,10 @@
 - [x] Comprender los niveles de virtualización y sus denominaciones genéricas.
 - [x] Comprender el concepto de X as a service y comprender los criterios necesarios para su elección.
 - [x] Entender qué implica diseñar un proyecto que se irá elaborando durante la asignatura.
+
+
+## Tercera semana
+- [x] Entender la necesidad del desarrollo basado en pruebas y de las pruebas de software
+- [x] Comprender el uso de los gestores de versiones en diferentes lenguajes de programación
+- [x] Investigar sobre que gestor de tareas se adapta más al proyecto y como utilizarlo
+- [x] Entender los ficheros de dependencias
