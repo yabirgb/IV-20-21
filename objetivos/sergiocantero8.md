@@ -1,4 +1,5 @@
-Lista de objetivos de Sergio Azañon Cantero
+## Lista de objetivos de Sergio Azañón Cantero
+
 
 ============================
 
@@ -11,9 +12,16 @@ Lista de objetivos de Sergio Azañon Cantero
 - [x] Empezar a usar git y GitHub correctamente.
 
 ## Segunda semana 
-- [X] Comprender correctamente qué es un microservicio y para qué se utiliza esta técnica actualmente
-- [X] Entender los conceptos iniciales relacionados con la virtualización 
-- [X] Entender el soporte hardware de la virtualización y su extensión al núcleo de los sistemas operativos
-- [X] Entender los niveles de virtualización 
-- [X] Comprender el concepto Xaas (X as a service) y qué criterios se utilizan para la elección 
-- [X] Comprender lo que implica desarrollar un proyecto que se desarrollará en la asignatura
+- [X] Comprender correctamente qué es un microservicio y para qué se utiliza esta técnica actualmente.
+- [X] Entender los conceptos iniciales relacionados con la virtualización .
+- [X] Entender el soporte hardware de la virtualización y su extensión al núcleo de los sistemas operativos.
+- [X] Entender los niveles de virtualización .
+- [X] Comprender el concepto Xaas (X as a service) y qué criterios se utilizan para la elección .
+- [X] Comprender lo que implica desarrollar un proyecto que se desarrollará en la asignatura.
+
+## Tercera semana 
+- [X] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [X] Aprender a realizar test unitarios de Javascript para node.
+- [X] Entender los ficheros de dependencias o utilidad y su importancia en la infraestructura virtual.
+- [X] Recordar que código que no ha sido testeado, código roto.
+- [X] Usar los gestores de versiones de los diferentes lenguajes de programación y la utilidad que tienen.
