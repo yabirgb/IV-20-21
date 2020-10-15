@@ -20,9 +20,5 @@ anterior, he [seguido las instrucciones para reenvíos](http://jj.github.io/IV/d
 
 <Breve descripción de lo entregado... Borrar en otro caso>
 
-## Hitos e *issues* del repositorio que se han cerrado con esta entrega
 
-<incluir aquí la descripción de los issues y enlaces a los mismos,
-agrupados por milestones. Borrar esto siempre. No se aplica en el hito
-0>
 
