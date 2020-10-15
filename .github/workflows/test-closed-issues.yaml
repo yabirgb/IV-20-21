@@ -50,8 +50,10 @@ jobs:
                             } else {
                                 
                                 if ( ! events.data[closing_event].commit_id ) {
-                                    console.log(events.data[closing_event], events.data[closing_event-1]);
+                                    console.log(events.data[closing_event]);
                                     if ( events.data[closing_event-1].event != 'connected' )   {
+                                        console.log(events.data[closing_event-1].length);
+                                        console.log(events.data[closing_event-1]);
                                         core.setFailed( "❌ El issue " + issue.number + " no se cerró con un commit o PR");
                                     }
                                 }
