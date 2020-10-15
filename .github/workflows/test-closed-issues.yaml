@@ -26,7 +26,7 @@ jobs:
                 const user = ghRepoMatch[1] // segundo resultado
                 const repo = ghRepoMatch[2] // tercer resultado
                 console.log( "» Retrieving repo " + repo + " for user " + user )
-                const non_paginated_issues = await github.issues.listForRepo.endpoint.merge( { owner: user,
+                const non_paginated_issues = await github.paginate( github.issues.listForRepo, { owner: user,
                                                                                                repo: repo,
                                                                                                state: "closed" } )
                 console.log( "» Tengo " + non_paginated_issues.leng + " issues " )
