@@ -29,9 +29,11 @@ jobs:
                 const response = await github.issues.listForRepo( { owner: user,
                                                                     repo: repo,
                                                                     state: "closed" } )
-
-                console.log( "» Tengo " + response )
+                console.log( "» Response" )
+                console.log( response )
                 const issues = await github.paginate( response.data )
+                console.log( "» Issues" )
+                console.log( issues )
                 issues.forEach( async function( issue ) {
                     if ( ! issue.pull_request ) {
                         const events = await github.issues.listEvents( { owner: user,
