@@ -48,8 +48,9 @@ jobs:
                             if ( ! closing_event ) {
                                 console.log( "» Se ha perdido el evento de cierre de " + issue.number )
                             } else {
-                                console.log(events.data[closing_event], events.data[closing_event-1]);
+                                
                                 if ( ! events.data[closing_event].commit_id ) {
+                                    console.log(events.data[closing_event], events.data[closing_event-1]);
                                     if ( events.data[closing_event-1].event != 'connected' )   {
                                         core.setFailed( "❌ El issue " + issue.number + " no se cerró con un commit o PR");
                                     }
