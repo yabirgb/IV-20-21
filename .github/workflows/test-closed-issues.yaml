@@ -32,7 +32,6 @@ jobs:
                 const issues = await github.paginate( non_paginated_issues )
                 issues.forEach( async function( issue ) {
                     if ( ! issue.pull_request ) {
-                        console.log( "» Retrieving issue number " + issue.number )
                         const events = await github.issues.listEvents( { owner: user,
                                                                          repo: repo,
                                                                          issue_number: issue.number } )
