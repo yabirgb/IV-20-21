@@ -21,3 +21,17 @@
 - [x] Recordar conceptos sobre virtualización y metodos que existen.
 - [x] [Ejercicios de autoevaluación](https://github.com/angelaig-ugr/IV-autoevaluacion/blob/master/sesiones/semana1.md).
 - [x] Documentarme y estudiar sobre el lenguaje Javascript . 
+
+## Tercera semana
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
+- [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
+- [x] Instalar las herramientas necesarias para crear y aplicar tests en un proyecto.
+- [x] Comprender el papel de las build tools o herramientas de automatización.
+- [x] Entender el concepto de DevOps.
+- [x] Usar herramientas para gestión de los ciclos de desarrollo de una aplicación y entender cuales son estos.
+- [x] Conocer los conceptos relacionados con el proceso de virtualización tanto de software como de hardware y ponerlos en práctica.
+- [x] Entender qué hay que hacer en el hito 2
+- [x] Buscar las herramientas y estructurar mi proyecto  para cumplir con los objetivos de este hito ( en el lenguaje específico : Raku )
+- [x] Aprender sobre el desarrollo de tests en Raku
+
