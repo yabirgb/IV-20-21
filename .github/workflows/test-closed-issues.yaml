@@ -46,8 +46,7 @@ jobs:
                                 }
                               }
                             }
-                          }
-                        }`;
+                          }`;
 
                         const variables = {
                           owner: user,
