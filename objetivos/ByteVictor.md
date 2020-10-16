@@ -17,3 +17,13 @@
 - [x] He aprendido a usar issues y milestones en github y sé para que sirven
 - [x] He mejorado en el uso de git y GitHub
 - [x] He comenzado a entender el concepto de DevOps
+
+## Tercera semana
+
+- [x] He aprendido que herramientas son utiles y/o necesarias para la elaboración de un proyecto
+- [x] He aprendido para que sirven los tests en un proyecto y su importancia
+- [x] He aprendido a desarrollar tests utilizando un framework
+- [x] He entendido el formato JSON y lo he empleado en mi proyecto
+- [x] He avanzado mi aprendizaje sobre Typescript y Node.js
+- [x] He comprendido para que sirve el fichero package.json y qué es un taskfile
+- [x] He aprendido a instalar todas las herramientas necesarias y aplicar tests en un proyecto
