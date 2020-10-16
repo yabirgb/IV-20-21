@@ -2,7 +2,7 @@
 |--------|--------|---------|
 | AZAÑON CANTERO, SERGIO| [ReserveIt-API](https://github.com/sergiocantero8/ReserveIt-API) | v2.0.1 |
 | BELTRAN SANCHEZ, FRANCISCO| [F1 Predictor](https://github.com/currobeltran/F1-Predictor) | v2.0.0 |
-| CABRITA GOMEZ, VICTOR| | |
+| CABRITA GOMEZ, VICTOR| [GymBot](https://github.com/Torchu/GymBot) | v2.0.1 |
 | CANO JEREZ, IRENE| [IdiomasIV](https://github.com/irenecj/ProyectoIdiomasIV)| v2.0.1 |
 | CHAVES CABALLERO, MARIO| | |
 | CHEKFEH AL-SABBAGH, MOHAMED BILAL| [GameStore](https://github.com/BilalKxK99/GameStore) | v2.0.2 |
