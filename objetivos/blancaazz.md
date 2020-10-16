@@ -29,3 +29,19 @@
 - [x] Entender qué implica diseñar un proyecto que se irá elaborando durante la asignatura.
 
 - [x] [Ejercicios del tema 1](https://github.com/blancaazz/Ejercicios-IV) realizados
+
+## Tercera semana
+
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+
+- [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
+
+- [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
+
+- [x] Solucionar problemas o carencias del hito 1
+
+- [x] Instalar las herramientas necesarias para crear y aplicar tests en un proyecto.
+
+- [x] Comprender el papel de las build tools o herramientas de automatización.
+
+- [x] Desarrollo de los [ejercicios del tema 2](https://github.com/blancaazz/Ejercicios-IV/tree/main/Tema2)
