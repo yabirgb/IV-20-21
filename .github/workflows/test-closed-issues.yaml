@@ -50,7 +50,7 @@ jobs:
                         }`;
 
                         const variables = {
-                          owner: owner,
+                          owner: user,
                           name: repo,
                           issue: issue.number
                         }
