@@ -58,7 +58,7 @@ jobs:
                         console.log( closingEvent + " para " + issue.number )
                         if ( (closingEvent == 'Commit') || (closingEvent == 'PullRequest') ) {
                             console.log(" ✅ El issue " + issue.number + " se cerró con un " + closingEvent )
-                        else {
+                        } else {
                             core.setFailed( "❌ El issue " + issue.number + " no se cerró con un commit o PR")
                         }
                   }
