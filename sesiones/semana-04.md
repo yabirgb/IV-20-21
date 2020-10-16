@@ -51,7 +51,7 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
   * "Añadir iv.yaml" no es parte del proyecto. Es necesario para
     evaluarlo. Prefiero no mirar quién lo puso primero para no ver
     quién se ha podido copiar.
-  
+
 
 * Evitar las *faltas de ortografía* en el
   README. Añadir
@@ -63,7 +63,6 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
         continua que te puede ser útil en tu proyecto.
 * Configuración de shell y línea de órdenes para que se pueda ver
   claramente cómo está el desarrollo en un repositorio.
-* Comprender los *hooks* de git.
 * Entender el formato YAML y su uso en la descripción de diferentes infraestructuras virtuales.
 
 ## Material para la clase
