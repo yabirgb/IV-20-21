@@ -32,7 +32,7 @@ jobs:
                 const issues = await github.paginate( non_paginated_issues )
                 issues.forEach( async function( issue ) {
                     if ( ! issue.pull_request ) {
-                        const query = `query($owner:String!, $name:String!, $issue:String!) {
+                        const query = `query($owner:String!, $name:String!, $issue:Int!) {
                             repository(name: $name , owner: $owner  ) {
                               issue(number: $issue) {
                                 timelineItems(itemTypes: CLOSED_EVENT, last: 1) {
