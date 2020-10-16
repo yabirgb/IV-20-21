@@ -54,7 +54,7 @@ jobs:
                           issue: issue.number
                         }
                         const result = await github.graphql(query, variables)
-                        console.log(result)
+                        console.log(result.repository.issue.timelineItems)
 
                   }
                 })
