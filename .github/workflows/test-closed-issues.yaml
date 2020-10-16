@@ -32,29 +32,31 @@ jobs:
                 const issues = await github.paginate( non_paginated_issues )
                 issues.forEach( async function( issue ) {
                     if ( ! issue.pull_request ) {
-                        const events = await github.issues.listEvents( { owner: user,
-                                                                         repo: repo,
-                                                                         issue_number: issue.number } )
-                        if ( !events.data ) {
-                            core.setFailed( "❌ Problema recuperando datos de " + issue.number );
-                        } else {
-                            var closing_event
-                            for (let i = 0; i < events.data.length; i ++ ) {
-                                if ( events.data[i].event == 'closed' ) {
-                                    closing_event = i
-                                }
-                            }
-
-                            if ( ! closing_event ) {
-                                console.log( "» Se ha perdido el evento de cierre de " + issue.number )
-                            } else {
-                                if ( ! events.data[closing_event].commit_id ) {
-                                    if ( events.data[closing_event-1].event != 'connected' )   {
-                                        core.setFailed( "❌ El issue " + issue.number + " no se cerró con un commit o PR");
+                        const query = `query($owner:String!, $name:String!, $issue:String!) {
+                            repository(name: $name , owner: $owner  ) {
+                              issue(number: $issue) {
+                                timelineItems(itemTypes: CLOSED_EVENT, last: 1) {
+                                  nodes {
+                                    ... on ClosedEvent {
+                                      closer {
+                                        __typename 
+                                      }
                                     }
+                                  }
                                 }
+                              }
                             }
+                          }
+                        }`;
+
+                        const variables = {
+                          owner: owner,
+                          name: repo,
+                          issue: issue.number
                         }
+                        const result = await github.graphql(query, variables)
+                        console.log(result)
+
                   }
                 })
 
