@@ -33,7 +33,7 @@
 | NUÑEZ RUIZ, MANUEL JESUS| [footStats](https://github.com/ManuelJNunez/footStats) | v1.0.1 |
 | PALOMINO SANCHEZ, GUILLERMO| [NumisApp](https://github.com/Riikari/NumisApp) | v.1.0.1 |
 | PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v1.0.2 *REENVÍO* |
-| PEREZ MENDEZ, PABLO| [Apus](https://github.com/Megatorpon/Apus) | v.1.0.1 |
+| PEREZ MENDEZ, PABLO| [Apus](https://github.com/Megatorpon/Apus) | v.1.0.2 **REENVÍO**|
 | PINEDA MUÑOZ, JUAN CARLOS| [LaLigaStats](https://github.com/juancpineda97/LaLigaStats) | v1.0.1 |
 | PRIETO INFANTE, JAVIER| [PeluqueriaUnisex](https://github.com/JaviPrieto/PeluqueriaUnisex) | v1.0.2 |
 | REVELLES PEREZ, ANTONIO JOSE| [ListenYourMood](https://github.com/AntonioRev/ListenYourMood) | v1.0.5 **REENVÍO** |
@@ -42,14 +42,14 @@
 | ROMERO ORTEGA, JOSE MANUEL| | |
 | RUBIO RODRIGUEZ, JUAN MANUEL| | |
 | RUIZ FERNANDEZ, TOMAS| [AskingPpl](https://github.com/thomasruizfdez/AskingPpl) | v0.1.0 |
-| RUIZ GARCIA, PAULA| [Diaryfy](https://github.com/aluruiz/IV-Diaryfy) | v1.0.4 |
+| RUIZ GARCIA, PAULA| [Diaryfy](https://github.com/aluruiz/diaryfy) | v1.0.6 *REENVÍO*|
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.1.5 |
 | SANZ SANCHEZ, MARIA|[MakeUpIV](https://github.com/mariasanzs/makeupIV) |v.1.0.3 *REENVÍO* |
 | SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v1.0.6 *REENVÍO* |
 | STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v1.0.4 *Reenvío* |
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v1.0.3 **REENVÍO** |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
-| VEGA JIMENEZ, ALEJANDRO| [RecipeFinder](https://github.com/aleveji/RecipeFinder) | v0.0.5 |
+| VEGA JIMENEZ, ALEJANDRO| [RecipeFinder](https://github.com/aleveji/RecipeFinder) | v0.0.6 **REENVÍO** |
 | VEGA PALMA, LEANDRO| [PiHoleUpdater](https://github.com/LeandroVP/PiHoleUpdater) | v0.0.2 |
 | VELA PELEGRINA, SERGIO| [Organize&Go](https://github.com/sergiovp/IV-OrganizeAndGo) | v0.0.3 |
 | VICTORIA MOHAMED, JAVIER| [VGT](https://github.com/javizzyv/VideoGameTracker) | v0.1.6 |

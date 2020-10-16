@@ -19,3 +19,13 @@
 - [x] Investigar sobre el uso de diferentes herramientas a la hora de crear mi proyecto
 - [x] Familiarizarme con el entorno de programación.
 - [x] Entregar el proyecto en la fecha (06/10).
+
+## Semana del 5/10/2020
+- [x] Comprender y tener claro lo que se nos pide en el hito 2.
+- [x] Aprender el concepto de DevOps.
+- [x] Conocer los conceptos relacionados con el proceso de virtualización tanto de SW como de HW y ponerlos en práctica.
+- [x] Encontrar y aprender herramientas para el TDD en ruby.
+- [x] Conocer cómo funcionan las dependencias en Ruby y la instalación de gemas.
+- [x] Entender para qué sirven los tests unitarios.
+- [x] Aprender a desarrollar test con Rspec.
+- [x] Entregar el proyecto en la fecha (16/10).
