@@ -55,10 +55,11 @@ jobs:
                         }
                         const result = await github.graphql(query, variables)
                         const closingEvent = result.repository.issue.timelineItems.nodes[0].closer
-                        if ( closingEvent != 'Commit' && closingEvent != 'PullRequest' ) {
-                            core.setFailed( "❌ El issue " + issue.number + " no se cerró con un commit o PR")
-                        } else {
+                        console.log( closingEvent + " para " + issue.number )
+                        if ( (closingEvent == 'Commit') || (closingEvent == 'PullRequest') ) {
                             console.log(" ✅ El issue " + issue.number + " se cerró con un " + closingEvent )
+                        else {
+                            core.setFailed( "❌ El issue " + issue.number + " no se cerró con un commit o PR")
                         }
                   }
                 })
