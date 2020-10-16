@@ -22,7 +22,7 @@
 | IZQUIERDO GARCIA,ANGELA| [efood ](https://github.com/angelaig-ugr/efood)|v2.0.0 |
 | LEJARRAGA RUBIO, ALBERTO| | |
 | LUPIAÑEZ TAPIA, GUILLERMO | [TextAnalyzer](https://github.com/guillelpnz/TextAnalyzer) | v1.2.2 |
-| LUQUE JARAVA, BLANCA| | |
+| LUQUE JARAVA, BLANCA| [Lecturas](https://github.com/blancaazz/Lecturas) | v2.0.0 |
 | MARTIN LEON, ANTONIO| | | |
 | MENOR MOLINERO, ALEJANDRO| [que-vemos](https://github.com/AlexMenor/que-vemos) | v1.0.3 |
 | MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v2.2.3 |
