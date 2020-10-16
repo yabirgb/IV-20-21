@@ -46,7 +46,7 @@
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.2.0 |
 | SANZ SANCHEZ, MARIA|[MakeupIV](https://github.com/mariasanzs/makeupIV) |V2.0.1 |
 | SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | V 2.0.2 |
-| STETSKIY , NIKITA| | |
+| STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v2.0.0 |
 | TORRES BAREA, FRANCISCO JAVIER| | |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
 | VEGA JIMENEZ, ALEJANDRO| | |
