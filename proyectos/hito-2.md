@@ -3,7 +3,7 @@
 | AZAÑON CANTERO, SERGIO| [ReserveIt-API](https://github.com/sergiocantero8/ReserveIt-API) | v2.0.1 |
 | BELTRAN SANCHEZ, FRANCISCO| [F1 Predictor](https://github.com/currobeltran/F1-Predictor) | v2.0.0 |
 | CABRITA GOMEZ, VICTOR| [GymBot](https://github.com/Torchu/GymBot) | v2.0.1 |
-| CANO JEREZ, IRENE| [IdiomasIV](https://github.com/irenecj/ProyectoIdiomasIV)| v2.0.1 |
+| CANO JEREZ, IRENE| [IdiomasIV](https://github.com/irenecj/ProyectoIdiomasIV)| v2.0.1 **Reenvío**|
 | CHAVES CABALLERO, MARIO| | |
 | CHEKFEH AL-SABBAGH, MOHAMED BILAL| [GameStore](https://github.com/BilalKxK99/GameStore) | v2.0.2 |
 | COCA CRUZ, SIXTO| | |
@@ -11,7 +11,7 @@
 | DEL POZO MORENO, RAUL|[InmobilIV](https://github.com/rauldpm/InmobilIV)| v2.0.0 |
 | FERNANDEZ TORRALBO, MIGUEL ANGEL| | |
 | GAMIZ DELGADO, ANTONIO | [MangaAPI](https://github.com/antoniogamiz/manga-api) | v1.0.1 |
-| GARCIA BENCHAKHTIR, YABIR| [bukhgalter](https://github.com/yabirgb/bukhgalter) | v2.0.0 | 
+| GARCIA BENCHAKHTIR, YABIR| [bukhgalter](https://github.com/yabirgb/bukhgalter) | v2.0.0 |
 | GARCIA CASTILLO, ANTONIO| [TenisLeagueAdmin](https://github.com/antOnioOnio/antOnioOnio-TenisLeagueAdmin-) | v1.0.0 |
 | GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v1.2.1 |
 | GARCIA MARTINEZ, DAVID| | |
