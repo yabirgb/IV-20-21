@@ -1,4 +1,4 @@
-# Cuarta semana, comienza el 20 de octubre
+# Quinta semana, comienza el 20 de octubre
 
 **Importante**: continúa el *hacktoberfest*. Buscad *issues* con la
 etiqueta *hacktoberfest* en todo GitHub y referenciarlos al hacer los
@@ -16,6 +16,23 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
 ## Otros objetivos
 
 * Entender la corrección del hito 2 y los errores más comunes.
+  * HUs, esas grandes desconocidas.
+  * ¿Herramientas? ¿Qué herramientas?
+  * Enlazar desde el README claramente.
+  * Las justificaciones son imprescindibles
+    1. Para que realmente hagáis un esfuerzo por buscar la herramienta
+       más adecuada.
+    2. Para que mostréis que lo habéis hecho.
+  * Sobre la estructura de las clases
+    * Hay que crear clases para excepciones, no devolver cadenas con
+      texto.
+    * Buscar estructuras de datos comunes, no nombres. Por ejemplo,
+      "primerosPlatos" y "segundosPlatos". Los dos son platos, ¿no?
+    * NO incluyáis bases de datos todavía.
+  * Sobre malas prácticas en el código
+    * Usar literales (5) en vez de constantes
+      `NUMERO_DE_VECES_QUE_SE_REALIZA = 5`.
+    * No usar una fase de "setup" para objetos comunes. 
 
 * Instalar diferentes utilidades para trabajar con Docker: docker,
   Podman/Buildah.
