@@ -45,7 +45,7 @@
 | RUIZ GARCIA, PAULA| | |
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.2.0 |
 | SANZ SANCHEZ, MARIA|[MakeupIV](https://github.com/mariasanzs/makeupIV) |V2.0.6 REENVÍO|
-| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | V 2.0.2 |
+| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | V 2.0.3 **Reenvio** |
 | STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v2.0.0 |
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v2.0.2 **Reenvío** |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
