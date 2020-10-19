@@ -17,7 +17,7 @@
 | GARCIA MARTINEZ, DAVID| | |
 | GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.2.2 *Reenvío* |
 | HEREDIA CORTES, DAVID| [PacketService](https://github.com/XDavid1999/PacketService) | v0.1.2 |
-| HERNANDEZ MORENO, DIEGO| [Order'n'Go](https://github.com/LCinder/Order-n-Go)| v1.2.4 |
+| HERNANDEZ MORENO, DIEGO| [Order'n'Go](https://github.com/LCinder/Order-n-Go)| v1.3.0 **Reenvío**|
 | HIDALGO CARMONA, MANUEL| | |
 | IZQUIERDO GARCIA,ANGELA| [efood ](https://github.com/angelaig-ugr/efood)|v2.0.0 |
 | LEJARRAGA RUBIO, ALBERTO| | |
