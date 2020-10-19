@@ -19,7 +19,7 @@
 | HEREDIA CORTES, DAVID| [PacketService](https://github.com/XDavid1999/PacketService) | v0.1.2 |
 | HERNANDEZ MORENO, DIEGO| [Order'n'Go](https://github.com/LCinder/Order-n-Go)| v1.3.2 **Reenvío**|
 | HIDALGO CARMONA, MANUEL| | |
-| IZQUIERDO GARCIA,ANGELA| [efood ](https://github.com/angelaig-ugr/efood)|v2.0.0 |
+| IZQUIERDO GARCIA,ANGELA| [efood ](https://github.com/angelaig-ugr/efood)|v2.0.1 **Reenvío**|
 | LEJARRAGA RUBIO, ALBERTO| | |
 | LUPIAÑEZ TAPIA, GUILLERMO | [TextAnalyzer](https://github.com/guillelpnz/TextAnalyzer) | v1.2.3 |
 | LUQUE JARAVA, BLANCA| [Lecturas](https://github.com/blancaazz/Lecturas) | v2.0.1 |
