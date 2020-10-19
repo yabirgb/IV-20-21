@@ -1,6 +1,6 @@
 | Nombre | Enlace | Versión |
 |--------|--------|---------|
-| AZAÑON CANTERO, SERGIO| [ReserveIt-API](https://github.com/sergiocantero8/ReserveIt-API) | v2.0.1 |
+| AZAÑON CANTERO, SERGIO| [ReserveIt-API](https://github.com/sergiocantero8/ReserveIt-API) | v2.0.2 **Reenvío** |
 | BELTRAN SANCHEZ, FRANCISCO| [F1 Predictor](https://github.com/currobeltran/F1-Predictor) | v2.0.0 |
 | CABRITA GOMEZ, VICTOR| [GymBot](https://github.com/Torchu/GymBot) | v2.0.1 |
 | CANO JEREZ, IRENE| [IdiomasIV](https://github.com/irenecj/ProyectoIdiomasIV)| v2.0.1 **Reenvío**|
@@ -15,7 +15,7 @@
 | GARCIA CASTILLO, ANTONIO| [TenisLeagueAdmin](https://github.com/antOnioOnio/antOnioOnio-TenisLeagueAdmin-) | v1.0.0 |
 | GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v1.2.1 |
 | GARCIA MARTINEZ, DAVID| | |
-| GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.2.1 |
+| GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.2.2 *Reenvío* |
 | HEREDIA CORTES, DAVID| [PacketService](https://github.com/XDavid1999/PacketService) | v0.1.2 |
 | HERNANDEZ MORENO, DIEGO| [Order'n'Go](https://github.com/LCinder/Order-n-Go)| v1.2.4 |
 | HIDALGO CARMONA, MANUEL| | |
@@ -44,13 +44,13 @@
 | RUIZ FERNANDEZ, TOMAS| | |
 | RUIZ GARCIA, PAULA| | |
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.2.0 |
-| SANZ SANCHEZ, MARIA|[MakeupIV](https://github.com/mariasanzs/makeupIV) |V2.0.1 |
+| SANZ SANCHEZ, MARIA|[MakeupIV](https://github.com/mariasanzs/makeupIV) |V2.0.6 REENVÍO|
 | SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | V 2.0.3 **Reenvio** |
 | STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v2.0.0 |
-| TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v2.0.0 |
+| TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v2.0.2 **Reenvío** |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
 | VEGA JIMENEZ, ALEJANDRO| | |
 | VEGA PALMA, LEANDRO| | |
 | VELA PELEGRINA, SERGIO| [Organize&Go](https://github.com/sergiovp/IV-OrganizeAndGo) | v0.0.7 |
-| VICTORIA MOHAMED, JAVIER| [VGT](https://github.com/javizzyv/VideoGameTracker) |v0.2.0 |
+| VICTORIA MOHAMED, JAVIER| [VGT](https://github.com/javizzyv/VideoGameTracker) | v0.2.1 **Reenvío** |
 | YE , BATE| [DancInform](https://github.com/WolfYe98/Proyecto_IV_Bate)| v1.0.3|
