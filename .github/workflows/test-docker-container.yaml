@@ -29,6 +29,12 @@ jobs:
                 core.exportVariable('user',user)
                 core.exportVariable('repo',repo)
             }
-
+      - name: Descarga repo usuario
+        with:
+          repository: '${{env.user}}/${{env.repo}}'
       - name: Ejecuta contenedor
-        uses: ${{env.user}}/${{env.repo}}
+        with:
+          USER: ${{env.user}}
+          REPO: ${{env.repo}}
+        run: docker run -t -v `pwd`:/test ${USER}/${REPO}
+
