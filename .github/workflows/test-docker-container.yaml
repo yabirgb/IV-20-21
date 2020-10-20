@@ -30,6 +30,7 @@ jobs:
                 core.exportVariable('repo',repo)
             }
       - name: Descarga repo usuario
+        uses: actions/checkout@v2
         with:
           repository: '${{env.user}}/${{env.repo}}'
       - name: Ejecuta contenedor
