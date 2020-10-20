@@ -52,4 +52,4 @@ creación de un contenedor de pruebas. La entrega será  a las  **23:59 del 26 d
 
 ## Siguiente semana
 
-[Quinta semana](semana-06.md).
+[Sexta semana](semana-06.md).
