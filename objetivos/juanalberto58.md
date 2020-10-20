@@ -18,3 +18,8 @@
 - [x] Realizar los ejercicios de Autoevaluación de la [Semana2](https://github.com/juanalberto58/EjerciciosIV.git).
 - [x] Aprender a como empezar a realizar el diseño de un proyecto real.
 - [x] Aprender a solucionar conflictos que puedan suceder con Git.
+
+## Tercera semana
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
+- [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
