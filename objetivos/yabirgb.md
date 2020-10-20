@@ -26,3 +26,12 @@
 - [x] Aprender acerca del desarrollo de tests en Rust ([https://doc.rust-lang.org/book/ch11-01-writing-tests.html](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)).
 - [x] Conocer como manejar errores correctamente en Rust utilizando `Result`.
 - [x] Aprender cómo utilizar `caching` para optimizar la compilación y el _testing_ de programas escritos en `Rust` en CI ([https://levans.fr/rust_travis_cache.html](https://levans.fr/rust_travis_cache.html))
+
+## Cuarta semana
+
+- [x] Realiza los cambios necesarios para reenviar los fallos del hito anterior.
+- [x] Instala `Podman` como nueva herramienta que no conocía.
+- [x] Hacerme cuenta en `dockerhub`.
+- [x] Aprender las cosas básicas de `dockerhub` y `github images`. Configurar `tokens` de acceso.
+- [ ] Aprender a cachear pasos de la construcción de un contenedor de `docker` en `github actions`. 
+- [ ] Ver los ejemplos que comentó en tutoría el profesor.
