@@ -31,3 +31,4 @@
 - [ ] Usar los gestores de versiones en diferentes lenguajes de programación
 - [x] Entender utilidad de los gestores de versiones.
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
+- [x] Reenviar Hito 2
