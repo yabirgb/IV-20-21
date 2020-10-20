@@ -7,8 +7,6 @@ pull request y estad atentos a LibreLabGRX para la siguiente convocatoria.
 ## Objetivos de la semana
 
 * Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento.
-* Instalar, configurar, evaluar y optimizar las prestaciones de un servidor virtual.
-* Configurar los diferentes dispositivos físicos para acceso a los servidores virtuales: acceso de usuarios, redes de comunicaciones o entrada/salida.
 * Diseñar, implementar y construir un centro de procesamiento de datos virtual.
 * Documentar y mantener una plataforma virtual.
 * Optimizar aplicaciones sobre plataformas virtuales.
@@ -51,3 +49,7 @@ y para la semana siguiente habrá que entregar
 el
 [próximo hito](http://jj.github.io/IV/documentos/proyecto/3.Docker),
 creación de un contenedor de pruebas. La entrega será  a las  **23:59 del 26 de octubre**.
+
+## Siguiente semana
+
+[Quinta semana](semana-06.md).
