@@ -106,7 +106,7 @@ SKIP: {
     ok( $iv->{'lenguaje'}, "Declaración de lenguaje correcta" );
   }
   
-  if ( $this_hito >= 3 ) { # Comprobar milestones y eso
+  if ( $this_hito >= 4 ) { # Comprobar milestones y eso
     doing("hito 2");
     isnt( grep( /.travis.yml/, @repo_files), 0, ".travis.yml presente" );
     my $travis_domain = travis_domain( $README, $user, $name );
@@ -116,7 +116,7 @@ SKIP: {
     }
   }
 
-  if ( $this_hito > 2 ) { # Usando la buildtool para desplegar microservicio
+  if ( $this_hito > 3 ) { # Usando la buildtool para desplegar microservicio
     doing("hito 3");
     my ($buildtool) = ($README =~ m{(?:buildtool:)\s+(\S+)\s+});
     ok( $buildtool, "No he podido encontrar el fichero de build" );
