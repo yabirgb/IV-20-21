@@ -15,7 +15,7 @@
 - [x] Familiarizarme más con el concepto de virtualización.
 - [x] Indagar un poco en la virtualización a nivel de SO y técnicas hardware.
 - [x] Tener una visión global sobre la Infraestructura Virtual.
-- [x] Leer sobre los *X as a service*. 
+- [x] Leer sobre los _X as a service_.
 - [x] Aprender sobre el sistema de issues, hitos y estructuración del proyecto de la asignatura.
 
 ## Tercera semana
@@ -24,3 +24,9 @@
 - [x] Entender los beneficios de user un gestor de versiones versus versiones de repositorio de diferentes lenguajes de programación.
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
 
+## Cuarta semana
+
+- [x] [Ver video sobre QA:](https://youtu.be/wD_og-3KOsE)
+- [x] Investigar despliegue de contenedores en algún PaaS como Heroku
+- [x] Leer algo sobre orquestación de contenedores
+- [x] Investigar el billing de registros de contenedores de pago
