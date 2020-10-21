@@ -21,14 +21,15 @@ jobs:
             const diff = process.env.diff;
             const ghRepoMatch = /github.com\/(\S+)\/(.+?)(:\s+|\))/.exec(diff)
             if  ( ghRepoMatch === null ) {
-                core.setFailed("❌ There's no repo URL in this diff with required format")
+                core.setFailed("❌ No hay ningún URL de un repositorio con el formato requerido en el diff")
             } else {
                 const user = ghRepoMatch[1] // segundo resultado
                 const repo = ghRepoMatch[2] // tercer resultado
-                console.log( "» Retrieving repo " + repo + " for user " + user )
-                const non_paginated_issues = await github.issues.listForRepo( { owner: user, repo: repo })
+                console.log( "» Analizando repo " + repo + " del usuario 🔥" + user )
+                const non_paginated_issues = await github.issues.listForRepo.endpoint.merge( { owner: user, repo: repo })
                 const issues = await github.paginate( non_paginated_issues )
-                const user_stories = issues.filter( issue => issue.label == "user_stories" && issue.description.includes('HU') )
+                const user_stories = issues.filter( issue => issue.label == "user-stories" && issue.description.includes('HU') )
+                console.log( user_stories )
                 if ( user_stories ) {
                     console.log( " ✅ Hay al menos una historia de usuario " )
                 } else {
