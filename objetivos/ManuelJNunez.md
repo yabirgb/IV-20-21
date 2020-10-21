@@ -29,3 +29,4 @@
 - [x] Entender Docker y el ecosistema de contenedores.
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
 - [x] Aprender a usar `DockerHub`.
+- [ ] Buscar información sobre alternativas a Docker (`podmad`, `buildah`).
