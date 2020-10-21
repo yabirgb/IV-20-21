@@ -32,7 +32,7 @@ jobs:
                 const user_stories = issues.filter(
                     issue =>
                         issue.labels.filter( label => label.name === "user-stories" ).length > 0
-                        && issue.description.includes('HU')
+                        && issue.title.includes('HU')
                 )
                 console.log( user_stories )
                 if ( user_stories.length > 0 ) {
