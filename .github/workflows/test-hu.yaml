@@ -31,7 +31,7 @@ jobs:
                 console.log( issues.filter( issue => issue.label != "" ) )
                 console.log( issues.map( function( issue ) {
                     return issue.label
-                })
+                }) )
                 console.log( issues.filter( issue => issue.label === "user-stories" ) )
                 const user_stories = issues.filter( issue => issue.label == "user-stories" && issue.description.includes('HU') )
                 console.log( user_stories )
