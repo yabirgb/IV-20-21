@@ -54,7 +54,6 @@ jobs:
                           issue: issue.number
                         }
                         const result = await github.graphql(query, variables)
-                        console.log( result.repository.issue.timelineItems.nodes[0] )
                         if ( result.repository.issue.timelineItems.nodes[0].closer != null ) {
                             const closingEvent = result.repository.issue.timelineItems.nodes[0].closer.__typename
                             if ( (closingEvent == 'Commit') || (closingEvent == 'PullRequest') ) {
