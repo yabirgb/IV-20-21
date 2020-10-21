@@ -54,7 +54,7 @@ jobs:
                           name: repo,
                           issue: issue.number
                         }
-                        const result
+                        let result
                         try {
                             result = await github.graphql(query, variables)
                         } catch (error) {
