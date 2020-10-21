@@ -60,4 +60,4 @@
 
 - [X] Comprender el papel de las build tools o herramientas de automatización.
 
-- [X] Indagar en el uso de una herramienta de automatización concreta. En mi caso, me he decantado por Gulp.
+- [X] Indagar en el uso de una herramienta de automatización concreta. En mi caso, he elegido la herramienta de automatización Gulp.
