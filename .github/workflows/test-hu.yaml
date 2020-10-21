@@ -30,7 +30,7 @@ jobs:
                 const issues = await github.paginate( non_paginated_issues )
                 const user_stories = issues.filter( issue => issue.label == "user-stories" && issue.description.includes('HU') )
                 console.log( user_stories )
-                if ( user_stories ) {
+                if ( user_stories.length > 0 ) {
                     console.log( " ✅ Hay al menos una historia de usuario " )
                 } else {
                     core.setFailed( " ❌ No hay ninguna historia de usuario en el repo " )
