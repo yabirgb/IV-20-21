@@ -54,12 +54,19 @@ jobs:
                           name: repo,
                           issue: issue.number
                         }
-                        const result = await github.graphql(query, variables)
-                        const closingEvent = result.repository.issue.timelineItems.nodes[0].closer.__typename
-                        if ( (closingEvent == 'Commit') || (closingEvent == 'PullRequest') ) {
-                            console.log(" ✅ El issue " + issue.number + " se cerró con un " + closingEvent )
-                        } else {
-                            core.setFailed( "❌ El issue " + issue.number + " no se cerró con un commit o PR")
+                        const result
+                        try {
+                            result = await github.graphql(query, variables)
+                        } catch (error) {
+                            console.log( "❌ Error en el issue " + issue.number )
+                        }
+                        if ( result ) {
+                            const closingEvent = result.repository.issue.timelineItems.nodes[0].closer.__typename
+                            if ( (closingEvent == 'Commit') || (closingEvent == 'PullRequest') ) {
+                                console.log(" ✅ El issue " + issue.number + " se cerró con un " + closingEvent )
+                            } else {
+                                core.setFailed( "❌ El issue " + issue.number + " no se cerró con un commit o PR")
+                            }
                         }
                   }
                 })
