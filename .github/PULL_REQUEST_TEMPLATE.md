@@ -29,6 +29,8 @@ Corresponde al hito <incluir número del hito aquí>
 * [ ] Cumplo los prerrequisitos (he aprobado el hito anterior, por ejemplo)
 * [ ] He actualizado con la última versión del fichero de entrega (con
   `pull --rebase`) y añadido mi contribución en su línea.
+* [ ] He alcanzado los objetivos correspondientes y el fichero está
+  actualizado hace más de una hora.
 * [ ] Si estoy enviando otra versión porque no aprobé la
 anterior, he [seguido las instrucciones para reenvíos](http://jj.github.io/IV/documentos/proyecto/Reenvios).
 
