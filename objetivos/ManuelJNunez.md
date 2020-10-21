@@ -24,3 +24,8 @@
 - [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
 - [x] Entender cómo usar los frameworks para tests unitarios de TypeScript/JavaScript en node.
+
+## Cuarta semana
+- [x] Entender Docker y el ecosistema de contenedores.
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] Aprender a usar `DockerHub`.
