@@ -32,7 +32,6 @@ jobs:
                 const issues = await github.paginate( non_paginated_issues )
                 issues.forEach( async function( issue ) {
                     if ( ! issue.pull_request ) {
-                        console.log( issue )
                         const query = `query($owner:String!, $name:String!, $issue:Int!) {
                             repository(name: $name , owner: $owner  ) {
                               issue(number: $issue) {
@@ -54,19 +53,17 @@ jobs:
                           name: repo,
                           issue: issue.number
                         }
-                        let result
-                        try {
-                            result = await github.graphql(query, variables)
-                        } catch (error) {
-                            console.log( "❌ Error en el issue " + issue.number )
-                        }
-                        if ( result ) {
+                        const result = await github.graphql(query, variables)
+                        console.log( result.repository.issue.timelineItems.nodes[0] )
+                        if ( result.repository.issue.timelineItems.nodes[0].closer != null ) {
                             const closingEvent = result.repository.issue.timelineItems.nodes[0].closer.__typename
                             if ( (closingEvent == 'Commit') || (closingEvent == 'PullRequest') ) {
                                 console.log(" ✅ El issue " + issue.number + " se cerró con un " + closingEvent )
                             } else {
                                 core.setFailed( "❌ El issue " + issue.number + " no se cerró con un commit o PR")
                             }
+                        } else {
+                          console.log( "❌ El issue " + issue.number + " no está cerrado aunque aparece en la lista de tales " )
                         }
                   }
                 })
