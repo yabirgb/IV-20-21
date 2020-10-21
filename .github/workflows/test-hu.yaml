@@ -28,14 +28,10 @@ jobs:
                 console.log( "» Analizando repo " + repo + " del usuario 🔥" + user )
                 const non_paginated_issues = await github.issues.listForRepo.endpoint.merge( { owner: user, repo: repo })
                 const issues = await github.paginate( non_paginated_issues )
-                console.log( issues.filter( issue => issue.labels.indexOf("user-stories") > -1 ) )
-                console.log( issues.map( function( issue ) {
-                    return issue.labels
-                }) )
-                console.log( issues.filter( issue => issue.labels.indexOf("user-stories") > -1 ) )
+                console.log( issues.filter( issue => issue.labels.filter( label => label.name === "user-stories" ).length > 0 ) )
                 const user_stories = issues.filter(
                     issue =>
-                        issue.labels.indexOf("user-stories") > -1
+                        issue.labels.filter( label => label.name === "user-stories" ).length > 0
                         && issue.description.includes('HU')
                 )
                 console.log( user_stories )
