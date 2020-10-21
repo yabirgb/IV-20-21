@@ -21,7 +21,7 @@ jobs:
             const diff = process.env.diff;
             const ghRepoMatch = /github.com\/(\S+)\/(.+?)(:\s+|\))/.exec(diff)
             if  ( ghRepoMatch === null ) {
-                core.setFailed("❌ There's no repo URL in this diff with required format")
+                core.setFailed("❌ No hay ningún URL de un repositorio con el formato requerido")
             } else {
                 const user = ghRepoMatch[1] // segundo resultado
                 const repo = ghRepoMatch[2] // tercer resultado
