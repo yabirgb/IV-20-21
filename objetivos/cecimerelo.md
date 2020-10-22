@@ -32,3 +32,15 @@
 - [x] Entender utilidad de los gestores de versiones.
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
 - [x] Reenviar Hito 2
+
+## Semana 4
+
+- [x] Entender Docker y el ecosistema de contenedores.
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+
+## Semana 5
+
+- [ ] Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento.
+- [ ] Diseñar, implementar y construir un centro de procesamiento de datos virtual.
+- [ ] Documentar y mantener una plataforma virtual.
+- [ ] Optimizar aplicaciones sobre plataformas virtuales.
