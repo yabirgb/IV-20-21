@@ -19,8 +19,8 @@ jobs:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
             const files = process.env.files
-            console.log( files[0] )
-            console.log( files[0].to )
+            console.log( files )
+            console.log( context )
             const ficheroObjetivosMatch = /objetivos\/(.+?)\.md/.exec(files[0].to)
             if  ( ficheroObjetivosMatch === null ) {
                 core.setFailed("❌ No hay fichero de objetivos enviado")
