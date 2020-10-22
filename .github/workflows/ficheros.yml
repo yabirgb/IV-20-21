@@ -1,4 +1,4 @@
-name: "Comprobaciones básicas"
+name: "Comprobaciones básicas del cuerpo del PR"
 on: [pull_request]
 
 jobs:
