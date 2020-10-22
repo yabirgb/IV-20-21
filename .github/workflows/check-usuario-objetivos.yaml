@@ -20,6 +20,7 @@ jobs:
           script: |
             const diff = process.env.diff
             console.log( diff )
+            console.log( context )
             const ficheroObjetivosMatch = /objetivos\/(.+?)\.md)/.exec(diff)
             if  ( ficheroObjetivosMatch === null ) {
                 core.setFailed("❌ No hay fichero de objetivos enviado")
