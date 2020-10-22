@@ -7,3 +7,4 @@ Lista de objetivos del profe
 - [x] Corregir las prácticas.
 - [x] Arreglar los GH actions.
 - [x] Probar con nueva versión
+- [x] Buscar los diffs y lo que contienen
