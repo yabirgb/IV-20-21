@@ -10,3 +10,4 @@ Lista de objetivos del profe
 - [x] Buscar los diffs y lo que contienen
 - [x] Avisar del cambio
 - [x] Aprender TS
+- [x] Y que las variables de entorno sólo contienen strings   
