@@ -70,7 +70,7 @@ SKIP: {
 
   my $repo_dir = create_student_repo_dir( $url_repo, $mi_repo, $user, $name );
   my $student_repo = Git->repository ( Directory => $repo_dir );
-  
+
   my @repo_files = $student_repo->command("ls-files");
   say "Ficheros\n\t→", join( "\n\t→", @repo_files);
 
