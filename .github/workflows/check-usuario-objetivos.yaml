@@ -18,8 +18,7 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            const files = process.env.files
-            console.log( process.env.files[0] )
+            const files = JSON.stringify(process.env.files)
             console.log( "TypeScript" )
             console.log( files[0] )
             const ficheroObjetivosMatch = /objetivos\/(.+?)\.md/.exec(process.env.files[0]['to'])
