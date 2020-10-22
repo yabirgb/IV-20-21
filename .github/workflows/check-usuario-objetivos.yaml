@@ -13,21 +13,20 @@ jobs:
         with:
           github-token: ${{github.token}}
           filesChanged: 1
-      - name: Busca historias de usuario
+      - name: Comprueba que el usuario es correcto
         uses: actions/github-script@v3
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
             const diff = process.env.diff
             console.log( diff )
-            console.log( context )
-            const ficheroObjetivosMatch = /objetivos\/(.+?)\.md)/.exec(diff)
+            const ficheroObjetivosMatch = /objetivos\/(.+?)\.md/.exec(diff)
             if  ( ficheroObjetivosMatch === null ) {
                 core.setFailed("❌ No hay fichero de objetivos enviado")
             } else {
                 const user = ficheroObjetivosMatch[1] // segundo resultado
-                if ( user !== context.actor ) {
-                    core.setFailed("❌ El fichero de objetivos enviado " + user + ".md no corresponde a " + context.actor)
+                if ( user !== context.sender.login ) {
+                    core.setFailed("❌ El fichero de objetivos enviado " + user + ".md no corresponde a " + context.sender.login)
                 }
             }
 
