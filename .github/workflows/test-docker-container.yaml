@@ -29,13 +29,10 @@ jobs:
                 core.exportVariable('user',user)
                 core.exportVariable('repo',repo)
             }
-      - name: Descarga repo usuario
+      - name: Descarga repo usuario y ejecuta contenedor
         uses: actions/checkout@v2
         with:
           repository: '${{env.user}}/${{env.repo}}'
       - name: Ejecuta contenedor
-        with:
-          USER: ${{env.user}}
-          REPO: ${{env.repo}}
-        run: docker run -t -v `pwd`:/test ${USER}/${REPO}
+        run: docker run -t -v `pwd`:/test ${user}/${repo}
 
