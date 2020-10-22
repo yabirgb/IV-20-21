@@ -21,7 +21,6 @@ jobs:
             const files = JSON.parse(process.env.files)
             const ficheroObjetivosMatch = /objetivos\/(.+?)\.md/.exec(files[0].to)
             const sender = context.payload.sender.login
-            console.log( context.payload.sender )
             if  ( ficheroObjetivosMatch === null ) {
                 core.setFailed("❌ No hay fichero de objetivos enviado")
             } else {
