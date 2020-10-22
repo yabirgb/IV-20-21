@@ -20,12 +20,14 @@ jobs:
           script: |
             const files = JSON.parse(process.env.files)
             const ficheroObjetivosMatch = /objetivos\/(.+?)\.md/.exec(files[0].to)
+            const sender = context.payload.sender.login
+            console.log( context.payload.sender )
             if  ( ficheroObjetivosMatch === null ) {
                 core.setFailed("❌ No hay fichero de objetivos enviado")
             } else {
                 const user = ficheroObjetivosMatch[1] // segundo resultado
-                if ( user !== context.sender.login ) {
-                    core.setFailed("❌ El fichero de objetivos enviado " + user + ".md no corresponde a " + context.sender.login)
+                if ( user !== sender ) {
+                    core.setFailed("❌ El fichero de objetivos enviado " + user + ".md no corresponde a " + sender)
                 }
             }
 
