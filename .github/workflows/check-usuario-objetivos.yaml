@@ -26,7 +26,7 @@ jobs:
             } else {
                 const user = ficheroObjetivosMatch[1] // segundo resultado
                 if ( user !== context.actor ) {
-                    core.setFailed("❌ El fichero de objetivos enviado no corresponde a " + user)
+                    core.setFailed("❌ El fichero de objetivos enviado " + user + ".md no corresponde a " + context.actor)
                 }
             }
 
