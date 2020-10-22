@@ -6,3 +6,4 @@ Lista de objetivos del profe
 - [x] Actualizar las [sesiones semanales](../sesiones).
 - [x] Corregir las prácticas.
 - [x] Arreglar los GH actions.
+- [x] Probar con nueva versión
