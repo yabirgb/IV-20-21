@@ -79,7 +79,6 @@ SKIP: {
     isnt( grep( /$f/, @repo_files), 0, "$f presente" );
   }
 
-
   # Get the extension used for the README
   my ($readme_file) = grep( /^README/, @repo_files );
   my $README =  read_text( "$repo_dir/$readme_file");
@@ -105,7 +104,13 @@ SKIP: {
     }
     ok( $iv->{'lenguaje'}, "Declaración de lenguaje correcta" );
   }
-  
+
+  if ( $this_hito >= 3 ) {
+    doing("hito 3");
+    file_present( "Dockerfile", \@repo_files, " de $f" );
+    ok( $iv->{'lenguaje'}, "Declaración de lenguaje correcta" );
+  }
+
   if ( $this_hito >= 4 ) { # Comprobar milestones y eso
     doing("hito 2");
     isnt( grep( /.travis.yml/, @repo_files), 0, ".travis.yml presente" );
