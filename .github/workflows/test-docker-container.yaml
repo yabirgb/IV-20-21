@@ -34,5 +34,8 @@ jobs:
         with:
           repository: '${{env.user}}/${{env.repo}}'
       - name: Ejecuta contenedor
-        run: CONTAINER=${user}/${repo} docker run -t -v `pwd`:/test ${CONTAINER,,}
+        run: |
+          export CONTAINER=${user}/${repo}
+          echo ${CONTAINER,,}
+          docker run -t -v `pwd`:/test ${CONTAINER,,}
 
