@@ -107,7 +107,7 @@ SKIP: {
 
   if ( $this_hito >= 3 ) {
     doing("hito 3");
-    file_present( "Dockerfile", \@repo_files, " de $f" );
+    file_present( "Dockerfile", \@repo_files, " de contenedores" );
     ok( $iv->{'lenguaje'}, "Declaración de lenguaje correcta" );
   }
 
