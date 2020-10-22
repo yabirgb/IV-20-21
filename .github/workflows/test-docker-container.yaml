@@ -1,11 +1,11 @@
-name: "Comprueba cómo se han cerrado los issues"
+name: "Comprueba la existencia del contenedor de docker"
 on:
   pull_request:
     paths:
       - 'proyectos/hito-[34567].md'
 
 jobs:
-  closing_issue_check:
+  docker_check:
     runs-on: ubuntu-latest
     steps:
       - name: Extrae URL del repositorio
