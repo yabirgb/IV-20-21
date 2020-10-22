@@ -5,7 +5,7 @@ on:
       - 'objetivos/*'
 
 jobs:
-  triage:
+  Etiquetador:
     runs-on: ubuntu-latest
     steps:
       - name: Etiqueta el PR con "objetivos"
@@ -13,11 +13,10 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            console.log( context.payload.pull_request )
             github.issues.addLabels({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.payload.pull_request.number,
               labels: ["objetivos"]
             })
-              
+
