@@ -9,3 +9,4 @@ Lista de objetivos del profe
 - [x] Probar con nueva versión
 - [x] Buscar los diffs y lo que contienen
 - [x] Avisar del cambio
+- [x] Aprender TS
