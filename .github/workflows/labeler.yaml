@@ -1,0 +1,10 @@
+name: "Etiquetador de pull request"
+on: [pull_request]
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/labeler@main
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
