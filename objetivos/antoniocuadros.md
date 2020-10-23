@@ -27,3 +27,10 @@
 - [X] Profundizar en las pruebas software en Ruby haciendo uso concretamente de [minitest](https://github.com/seattlerb/minitest).
 - [X] Profundizar en la gestión de dependencias en Ruby, más concretamente se ha entendido el funcionamiento de [Bundler](https://bundler.io/)
 - [X] Se ha profundizado en el uso de [rake](https://rubygems.org/gems/rake/versions/11.2.2?locale=es) como herramienta de automatización.
+
+## Semana del 20 de octubre
+- [X] Comprender la necesidad de los contenedores.
+- [X] Entender la gestión de contenedores con Docker.
+- [X] Entender las buenas prácticas a la hora de escribir un Dockerfile.
+- [X] Conocer y familiarizarme con Docker Hub.
+- [X] Configuración de Docker para no tener que ejecutarlo constantemente como super-usuario.
