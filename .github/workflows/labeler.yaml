@@ -10,7 +10,6 @@ jobs:
     steps:
       - name: Etiqueta el PR con "objetivos"
         with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
           OWNER: ${{ github.repository_owner }}
           REPO:  ${{ github.repository }}
         run: |
