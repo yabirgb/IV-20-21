@@ -19,17 +19,19 @@
 
 ## Semana 3 (6 de octubre)
 - [x] 1. Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
-
 - [x] 2. Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
-
 - [x] 3. Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
-
 - [x] 4. Entender qué son los objetivos y cómo hacerlos correctamente.
-
 - [x] 5. Entender el formato JSON y el YAML y su importancia para ficheros de configuración e intercambio genérico de datos.
-
 - [x] 6. Comprender la utilidad de la virtualización y definición en un fichero de herramientas de desarrollo (makefiles, rakefiles, requirements.txt, package.json, cpanfile, ficheros de Maven...).
-
 - [x] 7. Instalar las herramientas necesarias para crear y aplicar tests en un proyecto.
-
 - [x] 8. Comprender el papel de las build tools o herramientas de automatización.
+
+## Semana 4 (13 de Octubre)
+- [x] 1. Entender Docker y el ecosistema de contenedores.
+- [x] 2. Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] 3. Entender los errores en el hito 1.
+- [x] 4. Evitar las faltas de ortografía en el README. 
+- [x] 5. Configuración de shell y línea de órdenes para que se pueda ver claramente cómo está el desarrollo en un repositorio.
+- [x] 6. Entender el formato YAML y su uso en la descripción de diferentes infraestructuras virtuales.
+- [x] 7. [Ejercicios](https://github.com/alexrodriguezlop/EjerciciosIV2021/tree/master/Semana4)
