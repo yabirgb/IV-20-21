@@ -38,3 +38,7 @@
 - [x] Entender bien cómo funcionan los *Dockerfiles*, su sintaxis y las *buenas prácticas* del uso de los mismos
 - [x] Probar *Docker Hub* y otros tipos de servicios de despliegue existentes, como *Now* o *Heroku* 
 
+
+
+
+
