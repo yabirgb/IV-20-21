@@ -32,7 +32,7 @@
 ---
 
 ## Semana 4: 23/10
-- [x] Entender qué son y para qué sirven los contenedores (virtualmente hablando)
+- [x] Entender qué son y para qué sirven los contenedores (virtualmente hablando).
 - [x] Descargar y probar varios tipos de contenedores y ver qué imágenes existen ya subidas
 - [x] Entender que *commit* también se usa con contendores 
 - [x] Entender bien cómo funcionan los *Dockerfiles*, su sintaxis y las *buenas prácticas* del uso de los mismos
