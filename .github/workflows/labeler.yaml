@@ -1,0 +1,19 @@
+name: "Etiquetador de pull request"
+on:
+  pull_request:
+    paths:
+      - 'objetivos/*'
+
+jobs:
+  Etiquetador:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Etiqueta el PR con "objetivos"
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          OWNER: ${{ github.repository_owner }}
+          REPO:  ${{ github.repository }}
+        run: |
+          PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
+          echo "owner $OWNER repo $REPO $PR_NUMBER"
+
