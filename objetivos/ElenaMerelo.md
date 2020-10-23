@@ -26,3 +26,10 @@
 - [X] Por qué se usan entornos virtuales de desarrollo
 - [X] Aprender sobre las herramientas de construcción, y el proceso de construcción, minificación o transpilación
 - [X] Qué es la integración contínua y por qué será nuestra amiga y enemiga
+
+## Cuarta semana
+
+- [X] Ver cómo funciona Docker
+- [X] Instalar Docker
+- [X] Para que se usan los contenedores
+- [X] Entender qué son y cómo se usan los dockerfiles
