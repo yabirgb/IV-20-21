@@ -22,3 +22,10 @@
 - [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
 - [x] Aplicar un framework de test unitario para node y entender su funcionamiento 
+
+## Cuarta semana
+- [x] [Ver video sobre QA:](https://youtu.be/wD_og-3KOsE)
+- [x] Leer algo sobre orquestación de contenedores
+- [x] Investigar el billing de registros de contenedores de pago
+- [x] Entender cómo las diferentes tecnologías de virtualización se integran en la creación de contenedores.
+- [x] Investigar y crear cuenta en DockerHub.
