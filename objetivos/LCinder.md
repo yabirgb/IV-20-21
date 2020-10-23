@@ -36,4 +36,4 @@
 - [x] Descargar y probar varios tipos de contenedores y ver qué imágenes existen ya subidas
 - [x] Entender que *commit* también se usa con contendores 
 - [x] Entender bien cómo funcionan los *Dockerfiles*, su sintaxis y las *buenas prácticas* del uso de los mismos
-- [x] Probar *Docker Hub* y otros tipos de servicios de despliegue existentes, como *Now* o *Heroku* 
+- [x] Probar *Docker Hub* y otros tipos de servicios de despliegue existentes, como *Now* o *Heroku*
