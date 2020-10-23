@@ -10,13 +10,12 @@ jobs:
     steps:
       - name: Etiqueta el PR con "objetivos"
         env:
-          github-token: ${{secrets.GITHUB_TOKEN}}
           OWNER: ${{ github.repository_owner }}
           REPO:  ${{ github.repository }}
         run: |
           PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
-          curl -X PUT -H "Accept: application/vnd.github.v3+json" \
-            -H "Authorization: bearer ${github-token}" \
+          curl -X PUT -H "Authorization: Bearer ${{secrets.GITHUB_TOKEN}}" \
+            -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${OWNER}/${REPO}/issues/${PR_NUMBER}/labels \
             -d '{"labels":["objetivos"]}'
 
