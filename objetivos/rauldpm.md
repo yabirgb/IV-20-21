@@ -23,3 +23,10 @@
 - [x] Comprender como las pruebas de software encajan dentro del concepto de infraestructura virtual.
 - [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
+
+## Semana 4
+
+- [x] Entender Docker y el ecosistema de contenedores.
+- [x] Comprender como encajan las pruebas de software dentro del concepto de infraestructura virtual.
+- [x] Entender Dockerfile y su necesidad de uso.
+- [x] Investigar sobre Docker Hub.
