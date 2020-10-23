@@ -31,8 +31,7 @@ Corresponde al hito <incluir número del hito aquí>
   `pull --rebase`) y añadido mi contribución en su línea.
 * [ ] He alcanzado los objetivos correspondientes y el fichero está
   actualizado hace más de una hora.
-* [ ] Si estoy enviando otra versión porque no aprobé la
-anterior, he [seguido las instrucciones para reenvíos](http://jj.github.io/IV/documentos/proyecto/Reenvios).
+* [ ] Si estoy enviando otra versión para su nueva corrección, he [seguido las instrucciones para reenvíos](http://jj.github.io/IV/documentos/proyecto/Reenvios).
 
 ## Descripción de la entrega (sólo si es un reenvío)
 
