@@ -14,7 +14,10 @@ jobs:
           OWNER: ${{ github.repository_owner }}
           REPO:  ${{ github.repository }}
         run: |
-          echo $GITHUB_REF
           PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
-          echo "owner $OWNER repo $REPO $PR_NUMBER"
+          curl -X PUT -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${GITHUB_TOKEN}" \
+            https://api.github.com/repos/${OWNER}/${REPO}/issues/${PR_NUMBER}/labels \
+            -d '{"labels":["objetivos"]}'
+
 
