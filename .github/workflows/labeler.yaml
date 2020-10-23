@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Etiqueta el PR con "objetivos"
-        with:
+        env:
+          github-token: ${{secrets.GITHUB_TOKEN}}
           OWNER: ${{ github.repository_owner }}
           REPO:  ${{ github.repository }}
         run: |
