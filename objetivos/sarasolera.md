@@ -25,5 +25,5 @@
 ## Cuarta semana 20 Octubre
 - [x] He entendido la virtualización con contenedores, y la diferencia con las máquinas virtuales.
 - [x] He entendido cómo funciona docker, e instalé podman, una alternativa.
-- [x] He investigado sobre docker hub, he aprendido qué es, y me he hecho una cuenta.
+- [x] He investigado sobre [https://hub.docker.com/](dockerHub), he aprendido qué es, y me he hecho una cuenta.
 - [x] He comprendido qué es un Dockerfile y cómo realizarlo con buenas prácticas.
