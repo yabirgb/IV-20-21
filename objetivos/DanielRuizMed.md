@@ -26,3 +26,11 @@
 - [x] Aprender sobre las herramientas de construcción, y el proceso de construcción, minificación o transpilación
 - [x] Qué es la integración contínua y por qué será nuestra amiga y enemiga
 
+## Cuarta semana
+- [x] Entender Docker y el ecosistema de contenedores.
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento.
+- [x] Diseñar, implementar y construir un centro de procesamiento de datos virtual.
+- [x] Documentar y mantener una plataforma virtual.
+- [x] Optimizar aplicaciones sobre plataformas virtuales.
+
