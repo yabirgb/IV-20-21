@@ -21,3 +21,9 @@
 - [x] He comprendido, qué son, cómo funcionan y para qué necesitamos nosotros las pruebas software.
 - [x] He usado el gestor de versiones de nodejs, en concreto **nvm**, que es el que usare en mi proyecto, y he entendido su utilidad.
 - [x] He entendido qué son los ficheros de requisitos o dependencias y su utilidad.
+
+## Cuarta semana 20 Octubre
+- [x] He entendido la virtualización con contenedores, y la diferencia con las máquinas virtuales.
+- [x] He entendido cómo funciona docker, e instalé podman, una alternativa.
+- [x] He investigado sobre docker hub, he aprendido qué es, y me he hecho una cuenta.
+- [x] He comprendido qué es un Dockerfile y cómo realizarlo con buenas prácticas.
