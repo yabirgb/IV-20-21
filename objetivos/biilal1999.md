@@ -44,3 +44,14 @@
 - [x] Aprender a instalar gemas de Ruby, como por ejemplo, *RSpec*
 - [x] Entender cómo funciona *Rakefile*, el archivo de ejecución de tareas de Ruby
 - [x] Adquirir técnicas para testear excepciones en Ruby
+
+
+## Cuarta semana
+
+- [x] Comprender la utilidad del uso de Docker
+- [x] Aprender a diferenciar y comparar entre distintas imágenes base para Docker, según el tamaño o la velocidad
+- [x] Aprender a configurar [Dockerfile](https://github.com/biilal1999/GameStore/blob/master/Dockerfile)
+- [x] Entender el parámetro `-v` en la ejecución de Docker
+- [x] Aprender a subir nuestro contenedor a Docker Hub
+- [x] Entender como configurar nuestro repositorio en Docker Hub para que se actualice conforme lo vamos modificando en GitHUb
+- [x] Aprender a utilizar GitHUb Container Registry
