@@ -7,11 +7,16 @@ Buscad *issues* con la etiqueta *hacktoberfest* en todo GitHub.
 ## Objetivos de la semana
 
 * Entender el concepto de integración continua y a usarla en una aplicación.
+* Comenzar con la configuración de los sistemas de integración
+   continua.
+* Comprender cómo las pruebas de software encajan dentro del concepto
+   de infraestructura virtual.
 
 ## Otros objetivos
 
-* Haber entregado el hito 3, o estar a punto de entregarlo.
+* Haber entregado el hito 3, o estar a punto de hacerlo.
 * Darse de alta en Travis y otros servicios de integración/despliegue continuo.
+* Entender el formato YAML y su uso en la descripción de diferentes infraestructuras virtuales. 
 
 ## Material para la clase
 
