@@ -28,3 +28,10 @@
 - [X] Entender para que sirven los ficheros de requisitos y dependencias, como package.json, y su utilidad.
 - [X] Aprender a utilizar node.js.
 - [X] Comprender el papel de las herramientas de automatización.
+
+## Cuarta Semana
+- [X] Saber como usar contenedores para testear nuestra app
+- [X] Saber contruir dockerfiles para configurar contenedores
+- [X] Aprender a usar DockerHub
+- [X] Aprender a usar GitHub Container Registry
+- [X] Comparar tieempos de varias imágenes para saber cual es más conveniente
