@@ -50,7 +50,7 @@
 
 - [x] Comprender la utilidad del uso de Docker
 - [x] Aprender a diferenciar y comparar entre distintas imágenes base para Docker, según el tamaño o la velocidad
-- [x] Aprender a configurar Dockerfile
+- [x] Aprender a configurar [Dockerfile](https://github.com/biilal1999/GameStore/blob/master/Dockerfile)
 - [x] Entender el parámetro `-v` en la ejecución de Docker
 - [x] Aprender a subir nuestro contenedor a Docker Hub
 - [x] Entender como configurar nuestro repositorio en Docker Hub para que se actualice conforme lo vamos modificando en GitHUb
