@@ -35,6 +35,10 @@ jobs:
           repository: '${{env.user}}/${{env.repo}}'
       - name: Ejecuta contenedor
         run: |
+          if test -f "DOCKER_USER"; then
+            echo "Usuario de Docker alternativo"
+            user=`cat DOCKER_USER`
+          fi
           export CONTAINER=${user}/${repo}
           docker run -t -v `pwd`:/test ${CONTAINER,,}
 
