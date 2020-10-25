@@ -30,8 +30,8 @@
 - [X] Comprender el papel de las herramientas de automatización.
 
 ## Cuarta Semana
-- [X] Saber como usar contenedores para testear nuestra app, en mi caso [node](https://hub.docker.com/_/node)
-- [X] Saber contruir dockerfiles para configurar contenedores
+- [X] Saber como usar contenedores para testear nuestra app, en mi caso
+- [X] Saber contruir dockerfiles para configurar contenedores, en este caso y para mi proyecto en [mi repositorio](https://github.com/XDavid1999/PacketService)
 - [X] Aprender a usar DockerHub
 - [X] Aprender a usar GitHub Container Registry
 - [X] Comparar tieempos de varias imágenes para saber cual es más conveniente
