@@ -38,3 +38,4 @@
 - [x] Entender Docker y el ecosistema de contenedores.
 - [x] Entender cómo las diferentes tecnologías de virtualización se integran en la creación de contenedores.
 - [x] Comprender los pasos necesarios para la configuración automática de las mismas.
+- [x] Ejercicios del tema 3 [aquí](https://github.com/javizzyv/EjerciciosIV/blob/master/Ejercicios/Tema3.md). 
