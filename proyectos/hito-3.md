@@ -10,7 +10,7 @@
 | CUADROS LAPRESTA, ANTONIO| [WhenToClass](https://github.com/antoniocuadros/WhenToClass) | 1.3.2 |
 | DEL POZO MORENO, RAUL| | |
 | FERNANDEZ TORRALBO, MIGUEL ANGEL| | |
-| GAMIZ DELGADO, ANTONIO | | |
+| GAMIZ DELGADO, ANTONIO |[Manga API](https://github.com/antoniogamiz/manga-api) | v1.0.0 |
 | GARCIA BENCHAKHTIR, YABIR| | | |
 | GARCIA CASTILLO, ANTONIO| [TenisLeagueAdmin](https://github.com/antOnioOnio/TenisLeagueAdmin) | v1.2 |
 | GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v1.3.0 |
