@@ -31,3 +31,11 @@
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
 - [x] Conocer los conceptos relacionados con el proceso de virtualización tanto de software como de hardware.
 - [ ] Hacer ejercicios de [este](http://jj.github.io/IV/documentos/temas/Desarrollo_basado_en_pruebas) tema.
+
+## Semana 4-5
+
+- [x] Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento.
+- [x] Entender Docker y el ecosistema de contenedores.
+- [x] Entender cómo las diferentes tecnologías de virtualización se integran en la creación de contenedores.
+- [x] Comprender los pasos necesarios para la configuración automática de las mismas.
+- [x] Ejercicios del tema 3 [aquí](https://github.com/javizzyv/EjerciciosIV/blob/master/Ejercicios/Tema3.md). 
