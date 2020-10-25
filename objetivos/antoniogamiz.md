@@ -31,3 +31,12 @@
 	- Task runner: no hay package.json pero hay existe [drake](https://deno.land/x/drake@v1.2.6), que es parecido a un Makefile pero en TS.
 	- Test runner: `deno test` (en esto y la importación de paquetes por URL se parece un poco a `Go`).
 	- Middleware Framework: [oak](https://deno.land/x/oak@v6.3.1) inspirado en `Koa`, que a su vez fue hecho por algunos de los creadores de ExpressJS.- [x] Repasar como hacer test unitarios útiles y que sean fáciles de mantener.
+
+## Semana 4
+
+- [x] Entender qué es LXC y usarlo directamente en linux (el LXC Web Panel es bastante curioso)
+- [x] Como curiosidad, investigar la alternativa a lxc en Windows, ya que Docker funciona en él: resulta que Windows levanta una máquina virtual de Linux.
+- [x] Consultar la Open Container Initiative (no sabía que había un estándar para contenedores).
+- [x] Instalar docker bien, que al final siempre la lío con los permisos.
+- [x] Instalar también Podman (que trae Buildah incluido) que no necesita permisos de superusuario.
+- [x] Investigar `docker commit <id>`, cuya existencia desconocía.

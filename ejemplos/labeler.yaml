@@ -1,0 +1,22 @@
+name: "Etiquetador de pull request"
+on:
+  pull_request:
+    paths:
+      - 'objetivos/*'
+
+jobs:
+  Etiquetador:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Etiqueta el PR con "objetivos"
+        env:
+          REPO:  ${{ github.repository }}
+        run: |
+          PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
+          echo "https://api.github.com/repos/${OWNER}/${REPO}/issues/${PR_NUMBER}/labels"
+          curl -X PUT -H "Authorization: Bearer ${{secrets.GITHUB_TOKEN}}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${REPO}/issues/${PR_NUMBER}/labels \
+            -d '{"labels":["objetivos"]}'
+
+

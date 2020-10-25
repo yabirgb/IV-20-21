@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Extrae URL del repositorio
-        uses: JJ/github-pr-contains-action@releases/v1
+        uses: JJ/github-pr-contains-action@releases/v2
         with:
           github-token: ${{github.token}}
           filesChanged: 1
@@ -21,11 +21,11 @@ jobs:
             const diff = process.env.diff;
             const ghRepoMatch = /github.com\/(\S+)\/(.+?)(:\s+|\))/.exec(diff)
             if  ( ghRepoMatch === null ) {
-                core.setFailed("❌ There's no repo URL in this diff with required format")
+                core.setFailed("❌ No hay ningún URL de un repositorio con el formato requerido")
             } else {
                 const user = ghRepoMatch[1] // segundo resultado
                 const repo = ghRepoMatch[2] // tercer resultado
-                console.log( "» Retrieving repo " + repo + " for user " + user )
+                console.log( "» Analizando repo " + repo + " del usuario " + user )
                 const non_paginated_issues = await github.issues.listForRepo.endpoint.merge( { owner: user,
                                                                                                repo: repo,
                                                                                                state: "closed" } )
@@ -54,11 +54,15 @@ jobs:
                           issue: issue.number
                         }
                         const result = await github.graphql(query, variables)
-                        const closingEvent = result.repository.issue.timelineItems.nodes[0].closer.__typename
-                        if ( (closingEvent == 'Commit') || (closingEvent == 'PullRequest') ) {
-                            console.log(" ✅ El issue " + issue.number + " se cerró con un " + closingEvent )
+                        if ( result.repository.issue.timelineItems.nodes[0].closer != null ) {
+                            const closingEvent = result.repository.issue.timelineItems.nodes[0].closer.__typename
+                            if ( (closingEvent == 'Commit') || (closingEvent == 'PullRequest') ) {
+                                console.log(" ✅ El issue " + issue.number + " se cerró con un " + closingEvent )
+                            } else {
+                                core.setFailed( "❌ El issue " + issue.number + " no se cerró con un commit o PR")
+                            }
                         } else {
-                            core.setFailed( "❌ El issue " + issue.number + " no se cerró con un commit o PR")
+                          console.log( "❌ El issue " + issue.number + " no está cerrado aunque aparece en la lista de tales " )
                         }
                   }
                 })

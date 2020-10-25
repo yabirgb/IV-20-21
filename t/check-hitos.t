@@ -70,7 +70,7 @@ SKIP: {
 
   my $repo_dir = create_student_repo_dir( $url_repo, $mi_repo, $user, $name );
   my $student_repo = Git->repository ( Directory => $repo_dir );
-  
+
   my @repo_files = $student_repo->command("ls-files");
   say "Ficheros\n\t→", join( "\n\t→", @repo_files);
 
@@ -78,7 +78,6 @@ SKIP: {
   for my $f (qw( README\.(org|md|rst) \.gitignore LICENSE )) { # Tests 5-7
     isnt( grep( /$f/, @repo_files), 0, "$f presente" );
   }
-
 
   # Get the extension used for the README
   my ($readme_file) = grep( /^README/, @repo_files );
@@ -105,8 +104,14 @@ SKIP: {
     }
     ok( $iv->{'lenguaje'}, "Declaración de lenguaje correcta" );
   }
-  
-  if ( $this_hito >= 3 ) { # Comprobar milestones y eso
+
+  if ( $this_hito >= 3 ) {
+    doing("hito 3");
+    file_present( "Dockerfile", \@repo_files, " de contenedores" );
+    ok( $iv->{'lenguaje'}, "Declaración de lenguaje correcta" );
+  }
+
+  if ( $this_hito >= 4 ) { # Comprobar milestones y eso
     doing("hito 2");
     isnt( grep( /.travis.yml/, @repo_files), 0, ".travis.yml presente" );
     my $travis_domain = travis_domain( $README, $user, $name );
@@ -116,7 +121,7 @@ SKIP: {
     }
   }
 
-  if ( $this_hito > 2 ) { # Usando la buildtool para desplegar microservicio
+  if ( $this_hito > 3 ) { # Usando la buildtool para desplegar microservicio
     doing("hito 3");
     my ($buildtool) = ($README =~ m{(?:buildtool:)\s+(\S+)\s+});
     ok( $buildtool, "No he podido encontrar el fichero de build" );

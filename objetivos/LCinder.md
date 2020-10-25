@@ -26,5 +26,14 @@
 - [x] Entender qué significa *integración continua* y el por qué de su existencia
 - [x] Entender qué son los test, su objetivo, como realizarlos, comprobaciones, etc.
 - [x] Probar diferentes herramientas de construcción, sobretodo para el lenguaje a usar (Node.js)
-- [x] Investigar todos los *frameworks* dedicados a test, cuáles son mejores y por qué y elegir uno
+- [x] Investigar todos los *frameworks* dedicados a test, cuáles son mejores y por qué y elegir uno.
 - [x] Probar *Grunt.js* y *Gulp.js* y ver su funcionalidad y cómo automatizar tareas.
+
+---
+
+## Semana 4: 23/10
+- [x] Entender qué son y para qué sirven los contenedores (virtualmente hablando).
+- [x] Descargar y probar varios tipos de contenedores y ver qué imágenes existen ya subidas
+- [x] Entender que *commit* también se usa con contendores 
+- [x] Entender bien cómo funcionan los *Dockerfiles*, su sintaxis y las *buenas prácticas* del uso de los mismos
+- [x] Probar *Docker Hub* y otros tipos de servicios de despliegue existentes, como *Now* o *Heroku*.

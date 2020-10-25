@@ -27,3 +27,9 @@
 - [X] Estudiar el funcionamiento de **RSPEC** para realizar las pruebas de software en Ruby.
 - [X] Comprender el funcionamiento de **Rake** como herramienta de construcción.
 
+## Cuarta semana
+
+- [X] Aprender sobre Docker y el ecosistema de contenedores.
+- [X] Entender como encajan las pruebas software dentro del concepto de infraestructura virtual.
+- [X] Crear cuenta en Docker Hub y aprender su funcionamiento.
+- [X] Investigar sobre la creación de ficheros Dockerfile.

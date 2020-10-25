@@ -73,7 +73,7 @@ del
 (viernes).
 
 Comenzamos con el
-[tercer tema](http://jj.github.io/IV/documentos/temas/Contenedores.md)
+[tercer tema](http://jj.github.io/IV/documentos/temas/Contenedores)
 
 ## Siguiente semana
 

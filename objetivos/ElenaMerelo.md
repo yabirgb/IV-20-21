@@ -20,9 +20,16 @@
 
 ## Tercera semana 
 
-- [X] Por qué hay que automatizar en lo posible el ciclo de vida del software
-- [X] En qué consisten el desarrollo basado en pruebas y las pruebas unitarias
+- [X] Por qué hay que automatizar en lo posible el ciclo de vida del software.
+- [X] En qué consisten el desarrollo basado en pruebas y las pruebas unitarias.
 - [X] Cómo van los tests (en diferentes lenguajes y en general)
 - [X] Por qué se usan entornos virtuales de desarrollo
 - [X] Aprender sobre las herramientas de construcción, y el proceso de construcción, minificación o transpilación
 - [X] Qué es la integración contínua y por qué será nuestra amiga y enemiga
+
+## Cuarta semana
+
+- [X] Ver cómo funciona Docker
+- [X] Instalar Docker
+- [X] Para que se usan los contenedores
+- [X] Entender qué son y cómo se usan los dockerfiles
