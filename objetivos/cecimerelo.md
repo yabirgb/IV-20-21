@@ -40,7 +40,7 @@
 
 ## Semana 5
 
-- [ ] Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento.
-- [ ] Diseñar, implementar y construir un centro de procesamiento de datos virtual.
-- [ ] Documentar y mantener una plataforma virtual.
-- [ ] Optimizar aplicaciones sobre plataformas virtuales.
+- [x] Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento.
+- [x] Diseñar, implementar y construir un centro de procesamiento de datos virtual.
+- [x] Documentar y mantener una plataforma virtual.
+- [x] Optimizar aplicaciones sobre plataformas virtuales.
