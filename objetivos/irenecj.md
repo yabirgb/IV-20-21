@@ -24,4 +24,14 @@
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
 - [x] Usar el gestor de versiones de JavaScript y entender su utilidad.
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
-- [x] Llevar a cabo tests unitarios. 
+- [x] Llevar a cabo tests unitarios.
+
+## Cuarta semana
+- [x] Entender y corregir errores del hito 1, por ejemplo, añadir clases de error o excepción o documentar detalladamente la implementación de las clases.
+- [x] Introducción a Docker y creación de un Dockerfile.
+- [x] Subir correctamente el contenedor a Docker Hub.
+- [x] Subir correctamente el contenedor a GitHub Container Registry.
+- [x] Comparar diferentes aspectos técnicos de las distintas imágenes base que nos podemos encontrar.
+- [x] Mejorar el código fuente del proyecto en base a lo mencionado en los comentarios adicionales de la corrección del hito anterior.
+- [x] Mejorar la documentación del proyecto en base al hito anterior, por ejemplo, poniendo enlaces más visibles y documentando con más detalle.
+- [x] Adjuntar [repositorio](https://github.com/irenecj/ejercicios-autoevaluacion-IV) para los ejercicios.
