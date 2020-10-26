@@ -1,4 +1,4 @@
-# Objetivos de Víctor Cabrita a.k.a. Torchu
+# Objetivos de Víctor Cabrita
 ## Primera semana
 
 - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
@@ -23,3 +23,10 @@ Para comprobar la realización de los objetivos, visite [este enlace](https://gi
 - [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
 - [x] Entender el funcionamiento de node.js y express, ya que me servirán durante el desarrollo del proyecto.
+
+## Cuarta y quinta semana
+
+- [x] Comprender la necesidad y utilidad de los contenedores.
+- [x] Comprender como funciona Docker.
+- [x] Entender cómo funciona DockerHub, comprender su utilidad y crearme una cuenta.
+- [x] Aprender las buenas prácticas a la hora de crear un Dockerfile.
