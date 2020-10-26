@@ -3,7 +3,7 @@
 | AZAÑON CANTERO, SERGIO| | |
 | BELTRAN SANCHEZ, FRANCISCO| [F1 Predictor](https://github.com/currobeltran/F1-Predictor) | v3.0.1 |
 | CABRITA GOMEZ, VICTOR| | |
-| CANO JEREZ, IRENE| | |
+| CANO JEREZ, IRENE| [proyecto-idiomas](https://github.com/irenecj/proyecto-idiomas) | v3.0.1 |
 | CHAVES CABALLERO, MARIO| | |
 | CHEKFEH AL-SABBAGH, MOHAMED BILAL| | |
 | COCA CRUZ, SIXTO| | |
