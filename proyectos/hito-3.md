@@ -15,7 +15,7 @@
 | GARCIA CASTILLO, ANTONIO| [TenisLeagueAdmin](https://github.com/antOnioOnio/TenisLeagueAdmin) | v1.2 |
 | GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v1.3.0 |
 | GARCIA MARTINEZ, DAVID| | |
-| GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.3.2 |
+| GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.3.3 |
 | HEREDIA CORTES, DAVID| | |
 | HERNANDEZ MORENO, DIEGO| | |
 | HIDALGO CARMONA, MANUEL| | |
