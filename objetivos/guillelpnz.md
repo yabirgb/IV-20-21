@@ -39,3 +39,22 @@
 - [x] Aprender más sobre sintaxis de Go
 
 - [x] Entender la utilidad de los test unitarios
+
+## Cuarta semana
+
+- [x] Entender docker y [cómo hacer y no hacer un Dockerfile](https://github.com/JJ/IV-20-21/blob/master/sesiones/semana-06.md)
+
+- [x] Conectar GitHub con DockerHub y configurar los builds automáticos
+
+- [x] Mejorar la documentación, quitando del README cuestiones de otros hitos
+
+- [x] Darme de alta en Travis
+
+- [x] Tener casi terminado el hito 3
+
+- [x] Entender bien el comando que ejecuta el profe para la corrección,
+sobre todo el parámetro -v
+
+- [x] Entender que hay que añadir un link a GitHub en los objetivos
+
+- [x] Entender que solo se puede cambiar un fichero para pasar los tests

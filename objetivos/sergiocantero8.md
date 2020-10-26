@@ -9,7 +9,7 @@
 - [x] Verse la cara con el profesor.
 - [x] Darse de alta (si no se está) y comprender el funcionamiento básico de GitHub y el grupo de Telegram de la asignatura y conocer el resto de los recursos de la misma.
 - [x] Entender el concepto de software libre y su aplicación práctica en esta asignatura.
-- [x] Empezar a usar git y GitHub correctamente.
+- [x] Empezar a usar git y [GitHub](https://www.github.com) correctamente.
 
 ## Segunda semana 
 - [X] Comprender correctamente qué es un microservicio y para qué se utiliza esta técnica actualmente.
@@ -25,3 +25,12 @@
 - [X] Entender los ficheros de dependencias o utilidad y su importancia en la infraestructura virtual.
 - [X] Recordar que código que no ha sido testeado, código roto.
 - [X] Usar los gestores de versiones de los diferentes lenguajes de programación y la utilidad que tienen.
+
+## Cuarta semana
+- [X] Entender y corregir los errores del [hito anterior](https://github.com/JJ/IV-20-21/blob/master/sesiones/semana-05.md)
+- [X] Comprender qué es Docker y la utilidad de los contenedores hoy en día
+- [X] Crearme una cuenta en dockerhub
+- [X] Entender la configuración básica de dockerhub
+- [X] Aprender a crear una imagen de Docker
+- [X] Aprender a ejecutar los tests en un contenedor de Docker
+- [X] Entender como configurar correctamente el Dockerfile
