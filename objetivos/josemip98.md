@@ -29,3 +29,11 @@
 - [x] Instalar las herramientas necesarias para crear y aplicar tests en un proyecto.
 - [x] Comprender el papel de las build tools o herramientas de automatización.
 - [x] Comenzar con el aprendizaje de JavaScript (Lenguaje que utilizaré para el proyecto).
+
+## Cuarta semana
+- [x] Comprender el funcionamiento de Docker y el uso de los contenedores.
+- [x] Comparar distintas imágenes de Docker.
+- [x] Entender las pruebas de software como concepto de infraestructura virtual.
+- [x] Aprender a construir archivos Dockerfile correctamente.
+- [x] Aprender a utilizar Docker Hub y a configurarlo para que se actualize cuando modifiquemos nuestro repositorio de GitHub.
+- [ ] Realizar ejercicios [autoevaluación](https://github.com/josemip98/EjerciciosIV)
