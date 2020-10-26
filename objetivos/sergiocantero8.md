@@ -9,7 +9,7 @@
 - [x] Verse la cara con el profesor.
 - [x] Darse de alta (si no se está) y comprender el funcionamiento básico de GitHub y el grupo de Telegram de la asignatura y conocer el resto de los recursos de la misma.
 - [x] Entender el concepto de software libre y su aplicación práctica en esta asignatura.
-- [x] Empezar a usar git y GitHub correctamente.
+- [x] Empezar a usar git y GitHub[https://www.github.com] correctamente.
 
 ## Segunda semana 
 - [X] Comprender correctamente qué es un microservicio y para qué se utiliza esta técnica actualmente.
