@@ -27,6 +27,6 @@ Para comprobar la realización de los objetivos, visite [este enlace](https://gi
 ## Cuarta y quinta semana
 
 - [x] Comprender la necesidad y utilidad de los contenedores.
-- [x] Comprender como funciona Docker.
-- [x] Entender cómo funciona DockerHub, comprender su utilidad y crearme una cuenta.
+- [x] Comprender como funciona [Docker](https://www.docker.com/).
+- [x] Entender cómo funciona [DockerHub](https://hub.docker.com/), comprender su utilidad y crearme una [cuenta](https://hub.docker.com/u/torchu).
 - [x] Aprender las buenas prácticas a la hora de crear un Dockerfile.
