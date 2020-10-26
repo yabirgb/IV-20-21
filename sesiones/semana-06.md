@@ -21,8 +21,10 @@ Buscad *issues* con la etiqueta *hacktoberfest* en todo GitHub.
     superusuario.
   * Ni las fuentes ni los tests se tienen que copiar al contenedor. Si
     se copian, eso es lo que se ejecuta, no lo que se monta.
-  * Se debe ejecutar siempre el task runner con el target `test`
-  
+  * Se debe ejecutar siempre el task runner con el target `test`.
+  * El repo en Docker hub se tiene que configurar para que se
+    construya automáticamente al hacer push al repo. *No* se admitirá
+    si has hecho `docker push` desde local.
 * Darse de alta en Travis y otros servicios de integración/despliegue continuo.
 * Entender el formato YAML y su uso en la descripción de diferentes infraestructuras virtuales. 
 
