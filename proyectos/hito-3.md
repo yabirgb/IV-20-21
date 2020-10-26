@@ -52,5 +52,5 @@
 | VEGA JIMENEZ, ALEJANDRO| | |
 | VEGA PALMA, LEANDRO| | |
 | VELA PELEGRINA, SERGIO| | |
-| VICTORIA MOHAMED, JAVIER| [VGT](https://github.com/javizzyv/VideoGameTracker) | v0.3.3 |
+| VICTORIA MOHAMED, JAVIER| [VGT](https://github.com/javizzyv/VideoGameTracker) | v0.3.4 |
 | YE , BATE| | |
