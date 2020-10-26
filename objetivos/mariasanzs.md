@@ -29,3 +29,13 @@
 - [x] Entender para qué sirven los tests unitarios.
 - [x] Aprender a desarrollar test con Rspec.
 - [x] Entregar el proyecto en la fecha (16/10).
+
+## Semana del 20/10/2020
+- [x] Comprender y tener claro lo que se nos pide en el hito 3.
+- [x] Ver el [vídeo](https://www.youtube.com/watch?v=wD_og-3KOsE&feature=youtu.be) recomendado por el profesor
+- [x] Comprender como funciona Docker y el uso de los contenedores
+- [x] Aprender a construir archivos [Dockerfile](https://github.com/mariasanzs/makeupIV/blob/master/Dockerfile)
+- [x] Aprender a diferenciar entre distintos contenedores base y analizar los resultados obtenidos para saber cual es el más óptimo.
+- [x] Conocer [Docker Hub](https://hub.docker.com/r/mariasanzs/makeupiv) como herramienta y aprender su funcionamiento
+- [x] Aprender a usar GitHub Container Registry
+- [x] Entregar el proyecto en la fecha (26/10).
