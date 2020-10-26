@@ -32,3 +32,14 @@
 - [X] Comenzar el aprendizaje de node.js y todo su entorno (gestor de versiones, gestor de paquetes, framework de tests...)
 - [X] Comprender la utilidad de la virtualización y definición en un fichero de herramientas de desarrollo (en el caso de node el fichero package.json)
 - [X] Instalar las herramientas necesarias para crear y aplicar tests en un proyecto.
+
+
+# Semanas del 13 de octubre y del 20 de octubre
+
+## Objetivos cumplidos esta semana
+
+- [X] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [X] Entender qué es Docker y las funcionalidades de Dockerfile.
+- [X] Entender que se pueden usar diferentes imágenes para los contenedores dependiendo del objetivo del contenedor.
+- [X] Evaluar qué imagen es más adecuada para mi proyecto.
+- [X] Creado repositorio de [ejercicios](https://github.com/AntonioRev/EjerciciosIV)
