@@ -34,5 +34,5 @@
 - [x] He aprendido a utilizar DockerHub
 - [x] He aprendido a utilizar Dockerfiles
 - [x] He aprendido a crear mis propias imágenes
-- [x] He aprendido a enlazar paquetes en un repositorio de github
+- [x] He aprendido a enlazar paquetes en un repositorio de github [que puede verse AQUÍ](https://github.com/users/ByteVictor/packages/container/package/dockertests)
 - [x] He aprendido a ejecutar tests dentro de un Docker
