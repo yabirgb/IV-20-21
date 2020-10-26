@@ -29,4 +29,4 @@ Para comprobar la realización de los objetivos, visite [este enlace](https://gi
 - [x] Comprender la necesidad y utilidad de los contenedores.
 - [x] Comprender como funciona [Docker](https://www.docker.com/).
 - [x] Entender cómo funciona [DockerHub](https://hub.docker.com/), comprender su utilidad y crearme una [cuenta](https://hub.docker.com/u/torchu).
-- [x] Aprender las buenas prácticas a la hora de crear un Dockerfile.
+- [x] Aprender las buenas prácticas a la hora de crear un [Dockerfile](https://github.com/Torchu/GymBot/blob/master/Dockerfile).
