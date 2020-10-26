@@ -25,3 +25,11 @@
 - [X] Entender los ficheros de dependencias o utilidad y su importancia en la infraestructura virtual.
 - [X] Recordar que código que no ha sido testeado, código roto.
 - [X] Usar los gestores de versiones de los diferentes lenguajes de programación y la utilidad que tienen.
+
+## Cuarta semana 
+- [X] Comprender qué es Docker y la utilidad de los contenedores hoy en día
+- [X] Crearme una cuenta en dockerhub
+- [X] Entender la configuración básica de dockerhub
+- [X] Aprender a crear una imagen de Docker
+- [X] Aprender a ejecutar los tests en un contenedor de Docker
+- [X] Entender como configurar correctamente el Dockerfile
