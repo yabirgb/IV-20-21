@@ -26,7 +26,8 @@
 - [X] Recordar que código que no ha sido testeado, código roto.
 - [X] Usar los gestores de versiones de los diferentes lenguajes de programación y la utilidad que tienen.
 
-## Cuarta semana 
+## Cuarta semana
+- [X] Entender y corregir los errores del [hito anterior](https://github.com/JJ/IV-20-21/blob/master/sesiones/semana-05.md)
 - [X] Comprender qué es Docker y la utilidad de los contenedores hoy en día
 - [X] Crearme una cuenta en dockerhub
 - [X] Entender la configuración básica de dockerhub
