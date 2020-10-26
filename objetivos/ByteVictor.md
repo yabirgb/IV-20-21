@@ -27,3 +27,12 @@
 - [x] He avanzado mi aprendizaje sobre Typescript y Node.js
 - [x] He comprendido para que sirve el fichero package.json y qué es un taskfile
 - [x] He aprendido a instalar todas las herramientas necesarias y aplicar tests en un proyecto
+
+## Cuarta semana
+
+- [x] He aprendido que es y para que sirve un Docker
+- [x] He aprendido a utilizar DockerHub
+- [x] He aprendido a utilizar Dockerfiles
+- [x] He aprendido a crear mis propias imágenes
+- [x] He aprendido a enlazar paquetes en un repositorio de github [que puede verse AQUÍ](https://github.com/users/ByteVictor/packages/container/package/dockertests)
+- [x] He aprendido a ejecutar tests dentro de un Docker
