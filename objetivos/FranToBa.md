@@ -30,7 +30,7 @@
 - [x] Entender Docker y el ecosistema de contenedores.
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
 - [x] Creación de cuenta en [DockerHub](https://hub.docker.com/) y creación del archivo dockerfile.
-- [x] Ejercicios autoevaluación [semana 4](https://github.com/FranToBa/Autoevaluacion-IV/s4.md)
+- [x] Ejercicios autoevaluación [semana 4](https://github.com/FranToBa/Autoevaluacion-IV/blob/main/docs/s4.md)
 
 
     
