@@ -21,3 +21,22 @@
 - [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
 - [x] Entender TDD.
+
+## Semana 4:
+- [x] Entender los errores en el hito 1.
+- [x] Entender Docker y el ecosistema de contenedores.
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] Evitar las faltas de ortografía en el README. Añadiendo un action en el .github/workflows, y añadir words.dic.
+- [x] Configuración de shell y línea de órdenes para que se pueda ver claramente cómo está el desarrollo en un repositorio.
+
+## Semana 5:
+- [x] Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento.
+- [x] Entender la corrección del hito 2 y los errores más comunes.
+- [x] Instalar diferentes utilidades para trabajar con Docker: docker, Podman/Buildah.
+- [x] Ver diferentes ejemplos de contenedores, con sus casos de usos diferrentes.
+- [x] Diseñar, implementar y construir un centro de procesamiento de datos virtual.
+- [x] Documentar y mantener una plataforma virtual.
+- [x] Optimizar aplicaciones sobre plataformas virtuales.
+
+
+[Aquí estan los ejercicios de autoevaluación](https://github.com/WolfYe98/Ejercicios_IV)
