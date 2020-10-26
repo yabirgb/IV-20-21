@@ -23,5 +23,6 @@
 
 ## Objetivos Semana 4
 
-- [x] Entender [Docker](https://www.docker.com/) y el ecosistema de contenedores.
+- [x] Entender Docker y el ecosistema de contenedores.
+- [ ] Integrar Docker en mi [proyecto](https://github.com/juancpineda97/LaLigaStats) de la asignatura
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
