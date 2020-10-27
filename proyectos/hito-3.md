@@ -45,7 +45,7 @@
 | RUIZ GARCIA, PAULA| | |
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.4.4 |
 | SANZ SANCHEZ, MARIA| | |
-| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | V3.0.1 |
+| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | V3.0.2 |
 | STETSKIY , NIKITA| | |
 | TORRES BAREA, FRANCISCO JAVIER| | |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
