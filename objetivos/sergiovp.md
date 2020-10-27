@@ -42,3 +42,4 @@
 - [x] Darse de alta en DockerHub y crear un repositorio para el proyecto. *Se puede ver [aquí](https://hub.docker.com/r/sergiovela/iv-organizeandgo).
 - [x] Instalar diferentes utilidades para trabajar con Docker. *Como por ejemplo, docker-compose, para "orquestar" diversos servicios*.
 - [x] Ver diferentes ejemplos de contenedores, con sus casos de usos diferrentes. *Para este hito he visto muchos ejemplos de contenedores que usan diversas imágenes*.
+- [x] Avance del proyecto. Se puede comprobar [aquí](https://github.com/sergiovp/IV-OrganizeAndGo).
