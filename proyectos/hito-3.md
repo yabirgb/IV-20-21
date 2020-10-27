@@ -3,7 +3,7 @@
 | AZAÑON CANTERO, SERGIO|[reserve-it](https://github.com/sergiocantero8/reserve-it) | v3.0.0 |
 | BELTRAN SANCHEZ, FRANCISCO| [F1 Predictor](https://github.com/currobeltran/F1-Predictor) | v3.0.1 |
 | CABRITA GOMEZ, VICTOR| [GymBot](https://github.com/torchu/GymBot) | v3.0.0 |
-| CANO JEREZ, IRENE| | |
+| CANO JEREZ, IRENE|  [proyecto-idiomas](https://github.com/irenecj/proyecto-idiomas) | v3.0.2 |
 | CHAVES CABALLERO, MARIO| | |
 | CHEKFEH AL-SABBAGH, MOHAMED BILAL| [GameStore](https://github.com/biilal1999/GameStore) | v3.0.1 |
 | COCA CRUZ, SIXTO| | |
@@ -26,7 +26,7 @@
 | MARTIN LEON, ANTONIO| | |
 | MENOR MOLINERO, ALEJANDRO| [que-vemos](https://github.com/AlexMenor/que-vemos) | v1.0.4 |
 | MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v3.2.6 |
-| MERELO MOLINA, ELENA| | |
+| MERELO MOLINA, ELENA| [goFit](https://github.com/ElenaMerelo/goFit) | v1.0.1 |
 | MOLINERO CASTILLO, JONATHAN| | |
 | MONTESINOS PERUJO, ISMAEL| | |
 | MORENO VILCHEZ, FRANCISCO JOSE| | |
@@ -45,7 +45,7 @@
 | RUIZ GARCIA, PAULA| | |
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.4.4 |
 | SANZ SANCHEZ, MARIA|[MakeupIV](https://github.com/mariasanzs/makeupIV) | v3.0.0 |
-| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | V3.0.2 |
+| SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | V3.0.3 |
 | STETSKIY , NIKITA| | |
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) |v3.0.1|
 | TORRES CEBALLOS, ALBERTO JESUS| | |
