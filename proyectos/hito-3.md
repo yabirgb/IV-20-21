@@ -47,7 +47,7 @@
 | SANZ SANCHEZ, MARIA| | |
 | SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | V3.0.2 |
 | STETSKIY , NIKITA| | |
-| TORRES BAREA, FRANCISCO JAVIER| | |
+| TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) |v3.0.1|
 | TORRES CEBALLOS, ALBERTO JESUS| | |
 | VEGA JIMENEZ, ALEJANDRO| | |
 | VEGA PALMA, LEANDRO| | |
