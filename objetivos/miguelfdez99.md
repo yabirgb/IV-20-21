@@ -23,3 +23,9 @@
 - [x] Comprender el uso de los gestores de versiones en diferentes lenguajes de programación
 - [x] Investigar sobre que gestor de tareas se adapta más al proyecto y como utilizarlo
 - [x] Entender los ficheros de dependencias
+
+## Cuarta semana
+- [x] Entender lo que es un contenedor y como funcionan
+- [x] Entender el funcionamiento de Docker
+- [x] Registrarme en DockerHub y comprender su funcionamiento
+- [x] Ejercicios del [Tema 3](https://github.com/miguelfdez99/Ejercicios-IV)
