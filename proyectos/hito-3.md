@@ -16,7 +16,7 @@
 | GARCIA COLLADO, JOSE ALBERTO| [Get-Match](https://github.com/joseegc10/get-match) | v1.3.1 |
 | GARCIA MARTINEZ, DAVID| | |
 | GONZALEZ ARGUDO, VICTOR JOSE| [AnimeFLV-API](https://github.com/ByteVictor/AnimeFLV-API) | v0.3.4 |
-| HEREDIA CORTES, DAVID| [PacketService](https://github.com/XDavid1999/PacketService) | v0.3.6 |
+| HEREDIA CORTES, DAVID| [PacketService](https://github.com/XDavid1999/PacketService) | v0.3.7 |
 | HERNANDEZ MORENO, DIEGO| | |
 | HIDALGO CARMONA, MANUEL| | |
 | IZQUIERDO GARCIA,ANGELA| | |
