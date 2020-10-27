@@ -58,3 +58,16 @@
 - [x] Entender el formato YAML y su uso en la descripción de diferentes infraestructuras virtuales.
 
 - [x] Enlace a los [ejercicios del tema 3](https://github.com/blancaazz/Ejercicios-IV/tree/main/Tema3)
+
+
+## Quinta semana
+
+- [x] Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento.
+
+- [x] Entender la corrección del hito 2 y los errores más comunes.
+
+- [x] Instalar diferentes utilidades para trabajar con Docker: docker, Podman/Buildah.
+
+- [x] Ver diferentes ejemplos de contenedores, con sus casos de usos diferrentes.
+
+- [x] Enlace a los [ejercicios del tema 3](https://github.com/blancaazz/Ejercicios-IV/tree/main/Tema3)
