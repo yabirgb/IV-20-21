@@ -45,3 +45,16 @@
 - [x] Comprender el papel de las build tools o herramientas de automatización.
 
 - [x] Desarrollo de los [ejercicios del tema 2](https://github.com/blancaazz/Ejercicios-IV/tree/main/Tema2)
+
+
+## Cuarta semana
+
+- [x] Entender Docker y el ecosistema de contenedores.
+
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+
+- [x] Entender los errores en el hito 1:
+
+- [x] Entender el formato YAML y su uso en la descripción de diferentes infraestructuras virtuales.
+
+- [x] Enlace a los [ejercicios del tema 3](https://github.com/blancaazz/Ejercicios-IV/tree/main/Tema3)
