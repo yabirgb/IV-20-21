@@ -31,3 +31,14 @@
 - [x] Comenzar el aprendizaje de un nuevo lenguaje de programación. *En mi caso, el desarrollo lo estoy haciendo con TypeScript y Node. Poco a poco estoy familiarizándome con ambos, viendo cómo se realizan las cosas o el gran ecosistema de herramientas que incorporan para realizar cualquier tipo de implementación.*
 - [x] Instalar las herramientas necesarias para crear y aplicar tests en un proyecto. *Utilizaré **Mocha** + **Chai***.
 - [x] Comprender el papel de las build tools o herramientas de automatización. *Desde la compilación hasta la compresión de un programa.*
+
+## Cuarta semana
+
+- [x] Entender Docker y el ecosistema de contenedores. *Para ello, antes de abordar el hito, he leído el material de teoría y he investigado sobre docker*.
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual. *Como comenté en los anteriores objetivos, los tests son esenciales para detectar errores a la hora de integrar código nuevo*.
+- [x] Introducción a Docker. *Instalando los paquetes necesarios para usar esta tecnología y compezar a "trastear" con Dockerfiles*.
+- [x] Entender el formato YAML y su uso en la descripción de diferentes infraestructuras virtuales. *Como comenté en los objetivos anteriores, es un formato para intercambio de datos independiente de muchos factores como SO, arquitectura de la CPU, etc. Por lo tanto, en un entorno virtualizado es justo lo que necesitamos*.
+- [x] Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento. 
+- [x] Darse de alta en DockerHub y crear un repositorio para el proyecto. *Se puede ver [aquí](https://hub.docker.com/r/sergiovela/iv-organizeandgo).
+- [x] Instalar diferentes utilidades para trabajar con Docker. *Como por ejemplo, docker-compose, para "orquestar" diversos servicios*.
+- [x] Ver diferentes ejemplos de contenedores, con sus casos de usos diferrentes. *Para este hito he visto muchos ejemplos de contenedores que usan diversas imágenes*.
