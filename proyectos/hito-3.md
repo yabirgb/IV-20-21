@@ -5,7 +5,7 @@
 | CABRITA GOMEZ, VICTOR| [GymBot](https://github.com/torchu/GymBot) | v3.0.0 |
 | CANO JEREZ, IRENE| | |
 | CHAVES CABALLERO, MARIO| | |
-| CHEKFEH AL-SABBAGH, MOHAMED BILAL| | |
+| CHEKFEH AL-SABBAGH, MOHAMED BILAL| [GameStore](https://github.com/biilal1999/GameStore) | v3.0.1 |
 | COCA CRUZ, SIXTO| | |
 | CUADROS LAPRESTA, ANTONIO| [WhenToClass](https://github.com/antoniocuadros/WhenToClass) | 1.3.3 |
 | DEL POZO MORENO, RAUL| | |
