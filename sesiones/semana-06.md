@@ -33,6 +33,14 @@ Buscad *issues* con la etiqueta *hacktoberfest* en todo GitHub.
     tutorial lo ha mirado para que entendáis que se aplica a vuestro
     caso. Y recordad que *cada línea* hay que documentar la razón por
     la que la habéis hecho.
+  * Por qué `mkdir /test && mkdir /volume` está equivocado y cómo
+    conseguir que funcione el dichoso contenedor en javascript, que en
+    mala hora decidí elegirlo.
+    * [Establecer path](https://stackoverflow.com/questions/26293049/specify-path-to-node-modules-in-package-json)
+    * [Usar `${HOME}`](https://stackoverflow.com/a/26293141/891440).
+    * ⚠ **Ñapa warning** ⚠: instalarlos donde sea y copiarlos en
+      `/test` (hay que tener permisos).
+      
 * Darse de alta en Travis y otros servicios de integración/despliegue continuo.
 * Entender el formato YAML y su uso en la descripción de diferentes infraestructuras virtuales. 
 
@@ -41,6 +49,8 @@ Buscad *issues* con la etiqueta *hacktoberfest* en todo GitHub.
 La sección sobre [integración
 continua](http://jj.github.io/IV/documentos/temas/Desarrollo_basado_en_pruebas#a%C3%B1adiendo-integraci%C3%B3n-continua) es
 parte el capítulo sobre desarrollo basado en pruebas.
+
+- Comienza el [cuarto hito](http://jj.github.io/IV/documentos/proyecto/4.CI)
 
 ## Siguiente semana
 
