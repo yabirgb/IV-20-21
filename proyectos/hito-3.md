@@ -32,7 +32,7 @@
 | MORENO VILCHEZ, FRANCISCO JOSE| | |
 | NUÑEZ RUIZ, MANUEL JESUS| | |
 | PALOMINO SANCHEZ, GUILLERMO| | |
-| PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v2.1.1 |
+| PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v2.1.2 |
 | PEREZ MENDEZ, PABLO| | |
 | PINEDA MUÑOZ, JUAN CARLOS| | |
 | PRIETO INFANTE, JAVIER| | |
