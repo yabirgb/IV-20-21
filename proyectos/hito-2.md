@@ -49,7 +49,7 @@
 | STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v2.0.1 *Reenvío* |
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v2.0.2 **Reenvío** |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
-| VEGA JIMENEZ, ALEJANDRO| [RecipeFinder](https://github.com/aleveji/RecipeFinder) | v1.0.0 |
+| VEGA JIMENEZ, ALEJANDRO| [RecipeFinder](https://github.com/aleveji/RecipeFinder)| v1.0.0 |
 | VEGA PALMA, LEANDRO| | |
 | VELA PELEGRINA, SERGIO| [Organize&Go](https://github.com/sergiovp/IV-OrganizeAndGo) | v0.0.7 |
 | VICTORIA MOHAMED, JAVIER| [VGT](https://github.com/javizzyv/VideoGameTracker) | v0.2.1 **Reenvío** |
