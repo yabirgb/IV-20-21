@@ -40,7 +40,14 @@
 
 ## Semana 5
 
-- [ ] Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento.
-- [ ] Diseñar, implementar y construir un centro de procesamiento de datos virtual.
-- [ ] Documentar y mantener una plataforma virtual.
+- [x] Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento.
+- [x] Diseñar, implementar y construir un centro de procesamiento de datos virtual.
+- [x] Documentar y mantener una plataforma virtual.
 - [ ] Optimizar aplicaciones sobre plataformas virtuales.
+
+## Semana 6
+
+- [ ] Entender el concepto de integración continua y a usarla en una aplicación.
+- [ ] Comenzar con la configuración de los sistemas de integración continua.
+- [ ] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [ ] Documentar bien las rúbricas del Hito 4.
