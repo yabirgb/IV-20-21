@@ -9,7 +9,12 @@
   * Comparaciones que se limitan a varias versiones de las imágenes
     "oficiales", sobre todo en JavaScript. Deberían probar quizás
     no-oficiales o construir desde 0 usando el sistema
-    operativo. Igual el resultado sorprendía.
+    operativo. Igual el resultado sorprendía. O incluso varias
+    versiones de la misma versión de node.
+    * Tampoco se enlaza la versión del Dockerfile usada en las
+      diferentes pruebas. Puede ser la versión en un commit
+      determinado, no hace falta que sea un fichero que esté en el
+      repo (salvo la versión elegida).
 
 ## Material para la clase
 
