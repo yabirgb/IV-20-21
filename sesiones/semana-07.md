@@ -30,6 +30,8 @@
       diferentes. Por ejemplo, si las construyes también en Docker Hub
       simplemente hay que enlazar el build correspondiente (que apunta
       al commit en el que se ha hecho)
+      
+* Descargarse y comenzar a usar jq para examinar JSONs tocho.
 
 ## Material para la clase
 
