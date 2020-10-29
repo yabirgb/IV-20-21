@@ -15,6 +15,19 @@
       diferentes pruebas. Puede ser la versión en un commit
       determinado, no hace falta que sea un fichero que esté en el
       repo (salvo la versión elegida).
+    * Si todos lo habéis hecho así porque representa el mínimo
+      esfuerzo, *mal*. Si todos lo habéis hecho así porque alguien lo
+      ha sugerido, *mal*. Ya es casualidad que con 200 imágenes que
+      hay en Docker Hub, todos hayáis elegido comparar las tres
+      mismas. Nadie ha
+      probado
+      [esta imagen de ubuntu](https://hub.docker.com/r/tbaltrushaitis/ubuntu-nodejs),
+      por ejemplo.
+    * Muy pocos han documentado los Dockerfiles usados en esas
+      pruebas. En algunos casos hay pantallazos con el tamaño de la
+      imagen resultante, pero nunca el Dockerfile. En concreto, los
+      Dockerfiles de Alpine y de Debian (los slim) son totalmente
+      diferentes. 
 
 ## Material para la clase
 
