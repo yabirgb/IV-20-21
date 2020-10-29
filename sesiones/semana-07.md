@@ -27,7 +27,9 @@
       pruebas. En algunos casos hay pantallazos con el tamaño de la
       imagen resultante, pero nunca el Dockerfile. En concreto, los
       Dockerfiles de Alpine y de Debian (los slim) son totalmente
-      diferentes. 
+      diferentes. Por ejemplo, si las construyes también en Docker Hub
+      simplemente hay que enlazar el build correspondiente (que apunta
+      al commit en el que se ha hecho)
 
 ## Material para la clase
 
