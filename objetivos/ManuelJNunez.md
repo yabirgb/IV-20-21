@@ -29,4 +29,16 @@
 - [x] Entender Docker y el ecosistema de contenedores.
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
 - [x] Aprender a usar `DockerHub`.
-- [ ] Buscar información sobre alternativas a Docker (`podmad`, `buildah`).
+- [x] Buscar información sobre alternativas a Docker (`podmad`, `buildah`).
+
+## Quinta y sexta semana
+- [x] Entender la correción del hito 2 y los errores más comunes
+- [x] Comprender los hooks de git.
+- [x] Ver diferentes ejemplos de contenedores, con sus casos de uso diferentes.
+- [x] Entender el concepto de integración continua y a usarla en una aplicación.
+- [ ] Comenzar con la configuración de los sitemas de integración continua.
+- [x] Haber entregado el hito 3
+- [x] Entender errores comunes en la construcción de una imagen Docker.
+- [x] Darse de alta en Travis.
+- [ ] Darse de alta en otros servicios de integración/despliegue continuo.
+- [x] Entender el formato YAML.
