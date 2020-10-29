@@ -41,4 +41,4 @@
 - [x] Entender errores comunes en la construcción de una imagen Docker.
 - [x] Darse de alta en Travis.
 - [ ] Darse de alta en otros servicios de integración/despliegue continuo.
-- [x] Entender el formato YAML.
+- [x] Entender el formato [YAML](https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/).
