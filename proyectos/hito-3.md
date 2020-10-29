@@ -5,7 +5,7 @@
 | CABRITA GOMEZ, VICTOR| [GymBot](https://github.com/torchu/GymBot) | v3.0.0 |
 | CANO JEREZ, IRENE|  [proyecto-idiomas](https://github.com/irenecj/proyecto-idiomas) | v3.0.2 |
 | CHAVES CABALLERO, MARIO| | |
-| CHEKFEH AL-SABBAGH, MOHAMED BILAL| [GameStore](https://github.com/biilal1999/GameStore) | v3.0.1 |
+| CHEKFEH AL-SABBAGH, MOHAMED BILAL| [GameStore](https://github.com/biilal1999/GameStore) | v3.0.2 **Reenvío** |
 | COCA CRUZ, SIXTO| | |
 | CUADROS LAPRESTA, ANTONIO| [WhenToClass](https://github.com/antoniocuadros/WhenToClass) | 1.3.4 **reenvío** |
 | DEL POZO MORENO, RAUL|[InmobilIV](https://github.com/rauldpm/InmobilIV)| v3.0.12|
