@@ -15,7 +15,7 @@
 - [X] Leer acerca de los niveles de virtualización y sus denominaciones genéricas.
 - [X] Comprender las implicaciones que tiene el diseño del proyecto de la asignatura.
 - [X] Comenzar a comprender los conceptos de X as a service.
-- [X] Realizar los [ejercicios de autoevaluación del Tema 1](https://github.com/antonioml97/IV-Ejercicios).
+- [X] Realizar los [ejercicios de la autoevaluación del Tema 1](https://github.com/antonioml97/IV-Ejercicios).
 
 ## Tercera semana
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
