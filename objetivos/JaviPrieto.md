@@ -23,5 +23,5 @@
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
 - [x] Entender cómo usar los tests unitarios de Python.
 
-
+ 
 
