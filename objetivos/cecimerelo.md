@@ -50,4 +50,4 @@
 - [ ] Entender el concepto de integración continua y a usarla en una aplicación.
 - [ ] Comenzar con la configuración de los sistemas de integración continua.
 - [ ] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
-- [ ] Entregar Hito 4
+- [ ] Entregar [Hito 4](https://github.com/cecimerelo/VizYourData/milestone/4)
