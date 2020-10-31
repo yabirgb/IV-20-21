@@ -1,7 +1,5 @@
 # Objetivos
 
-- [Repositorio de autoevaluación](https://github.com/antoniogamiz/iv-autoevaluacion)
-
 ## Semana 1
 
 - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
@@ -42,10 +40,3 @@
 - [x] Instalar docker bien, que al final siempre la lío con los permisos.
 - [x] Instalar también Podman (que trae Buildah incluido) que no necesita permisos de superusuario.
 - [x] Investigar `docker commit <id>`, cuya existencia desconocía.
-
-## Semana 5
-
-- [x] Entender el concepto de integración continua y usarla en una aplicación.
-- [x] Aprender más o menos la configuración de travis.
-- [x] Mirar Jenkins, que siempre he escuchado hablar de él pero no lo he probado.
-- [ ] Hacer hito 4.
