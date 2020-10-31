@@ -36,7 +36,7 @@
 | PEREZ MENDEZ, PABLO| | |
 | PINEDA MUÑOZ, JUAN CARLOS| | |
 | PRIETO INFANTE, JAVIER| | |
-| REVELLES PEREZ, ANTONIO JOSE|[ListenYourMood](https://github.com/AntonioRev/ListenYourMood) | v1.2.1 |
+| REVELLES PEREZ, ANTONIO JOSE|[ListenYourMood](https://github.com/AntonioRev/ListenYourMood) | v1.2.2 **Reenvio** |
 | RIVERA PEÑA, JUAN ALBERTO| | |
 | RODRIGUEZ LOPEZ, ALEJANDRO|[HDN.PG](https://github.com/alexrodriguezlop/HDN.PG)  | v3.0.0 |
 | ROMERO ORTEGA, JOSE MANUEL| | |
