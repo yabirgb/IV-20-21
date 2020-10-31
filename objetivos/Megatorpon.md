@@ -22,3 +22,8 @@
 - [X] Indagar sobre Node.js
 - [X] Entender cómo funcionan los milestones y las issues de github e incorporarlos al proyecto
 - [X] Entregar el hito 1
+
+
+### Tercera semana
+
+- 
