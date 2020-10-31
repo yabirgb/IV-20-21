@@ -33,3 +33,4 @@
 - [X] Instalar Docker
 - [X] Para que se usan los contenedores
 - [X] Entender qué son y cómo se usan los dockerfiles
+- [X] Resolver conflictos 
