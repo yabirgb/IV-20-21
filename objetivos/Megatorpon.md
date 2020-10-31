@@ -26,4 +26,8 @@
 
 ### Tercera semana
 
-- 
+- [X] Entender la importancia del desarrollo basado en tests en aplicaciones de todo tipo.
+- [X] Aprender cómo funcionan los tests unitarios y para qué sirven.
+- [X] Entender la importancia de los gestores de versiones en DevOps y escoger una para nuestro proyecto (Node).
+- [X] Además del anterior punto, escoger las demás herramientas restantes e instalarlas.
+- [X] Comenzar a ver tutoriales sobre el uso de las herramientas instaladas para su correcta utilización.
