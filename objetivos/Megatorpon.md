@@ -31,3 +31,5 @@
 - [X] Entender la importancia de los gestores de versiones en DevOps y escoger una para nuestro proyecto (Node).
 - [X] Además del anterior punto, escoger las demás herramientas restantes e instalarlas.
 - [X] Comenzar a ver tutoriales sobre el uso de las herramientas instaladas para su correcta utilización.
+- [X] Realizar ejercicios de autoevaluación relacionados con el tema 2.
+  [Enlace ejercicios](https://github.com/Megatorpon/IV-Ejercicios-Autoevaluacion/blob/main/Tema_2)
