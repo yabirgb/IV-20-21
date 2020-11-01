@@ -77,3 +77,5 @@
 - [X] Documentar y mantener una plataforma virtual.
 
 - [X] Optimizar aplicaciones sobre plataformas virtuales.
+
+- [X] Realizados [ejercicios de autoevaluación del tema 3](https://github.com/Davidspace/Ejercicios_IV/tree/main/Tema%203)
