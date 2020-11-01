@@ -22,7 +22,13 @@
 ## Tercera semana
 
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
-
 - [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad. Para esto he profundizado con `npm`, ya que es el que voy a utilizar en mi proyecto.
-
 - [x] Entender los ficheros de *requisitos* o *dependencias* y su utilidad en las infraestructuras virtuales. En mi proyecto utilizaré ficheros tipo `JSON`.
+
+## Cuarta semana
+
+- [x] Entender cómo las diferentes tecnologías de virtualización se integran en la creación de contenedores.
+- [x] He leído [las referencias y las buenas prácticas de Docker](https://docs.docker.com/engine/reference/builder/).
+- [x] Crear infraestructuras virtuales completas.
+- [x] Comprender los pasos necesarios para la configuración automática de las mismas.
+- [x] He realizado [los ejercicios correspondientes al tema](https://github.com/nikitastetskiy/ejercicios-IV/tree/master/tema%203).
