@@ -33,3 +33,4 @@
 - [x] Instalar diferentes utilidades para trabajar con Docker: docker, Podman.
 - [x] Ver diferentes ejemplos de contenedores, con sus casos de usos diferentes.
 - [x] Comprender los hooks de git.
+- [x] Realización de los [ejercicios](https://github.com/juancpineda97/Ejercicios-IV/blob/main/ejercicios/tema3.md) del Tema 3.
