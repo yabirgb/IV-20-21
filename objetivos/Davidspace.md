@@ -61,3 +61,19 @@
 - [X] Comprender el papel de las build tools o herramientas de automatización.
 
 - [X] Indagar en el uso de una herramienta de automatización concreta. En mi caso, he elegido la herramienta de automatización Gulp.
+
+## Quinta semana
+
+- [X] Comprender la virtualización con contenedores y la diferencia con las máquinas virtuales.
+
+- [X] Comprender el funcionamiento de Docker, instalarlo y aprender a manejar contenedores con él.
+
+- [X] Comprender qué es Docker Hub, crearme una cuenta, un repositorio y subir mi imagen a él.
+
+- [X] Comprender qué es GitHub Container Registry y subir mi imagen a la plataforma.
+
+- [X] Conocer el funcionamiento y la estructura de un Dockerfile, entender las buenas prácticas y construir uno.
+
+- [X] Documentar y mantener una plataforma virtual.
+
+- [X] Optimizar aplicaciones sobre plataformas virtuales.
