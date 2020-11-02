@@ -36,3 +36,11 @@ Repositorio con los ejercicios de autoevaluación [aquí](https://github.com/Ele
 - [X] Para que se usan los contenedores
 - [X] Entender qué son y cómo se usan los dockerfiles
 - [X] Resolver conflictos 
+
+## Quinta semana 
+
+[Ejercicios de autoevaluación](https://github.com/ElenaMerelo/iv-autoevaluacion#hito-4)
+
+- [X] Entender qué es la integración contínua 
+- [X] Sobre varios sistemas de integración contínua
+- [X] Qué se hace para añadir CI
