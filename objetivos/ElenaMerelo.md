@@ -1,5 +1,7 @@
 # Fichero de objetivos
 
+Repositorio con los ejercicios de autoevaluación [aquí](https://github.com/ElenaMerelo/iv-autoevaluacion)
+
 ## Primera semana
 
 - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
@@ -33,3 +35,4 @@
 - [X] Instalar Docker
 - [X] Para que se usan los contenedores
 - [X] Entender qué son y cómo se usan los dockerfiles
+- [X] Resolver conflictos 
