@@ -2,7 +2,13 @@
 
 ## Objetivos de la semana
 
+* Entender los diferentes niveles de abstracción que llevan a
+  construir una aplicación para la nube.
+  
+
 ## Otros objetivos
+
+
 
 * Reentregar el hito 3 una vez corregido.
 * Errores comunes en el hito 3
@@ -31,7 +37,7 @@
       simplemente hay que enlazar el build correspondiente (que apunta
       al commit en el que se ha hecho)
       
-* Descargarse y comenzar a usar jq para examinar JSONs tocho.
+
 
 ## Material para la clase
 
@@ -39,7 +45,10 @@ La sección sobre [integración
 continua](http://jj.github.io/IV/documentos/temas/Desarrollo_basado_en_pruebas#a%C3%B1adiendo-integraci%C3%B3n-continua) es
 parte el capítulo sobre desarrollo basado en pruebas.
 
-- Seguimos con el [cuarto hito](http://jj.github.io/IV/documentos/proyecto/4.CI)
+- Seguimos con
+  el
+  [cuarto hito](http://jj.github.io/IV/documentos/proyecto/4.CI). La
+  entrega es el viernes 6 de noviembre a las 23:59 horas.
 
 ## Siguiente semana
 
