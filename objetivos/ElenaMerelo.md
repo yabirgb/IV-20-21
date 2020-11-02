@@ -1,5 +1,7 @@
 # Fichero de objetivos
 
+Repositorio con los ejercicios de autoevaluación [aquí](https://github.com/ElenaMerelo/iv-autoevaluacion)
+
 ## Primera semana
 
 - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
