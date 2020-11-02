@@ -34,7 +34,7 @@
 | PALOMINO SANCHEZ, GUILLERMO| | |
 | PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v2.1.2 |
 | PEREZ MENDEZ, PABLO| | |
-| PINEDA MUÑOZ, JUAN CARLOS| | |
+| PINEDA MUÑOZ, JUAN CARLOS| [LaLigaStats](https://github.com/juancpineda97/LaLigaStats) | v1.3.1 |
 | PRIETO INFANTE, JAVIER| | |
 | REVELLES PEREZ, ANTONIO JOSE|[ListenYourMood](https://github.com/AntonioRev/ListenYourMood) | v1.2.2 **Reenvio** |
 | RIVERA PEÑA, JUAN ALBERTO| | |
