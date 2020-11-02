@@ -4,7 +4,7 @@
 
 ## Primero y mas importante
 
-* [ ] CLOSE: Prometo no cerrar ningún PR pase lo que pase.
+* [ ] Prometo no cerrar ningún PR pase lo que pase.
 * [ ] NOTOPEN: Ni abrir otro PR de objetivos mientras este esté abierto.
 
 ## Lista de comprobación para objetivos
@@ -20,7 +20,7 @@ Corresponde al hito <incluir número del hito aquí>
 
 ## Primero y mas importante
 
-* [ ] CLOSE: Prometo no cerrar ningún PR pase lo que pase.
+* [ ] Prometo no cerrar ningún PR pase lo que pase.
 * [ ] NOTOPEN: Ni abrir otro PR de hitos mientras este esté abierto.
 
 ## Lista de comprobación para hitos
