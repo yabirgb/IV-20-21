@@ -18,6 +18,7 @@ jobs:
             let match = checklist.exec(body)
             let index = 1
             while (match != null) {
+              console.log( match )
               let name = match[2].length > 1 ? match[2] : "CHECKBOX_"+index
               let value = match[1] ? true : false
               core.exportVariable( name, value)
