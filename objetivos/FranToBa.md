@@ -18,7 +18,6 @@
 - [x] Entender qué implica diseñar un proyecto que se irá elaborando durante la asignatura.
 - [x] [Ejercicios de autoevaluación](https://github.com/FranToBa/Autoevaluacion-IV)
 
-
 ## Tercera semana
 
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual. 
