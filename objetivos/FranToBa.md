@@ -42,8 +42,3 @@
 - [x] Realizar los [ejercicios de autoevaluación](https://github.com/FranToBa/Autoevaluacion-IV/blob/main/docs/s6.md) de la semana correspondiente.
 
 
-
-    
-
-    
-
