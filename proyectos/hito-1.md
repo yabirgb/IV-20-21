@@ -35,7 +35,7 @@
 | PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v1.0.2 *REENVÍO* |
 | PEREZ MENDEZ, PABLO| [Apus](https://github.com/Megatorpon/Apus) | v.1.0.2 **REENVÍO**|
 | PINEDA MUÑOZ, JUAN CARLOS| [LaLigaStats](https://github.com/juancpineda97/LaLigaStats) | v1.0.1 |
-| PRIETO INFANTE, JAVIER| [PeluqueriaUnisex](https://github.com/JaviPrieto/PeluqueriaUnisex) | v1.0.4 **REENVÍO**|
+| PRIETO INFANTE, JAVIER| [PeluqueriaUnisex](https://github.com/JaviPrieto/PeluqueriaUnisex) | v1.2.0 **REENVÍO**|
 | REVELLES PEREZ, ANTONIO JOSE| [ListenYourMood](https://github.com/AntonioRev/ListenYourMood) | v1.0.5 **REENVÍO** |
 | RIVERA PEÑA, JUAN ALBERTO| [YourLife](https://github.com/juanalberto58/AppIV)| v0.0.8 **REENVÍO**|
 | RODRIGUEZ LOPEZ, ALEJANDRO|[HDN.PG](https://github.com/alexrodriguezlop/HDN.PG)  | v1.0.3 *Reenvío* |
@@ -50,7 +50,7 @@
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v1.0.3 **REENVÍO** |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
 | VEGA JIMENEZ, ALEJANDRO| [RecipeFinder](https://github.com/aleveji/RecipeFinder) | v0.0.6 **REENVÍO** |
-| VEGA PALMA, LEANDRO| [PiHoleUpdater](https://github.com/LeandroVP/PiHoleUpdater) | v0.0.2 |
+| VEGA PALMA, LEANDRO| [PiHoleUpdater](https://github.com/LeandroVP/PiHoleUpdater) | v1.0.2  **REENVÍO**|
 | VELA PELEGRINA, SERGIO| [Organize&Go](https://github.com/sergiovp/IV-OrganizeAndGo) | v0.0.3 |
 | VICTORIA MOHAMED, JAVIER| [VGT](https://github.com/javizzyv/VideoGameTracker) | v0.1.6 |
 | YE , BATE|[DancInform](https://github.com/WolfYe98/Proyecto_IV_Bate) |v0.0.3 |

@@ -35,9 +35,9 @@
 | PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v2.0.2 **Reenvío** |
 | PEREZ MENDEZ, PABLO| | |
 | PINEDA MUÑOZ, JUAN CARLOS| [LaLigaStats](https://github.com/juancpineda97/LaLigaStats) | v1.2.1 **Reenvío** |
-| PRIETO INFANTE, JAVIER| [PeluqueriaUnisex](https://github.com/JaviPrieto/PeluqueriaUnisex) | v2.0.0 |
+| PRIETO INFANTE, JAVIER| [PeluqueriaUnisex](https://github.com/JaviPrieto/PeluqueriaUnisex) | v2.0.1 **Reenvío** |
 | REVELLES PEREZ, ANTONIO JOSE| [ListenYourMood](https://github.com/AntonioRev/ListenYourMood) | v1.1.2 **Reenvío** |
-| RIVERA PEÑA, JUAN ALBERTO| [YourLife](https://github.com/juanalberto58/AppIV) | v0.1.2 |
+| RIVERA PEÑA, JUAN ALBERTO| [YourLife](https://github.com/juanalberto58/AppIV) | v0.1.3 | **Reenvío** |
 | RODRIGUEZ LOPEZ, ALEJANDRO|[HDN.PG](https://github.com/alexrodriguezlop/HDN.PG)  | v2.0.1 **Reenvío**  |
 | ROMERO ORTEGA, JOSE MANUEL| | |
 | RUBIO RODRIGUEZ, JUAN MANUEL| | |
@@ -49,7 +49,7 @@
 | STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v2.0.1 *Reenvío* |
 | TORRES BAREA, FRANCISCO JAVIER|[CloudFood](https://github.com/FranToBa/CloudFood) | v2.0.2 **Reenvío** |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
-| VEGA JIMENEZ, ALEJANDRO| | |
+| VEGA JIMENEZ, ALEJANDRO| [RecipeFinder](https://github.com/aleveji/RecipeFinder)| v1.0.0 |
 | VEGA PALMA, LEANDRO| | |
 | VELA PELEGRINA, SERGIO| [Organize&Go](https://github.com/sergiovp/IV-OrganizeAndGo) | v0.0.7 |
 | VICTORIA MOHAMED, JAVIER| [VGT](https://github.com/javizzyv/VideoGameTracker) | v0.2.1 **Reenvío** |

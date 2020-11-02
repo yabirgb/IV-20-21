@@ -23,5 +23,22 @@
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
 - [x] Entender cómo usar los tests unitarios de Python.
 
+## Objetivos cuarta semana, 13 octubre
 
+- [x] Entender Docker y el ecosistema de contenedores.
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] Aprender a usar `DockerHub`.
+- [x] Buscar información sobre alternativas a Docker (`podmad`, `buildah`).
+ 
+## Objetivos quinta semana, 20 octubre
+
+- [x] Entender la correción del hito 2 y los errores más comunes.
+- [x] Comprender los hooks de git.
+- [x] Ver diferentes ejemplos de contenedores, con sus casos de uso diferentes.
+- [x] Entender el concepto de integración continua y a usarla en una aplicación. Lo entendí en el [curso sobre TDD](https://jj.github.io/curso-tdd/temas/CI.html).
+- [ ] Comenzar con la configuración de los sistemas de integración continua.
+- [] Haber entregado el hito 3. [Mi repositorio](https://github.com/JaviPrieto/PeluqueriaUnisex)
+- [x] Entender errores comunes en la construcción de una imagen Docker.
+- [x] Darse de alta en Travis.
+- [ ] Darse de alta en otros servicios de integración/despliegue continuo.
 

@@ -25,11 +25,12 @@
 - [x] Entender los ficheros de requisitos o dependencias y su utilidad en las infraestructuras virtuales.
 - [x] Aplicar un framework de test unitario para node y entender su funcionamiento 
 
-## Objetivos tercera semana, 13 de Octubre
+## Objetivos tercera semana y cuarta semana. A partir del 13 de Octubre
 
-- [x] Entender Docker y el ecosistema de contenedores
+- [x] Entender Docker y el ecosistema de contenedores. Buena documentación en la [web de la asignatura](http://jj.github.io/IV/documentos/temas/Contenedores) y en la [documentación oficial](https://docker-curriculum.com/) 
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
 - [x] Conocer las diferentes tecnologías y herramientas de virtualización tanto para procesamiento, comunicación y almacenamiento.
-- [x] Diseñar, implementar y construir un centro de procesamiento de datos virtual.
-- [x] Documentar y mantener una plataforma virtual.
 - [x] Optimizar aplicaciones sobre plataformas virtuales.
+- [x] Realizar ejercicios del [tema 3](https://github.com/antOnioOnio/IV-autoevaluacion/blob/master/tema3.md). 
+- [x] Aprender a automatizar la creación de contenedores en varios regitros de imagenes, puede consultar el resultado [aquí](https://github.com/antOnioOnio/TenisLeagueAdmin/blob/master/docs/dockerRegistry.md). 
+
