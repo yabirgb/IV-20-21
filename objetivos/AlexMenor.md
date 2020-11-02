@@ -30,3 +30,8 @@
 - [x] Investigar despliegue de contenedores en algún PaaS como Heroku
 - [x] Leer algo sobre orquestación de contenedores
 - [x] Investigar el billing de registros de contenedores de pago
+
+## Quinta semana
+
+- [x] Darse de alta en algún servicio de integración continua que no haya probado: https://github.com/AlexMenor/autoevaluacion-iv/blob/master/integracion-continua/circleci.png
+- [x] Configurar algún servicio de integración continua que no haya probado: https://github.com/AlexMenor/autoevaluacion-iv/blob/master/integracion-continua/circleci-config.png

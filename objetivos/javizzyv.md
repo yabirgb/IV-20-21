@@ -39,3 +39,10 @@
 - [x] Entender cómo las diferentes tecnologías de virtualización se integran en la creación de contenedores.
 - [x] Comprender los pasos necesarios para la configuración automática de las mismas.
 - [x] Ejercicios del tema 3 [aquí](https://github.com/javizzyv/EjerciciosIV/blob/master/Ejercicios/Tema3.md). 
+
+## Semana 6
+
+- [x] Entender el concepto de integración continua y usarla en una aplicación.
+- [x] Comenzar con la configuración de los sistemas de integración continua.
+- [x] Haber entregado el hito 3, o estar a punto de hacerlo.
+- [x] Ejercicios [TDD](https://github.com/javizzyv/EjerciciosIV/blob/master/Ejercicios/Tema2.md).

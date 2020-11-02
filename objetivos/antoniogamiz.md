@@ -2,6 +2,8 @@
 
 ## Semana 1
 
+[Ejercicios de autoevaluacion](https://github.com/antoniogamiz/iv-autoevaluacion#hito-1)
+
 - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
 - [x] Darse de alta (si no se está) y comprender el funcionamiento básico de GitHub y el grupo de Telegram de la asignatura y conocer el resto de los recursos de la misma.
 - [x] Entender el concepto de software libre y su aplicación práctica en esta asignatura.
@@ -10,6 +12,8 @@
 - [x] Empezar a usar git y GitHub. Por ejemplo, [seguir este vídeo](https://www.youtube.com/watch?v=gmXyJI01qa8) o cualquier otro tutorial online.
 
 ## Semana 2
+
+[Ejercicios de autoevaluacion](https://github.com/antoniogamiz/iv-autoevaluacion#hito-2)
 
 - [x] Instalar [KVM](https://linuxconfig.org/install-and-set-up-kvm-on-ubuntu-18-04-bionic-beaver-linux) porque siempre he usado VirtualBox.
 - [x] Realizar los ejercicios de autoevaluación del primer tema de teoría, [publicados aquí](https://github.com/antoniogamiz/iv-autoevaluacion).
@@ -22,6 +26,7 @@
 
 ## Semana 3
 
+[Ejercicios de autoevaluacion](https://github.com/antoniogamiz/iv-autoevaluacion#hito-3)
 
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
 - [x] Usar los gestores de versiones en diferentes lenguajes de programación y entender su utilidad.
@@ -34,9 +39,21 @@
 
 ## Semana 4
 
+[Ejercicios de autoevaluacion](https://github.com/antoniogamiz/iv-autoevaluacion#hito-3)
+
 - [x] Entender qué es LXC y usarlo directamente en linux (el LXC Web Panel es bastante curioso)
 - [x] Como curiosidad, investigar la alternativa a lxc en Windows, ya que Docker funciona en él: resulta que Windows levanta una máquina virtual de Linux.
 - [x] Consultar la Open Container Initiative (no sabía que había un estándar para contenedores).
 - [x] Instalar docker bien, que al final siempre la lío con los permisos.
 - [x] Instalar también Podman (que trae Buildah incluido) que no necesita permisos de superusuario.
 - [x] Investigar `docker commit <id>`, cuya existencia desconocía.
+
+## Semana 5
+
+## Semana 5
+
+[Ejercicios de autoevaluacion](https://github.com/antoniogamiz/iv-autoevaluacion#hito-4)
+
+- [x] Entender el concepto de integración continua y usarla en una aplicación.
+- [x] Aprender más o menos la configuración de travis.
+- [x] Mirar Jenkins, que siempre he escuchado hablar de él pero no lo he probado.

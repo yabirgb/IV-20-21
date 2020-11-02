@@ -24,5 +24,13 @@
 ## Objetivos Semana 4
 
 - [x] Entender Docker y el ecosistema de contenedores.
-- [ ] Integrar Docker en mi [proyecto](https://github.com/juancpineda97/LaLigaStats) de la asignatura
+- [x] Integrar Docker en mi [proyecto](https://github.com/juancpineda97/LaLigaStats) de la asignatura
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+
+## Objetivos Semana 5
+
+- [x] Entender la corrección del hito 2 y los errores más comunes.
+- [x] Instalar diferentes utilidades para trabajar con Docker: docker, Podman.
+- [x] Ver diferentes ejemplos de contenedores, con sus casos de usos diferentes.
+- [x] Comprender los hooks de git.
+- [x] Realización de los [ejercicios](https://github.com/juancpineda97/Ejercicios-IV/blob/main/ejercicios/tema3.md) del Tema 3.
