@@ -46,5 +46,6 @@
 - [x] Entender errores comunes en la construcción de una imagen Docker.
 - [x] Darse de alta en Travis y otros servicios de integración/despliegue continuo.
 - [x] Entender el formato YAML y su uso en la descripción de diferentes infraestructuras virtuales.
+- [x] [Autoevaluacíon](https://github.com/WolfYe98/Ejercicios_IV/tree/master/Tema%204)
 
-[Aquí estan los ejercicios de autoevaluación](https://github.com/WolfYe98/Ejercicios_IV)
+[Aquí están los ejercicios de autoevaluación](https://github.com/WolfYe98/Ejercicios_IV)
