@@ -4,12 +4,21 @@
 
 * Entender los diferentes niveles de abstracción que llevan a
   construir una aplicación para la nube.
-  
+* Entender la importancia de los sistemas de configuración distribuida
+  y su utilidad en despliegues en la nube.
+* Entender cómo funciona la inyección de dependencias (o algo por el
+  estilo).
+* Entender la importancia de los sistemas de log.
 
 ## Otros objetivos
 
 
-
+* Un
+  [fichero travis](https://github.com/JJ/tests-python/blob/master/.travis.yml) y
+  [cómo se ha llegado hasta él](https://travis-ci.com/github/JJ/tests-python/builds).
+* Entender
+  [la configuración distribuida](http://jj.github.io/IV/documentos/temas/Microservicios#creando-un-microservicio-desde-cero) y
+  como manejarla en un microservicio.
 * Reentregar el hito 3 una vez corregido.
 * Errores comunes en el hito 3
   * Comparaciones que se limitan a varias versiones de las imágenes
@@ -45,6 +54,10 @@ La sección sobre [integración
 continua](http://jj.github.io/IV/documentos/temas/Desarrollo_basado_en_pruebas#a%C3%B1adiendo-integraci%C3%B3n-continua) es
 parte el capítulo sobre desarrollo basado en pruebas.
 
+* Comenzamos
+  [microservicios](http://jj.github.io/IV/documentos/temas/Microservicios),
+  pero empezamos por lo más básico: configuración.
+  
 - Seguimos con
   el
   [cuarto hito](http://jj.github.io/IV/documentos/proyecto/4.CI). La
