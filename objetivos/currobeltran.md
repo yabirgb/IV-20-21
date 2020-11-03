@@ -39,5 +39,5 @@
 - [x] Entender el concepto de integración continua y a usarla en una aplicación.
 - [x] Comenzar con la configuración de los sistemas de integración continua.
 - [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
-- [Enlace a ejercicios del Tema 2](https://github.com/currobeltran/Ejercicios-IV/blob/master/Ejercicios/Tema%202.md)
-- [Enlace a ejercicios del Tema 3](https://github.com/currobeltran/Ejercicios-IV/blob/master/Ejercicios/Tema%203.md)
+- [Enlace a los ejercicios del Tema 2](https://github.com/currobeltran/Ejercicios-IV/blob/master/Ejercicios/Tema%202.md)
+- [Enlace a los ejercicios del Tema 3](https://github.com/currobeltran/Ejercicios-IV/blob/master/Ejercicios/Tema%203.md)
