@@ -4,3 +4,4 @@
 |--------|--------|
 | GUILLERMO LUPIÁÑEZ TAPIA | [Pull Request](https://github.com/XDavid1999/PacketService/pull/57) |
 | MOHAMED BILAL CHEKFEH AL SABBAGH | [Pull Request](https://github.com/guillelpnz/TextAnalyzer/pull/33) |
+| Antonio Cuadros Lapresta | [Pull Request](https://github.com/bytevictor/AnimeFLV-API/pull/49) |
