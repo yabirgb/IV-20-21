@@ -13,7 +13,7 @@ jobs:
         with:
           github-token: ${{github.token}}
           filesChanged: 1
-      - name: Comprueba el estado de CI del repo
+      - name: Comprueba los checks del repositorio
         uses: actions/github-script@v3
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
@@ -40,14 +40,15 @@ jobs:
                     core.setFailed("❌ No hay suficientes sistemas de CI configurados")
                 }
                 const green_checks = checks.filter( check => check.conclusion === "success" )
-                console.log( green_checks.filter( check => check.app.slug === "travis-ci" + 
-                 " length" +  green_checks.filter( check => check.app.slug === "travis-ci" ).length ) )
                 if ( !green_checks.length ) {
                     core.setFailed("❌ No hay al menos un CI que esté en verde")
                 } else {
                     console.log( "✅ Hay " + green_checks.length + " que pasan los tests correctamente" )
                 }
-                if ( green_checks.filter( check => check.app.slug === "travis-ci" ).length > 0 ) {
+                const travis_checks_green = green_checks.filter( check => check.app.slug === "travis-ci" )
+                console.log( "Travis checks " + travis_check_greens + " tamaño " + travis_checks_greens.length )
+
+                if ( travis_checks_greens.length == 0 ) {
                     core.setFailed("❌ Travis no está o está fallando en este momento")
                 } else {
                     console.log( "✅ Entre ellos está Travis" )
