@@ -25,6 +25,12 @@ jobs:
             } else {
                 const user = ghRepoMatch[1] // segundo resultado
                 const repo = ghRepoMatch[2] // tercer resultado
+                const opts = await github.checks.listForRef.endpoint.merge(
+                        { owner: user,
+                          repo: repo,
+                          ref: 'HEAD'
+                        })
+                console.log( await github.paginate( opts ) )
                 console.log( "» Analizando repo " + repo + " del usuario 🔥" + user )
                 const checks_before_pag =
                     await github.checks.listForRef.endpoint.merge(
