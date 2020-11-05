@@ -36,12 +36,13 @@ jobs:
                 const green_checks = checks.filter( check => check.conclusion === "success" )
                 if ( !green_checks.length ) {
                     core.setFailed("❌ No hay al menos un CI que esté en verde")
+                } else {
+                    console.log( "✅ Hay " + green_checks.length + " que pasan los tests correctamente" )
                 }
                 if ( ! green_checks.filter( check => check.app.slug === "travis-ci" ) ) {
                     core.setFailed("❌ Travis está fallando en este momento")
+                } else {
+                    console.log( "✅ Entre ellos está Travis" )
                 }
-                console.log( checks )
-                console.log( green_checks)
-                console.log( checks.filter( label => label.name === "user-stories" ) )
             }
 
