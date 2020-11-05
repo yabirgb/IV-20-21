@@ -43,7 +43,7 @@ jobs:
                 if ( !green_checks.length ) {
                     core.setFailed("❌ No hay al menos un CI que esté en verde")
                 } else {
-                    console.log( "✅ Hay " + green_checks.length + " que pasan los tests correctamente" )
+                    console.log( "✅ Hay " + green_checks.length + " que pasa(n) los tests correctamente" )
                 }
                 const travis_checks_green = green_checks.filter( check => check.app.slug === "travis-ci" )
 
