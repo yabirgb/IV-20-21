@@ -47,7 +47,7 @@ jobs:
                 } else {
                     console.log( "✅ Hay " + green_checks.length + " que pasan los tests correctamente" )
                 }
-                if ( ! green_checks.filter( check => check.app.slug === "travis-ci" ) ) {
+                if ( green_checks.filter( check => check.app.slug === "travis-ci" ).length > 0 ) {
                     core.setFailed("❌ Travis está fallando en este momento")
                 } else {
                     console.log( "✅ Entre ellos está Travis" )
