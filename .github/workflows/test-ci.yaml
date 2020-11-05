@@ -2,10 +2,10 @@ name: "Comprueba el estado de la IC"
 on:
   pull_request:
     paths:
-      - 'proyectos/hito-[4567].md'
+      - 'proyectos/hito-[3567].md'
 
 jobs:
-  user_story_check:
+  CI_status_check:
     runs-on: ubuntu-latest
     steps:
       - name: Extrae URL del repositorio
