@@ -2,7 +2,7 @@ name: "Comprueba el estado de la IC"
 on:
   pull_request:
     paths:
-      - 'proyectos/hito-[3567].md'
+      - 'proyectos/hito-[4567].md'
 
 jobs:
   CI_status_check:
@@ -13,7 +13,7 @@ jobs:
         with:
           github-token: ${{github.token}}
           filesChanged: 1
-      - name: Hace comprobaciones
+      - name: Comprueba el estado de CI del repo
         uses: actions/github-script@v3
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
