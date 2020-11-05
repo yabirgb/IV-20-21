@@ -46,7 +46,6 @@ jobs:
                     console.log( "✅ Hay " + green_checks.length + " que pasan los tests correctamente" )
                 }
                 const travis_checks_green = green_checks.filter( check => check.app.slug === "travis-ci" )
-                console.log( "Travis checks " + travis_checks_green + " tamaño " + travis_checks_green.length )
 
                 if ( travis_checks_green.length == 0 ) {
                     core.setFailed("❌ Travis no está o está fallando en este momento")
