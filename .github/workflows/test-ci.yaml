@@ -41,6 +41,7 @@ jobs:
                 }
                 const green_checks = checks.filter( check => check.conclusion === "success" )
                 console.log( green_checks )
+                console.log( green_checks.filter( check => check.app.slug === "travis-ci" ) )
                 if ( !green_checks.length ) {
                     core.setFailed("❌ No hay al menos un CI que esté en verde")
                 } else {
