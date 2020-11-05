@@ -23,14 +23,14 @@
 | LEJARRAGA RUBIO, ALBERTO| | |
 | LUPIAÑEZ TAPIA, GUILLERMO | | |
 | LUQUE JARAVA, BLANCA| | |
-| MARTIN LEON, ANTONIO| | |
+| MARTIN LEON, ANTONIO| [Buscador-Partidos](https://github.com/antonioml97/BuscadorPartidos) | v.1.3.6 |
 | MENOR MOLINERO, ALEJANDRO| [que-vemos](https://github.com/AlexMenor/que-vemos) | v1.0.6 |
 | MERELO MOLINA, CECILIA| | |
 | MERELO MOLINA, ELENA| | |
 | MOLINERO CASTILLO, JONATHAN| | |
 | MONTESINOS PERUJO, ISMAEL| | |
 | MORENO VILCHEZ, FRANCISCO JOSE| | |
-| NUÑEZ RUIZ, MANUEL JESUS| | |
+| NUÑEZ RUIZ, MANUEL JESUS| [footStats](https://github.com/ManuelJNunez/footStats) | v1.0.0 |
 | PALOMINO SANCHEZ, GUILLERMO| | |
 | PELEGRINA PELEGRINA, JOSE MIGUEL| | |
 | PEREZ MENDEZ, PABLO| | |
