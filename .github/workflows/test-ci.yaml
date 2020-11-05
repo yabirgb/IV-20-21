@@ -28,6 +28,20 @@ jobs:
                 console.log( "» Analizando repo " + repo + " del usuario 🔥" + user )
                 const checks_before_pag = await github.checks.listForRef.endpoint.merge( { owner: user, repo: repo, ref: 'HEAD', status: 'completed' })
                 const checks = await github.paginate( checks_before_pag)
+                console.log( "✅ Hay " + checks.length + " sistemas de CI configurados")
+
+                if ( checks.length < 2 ) {
+                    core.setFailed("❌ No hay al menos dos sistemas de CI configurados")
+                }
+                const green_checks = checks.filter( check => check.conclusion === "success" )
+                if ( !green_checks.length ) {
+                    core.setFailed("❌ No hay al menos un CI que esté en verde")
+                }
+                if ( ! green_checks.filter( check => check.app.slug === "travis-ci" ) ) {
+                    core.setFailed("❌ Travis está fallando en este momento")
+                }
                 console.log( checks )
+                console.log( green_checks)
+                console.log( checks.filter( label => label.name === "user-stories" ) )
             }
 
