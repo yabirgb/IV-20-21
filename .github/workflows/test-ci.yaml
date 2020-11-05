@@ -40,8 +40,8 @@ jobs:
                     core.setFailed("❌ No hay suficientes sistemas de CI configurados")
                 }
                 const green_checks = checks.filter( check => check.conclusion === "success" )
-                console.log( green_checks.filter( check => check.app.slug === "travis-ci",
-                 "length", green_checks.filter( check => check.app.slug === "travis-ci" ).length ) )
+                console.log( green_checks.filter( check => check.app.slug === "travis-ci" + 
+                 " length" +  green_checks.filter( check => check.app.slug === "travis-ci" ).length ) )
                 if ( !green_checks.length ) {
                     core.setFailed("❌ No hay al menos un CI que esté en verde")
                 } else {
