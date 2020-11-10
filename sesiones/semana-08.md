@@ -2,12 +2,14 @@
 
 ## Objetivos de la semana
 
+* Entender el concepto de serverless y su uso en entornos cloud.
 
 ## Otros objetivos
 
 * Entender los errores frecuentes en
   el
   [hito 4](https://github.com/JJ/IV-20-21/blob/master/proyectos/hito-4.md)
+  ![Comparación de .travis.yml](travis-yml.png)
   * "Justificación" no es "pantallazos que prueben... no sé qué. Es lo
     que hace que nos creamos que ese fichero de configuración lo has
     hecho tú y no lo has copiado de algún lado.
