@@ -2,11 +2,15 @@
 
 ## Objetivos de la semana
 
-* Entender el concepto de serverless y su uso en entornos cloud.
+* Entender el concepto de [serverless](http://jj.github.io/IV/documentos/temas/Serverless) y su uso en entornos cloud.
 * Entender los posibles casos de uso.
 
 ## Otros objetivos
 
+* Comenzar por
+  entender
+  [la estructura de HTTP](http://jj.github.io/IV/documentos/temas/REST) y
+  cómo se usa para construir APIs.
 * Darse de alta en un servicio "serverless"
   como [Vercel](https://vercel.com). Empezar a usar Firebase
   * Corresponde a los primeros ejercicios
