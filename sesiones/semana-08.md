@@ -7,6 +7,11 @@
 
 ## Otros objetivos
 
+* Darse de alta en un servicio "serverless"
+  como [Vercel](https://vercel.com). Empezar a usar Firebase
+  * Corresponde a los primeros ejercicios
+    del
+    [tema de serverless](http://jj.github.io/IV/documentos/temas/Microservicios).
 * Entender los errores frecuentes en
   el
   [hito 4](https://github.com/JJ/IV-20-21/blob/master/proyectos/hito-4.md)
