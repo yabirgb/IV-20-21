@@ -3,6 +3,7 @@
 ## Objetivos de la semana
 
 * Entender el concepto de serverless y su uso en entornos cloud.
+* Entender los posibles casos de uso.
 
 ## Otros objetivos
 
