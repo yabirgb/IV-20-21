@@ -31,6 +31,8 @@ Repositorio con los ejercicios de autoevaluación [aquí](https://github.com/Ele
 
 ## Cuarta semana
 
+[Ejercicios de autoevaluación](https://github.com/ElenaMerelo/iv-autoevaluacion#hito-3)
+
 - [X] Ver cómo funciona Docker
 - [X] Instalar Docker
 - [X] Para que se usan los contenedores
@@ -44,3 +46,4 @@ Repositorio con los ejercicios de autoevaluación [aquí](https://github.com/Ele
 - [X] Entender qué es la integración contínua 
 - [X] Sobre varios sistemas de integración contínua
 - [X] Qué se hace para añadir CI
+- [X] Configurar GitHub Actions y Travis
