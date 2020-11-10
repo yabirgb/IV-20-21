@@ -21,7 +21,11 @@
     hecho. Especialmente nunca probáis la última versión del lenguaje,
     que es imprescindible, la última sacada o la de desarrollo.
   * Nunca se usa sudo para instalar nada, y menos en CI.
-  * Nadie ha probado con sistemas operativos alternativos.
+  * Nadie ha probado con sistemas operativos alternativos (una
+    persona, aunque realmente no ha llegado a probarlo).
+  * Es absurdo poner en diferentes CI exactamente el mismo código. No
+    te va a enseñar nada que hagas dos veces lo mismo. Eso es hacer
+    las cosas por hacerlas, no entender por qué se hacen.
 
 
 
