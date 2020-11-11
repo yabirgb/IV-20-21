@@ -45,3 +45,9 @@
       Estoy familiarizado con la inyección de dependencias, no tanto con como se implementa en python, por eso me he leído (esta pregunta)[https://stackoverflow.com/questions/2461702/why-is-ioc-di-not-common-in-python] de Stack Overflow.
 - [x] Entender la importancia de los sistemas de log.
       Investigar el estado del arte, en este caso he leído sobre (ELK Stack.)[https://www.elastic.co/es/what-is/elk-stack]
+
+# Séptima semana
+
+- [x] Entender el concepto de serverless y su uso en entornos cloud. Me he dado de alta en vercel y he hecho [el despliegue](https://serverless-vercel-seven.vercel.app/api/date) de [una función.](https://github.com/AlexMenor/serverless-vercel)
+- [x] Entender los casos de uso de esta tecnología.
+- [x] Mirar frameworks serverless como [serverless](https://www.serverless.com/framework/docs/getting-started/)
