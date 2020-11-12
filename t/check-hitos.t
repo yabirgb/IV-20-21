@@ -17,6 +17,10 @@ use YAML qw(LoadFile);
 
 use v5.14; # For say
 
+if ( $ENV{'TRAVIS_PULL_REQUEST'} =~ /\d/ ) {
+  plan skip_all => "Sólo debe ejecutarse en un pull request";
+}
+
 # Allowed extensions for outline documents
 my $extensions = "(md|org)";
 my $repo = Git->repository ( Directory => '.' );
