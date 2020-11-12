@@ -17,7 +17,7 @@ use YAML qw(LoadFile);
 
 use v5.14; # For say
 
-if ( $ENV{'TRAVIS_PULL_REQUEST'} =~ /\d/ ) {
+unless ( $ENV{'TRAVIS_PULL_REQUEST'} =~ /\d/ ) {
   plan skip_all => "Sólo debe ejecutarse en un pull request";
 }
 
