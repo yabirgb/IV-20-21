@@ -12,6 +12,7 @@ computing en la práctica.
   continua.
 - Asimilar los diferentes casos de uso para las
   funciones-como-servicio.
+- Entender el concepto de observabilidad.
 
 ## Otros objetivos
 
@@ -28,12 +29,23 @@ computing en la práctica.
   un
   [despliegue *serverless*](http://jj.github.io/IV/documentos/proyecto/5.Serverless) para
   el hito número cinco.
+- Entender la importancia de
+  los
+  [*loggers*](http://jj.github.io/IV/documentos/temas/Microservicios#creando-un-microservicio-desde-cero) para
+  la *observabilidad*.
 
 ## Material
 
 - Teoría:
-  [serverless computing](http://jj.github.io/IV/documentos/temas/Serverless#usando-par%C3%A1metros).
+  [serverless computing](http://jj.github.io/IV/documentos/temas/Serverless#usando-par%C3%A1metros) y
+  comenzamos
+  con
+  [microservicios](http://jj.github.io/IV/documentos/temas/Microservicios).
 
 - Práctica:
   [Hito 5](http://jj.github.io/IV/documentos/proyecto/5.Serverless),
-  que habrá que entregar el **24 de noviembre**.
+  que habrá que entregar el **24 de noviembre** a las 23:59 horas.
+
+## Siguiente semana
+
+[Novena semana](semana-09.md).
