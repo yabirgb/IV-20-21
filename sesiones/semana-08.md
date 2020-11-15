@@ -40,9 +40,6 @@
     las cosas por hacerlas, no entender por qué se hacen.
 
 
-
-
-
 ## Material para la clase
 
 
