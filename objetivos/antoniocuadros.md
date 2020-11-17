@@ -25,7 +25,7 @@
 - [X] Comprender las ventajas que aporta un gestor de versiones, más concretamente se ha profundizado en los de Ruby como por ejemplo [rbenv](https://github.com/rbenv/rbenv)
 - [X] Entender los ficheros de dependencias.
 - [X] Profundizar en las pruebas software en Ruby haciendo uso concretamente de [minitest](https://github.com/seattlerb/minitest).
-- [X] Profundizar en la gestión de dependencias en Ruby, más concretamente se ha entendido el funcionamiento de [Bundler](https://bundler.io/)
+- [X] Profundizar en la gestión de dependencias en Ruby, más concretamente se ha entendido el funcionamiento de [Bundler](https://bundler.io/).
 - [X] Se ha profundizado en el uso de [rake](https://rubygems.org/gems/rake/versions/11.2.2?locale=es) como herramienta de automatización.
 
 ## Semana del 20 de octubre
@@ -39,4 +39,10 @@
 - [X] Se ha entendido la importancia de la integración continua.
 - [X] Se ha investigado sobre los distintos sistemas de integración continua, más concretamente Travis CI, Circle CI y las GitHub actions.
 - [X] Se ha aprendido a describir las versiones del lenguaje que usa nuestra aplicación.
-- [X] Se han llevado acabo los ejercicios de autoevaluación (ejercicios 9 y 10) que tienen como objetivo darnos de alta en un sistema de integración continua y configurarla para nuestro proyecto. Se pueden consultar [aquí](https://github.com/antoniocuadros/ejercicios-apuntes-IV/blob/master/Ejercicios/Tema_Integracion_Continua/ejercicios.md)
+- [X] Se han llevado acabo los ejercicios de autoevaluación (ejercicios 9 y 10) que tienen como objetivo darnos de alta en un sistema de integración continua y configurarla para nuestro proyecto. Se pueden consultar [aquí](https://github.com/antoniocuadros/ejercicios-apuntes-IV/blob/master/Ejercicios/Tema_Integracion_Continua/ejercicios.md).
+
+## Semana del 10 de noviembre
+- [X] Se ha comprendido lo que se entiende por serverless computing.
+- [X] Entender que parámetros recibe una función desplegada en un sistema serverless.
+- [X] Se han realizado los [ejercicios](https://github.com/antoniocuadros/ejercicios-apuntes-IV/blob/master/Ejercicios/Tema_Serverless/ejercicios.md) relacionados con el tema serverless.
+- [X] Para la realización de los ejercicios nos hemos tenido que dar de alta en Vercel y Firebase y luego hacer una pequeña prueba de despliegue en Vercel.
