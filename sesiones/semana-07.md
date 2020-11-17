@@ -17,7 +17,8 @@
   [fichero travis](https://github.com/JJ/tests-python/blob/master/.travis.yml) y
   [cómo se ha llegado hasta él](https://travis-ci.com/github/JJ/tests-python/builds).
 * Entender
-  [la configuración distribuida](http://jj.github.io/IV/documentos/temas/Microservicios#creando-un-microservicio-desde-cero) y
+  [la configuración distribuida](http://jj.github.io/IV/documentos/temas/Microservicios#creando-un-microservicio-desde-cero) (con
+  `etcd` y
   como manejarla en un microservicio.
 * Reentregar el hito 3 una vez corregido.
 * Errores comunes en el hito 3

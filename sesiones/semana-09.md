@@ -7,6 +7,9 @@ computing en la práctica.
 
 ## Objetivos de la semana
 
+- Entender el concepto de *webhook* con ejemplos
+  como
+  [este](https://docs.github.com/es/free-pro-team@latest/actions/reference/events-that-trigger-workflows#workflow_dispatch) o [aquí](https://github.community/t/triggering-actions-by-other-repository-webhooks/16295/3)
 - Entender el manejo de diferentes empresas en la nube.
 - Entender el concepto de *continuous delivery* o publicación
   continua.
