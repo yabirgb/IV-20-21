@@ -15,6 +15,8 @@ jobs:
           filesChanged: 1
       - name: Extrae usuario y nombre del repo
         uses: actions/github-script@v3
+        env:
+            ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
