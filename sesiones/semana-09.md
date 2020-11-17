@@ -10,7 +10,7 @@ computing en la práctica.
 - Entender el concepto de *webhook* con ejemplos
   como
   [este](https://docs.github.com/es/free-pro-team@latest/actions/reference/events-that-trigger-workflows#workflow_dispatch) o [aquí](https://github.community/t/triggering-actions-by-other-repository-webhooks/16295/3)
-- Entender el manejo de diferentes empresas en la nube.
+- Entender el manejo de los productos cloud de diferentes empresas.
 - Entender el concepto de *continuous delivery* o publicación
   continua.
 - Asimilar los diferentes casos de uso para las
