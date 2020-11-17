@@ -36,11 +36,25 @@
 - [x] Comprender los hooks de git.
 - [x] Ver diferentes ejemplos de contenedores, con sus casos de uso diferentes.
 - [x] Entender el concepto de integración continua y a usarla en una aplicación. Lo entendí en el [curso sobre TDD](https://jj.github.io/curso-tdd/temas/CI.html).
-- [ ] Comenzar con la configuración de los sistemas de integración continua.
+- [x] Comenzar con la configuración de los sistemas de integración continua.
 - [x] Haber entregado el hito 3. [Mi repositorio](https://github.com/JaviPrieto/PeluqueriaUnisex)
 - [x] Entender errores comunes en la construcción de una imagen Docker.
 - [x] Darse de alta en Travis.
-- [ ] Darse de alta en otros servicios de integración/despliegue continuo.
-- [x] Enlace a los ejercicios del Tema1. [IV-Ejercicios](https://github.com/JaviPrieto/IV-Ejercicios)
+- [x] Darse de alta en otros servicios de integración/despliegue continuo.
+- [x] Enlace a los ejercicios del Tema1. [IV-Ejercicios](https://github.com/JaviPrieto/IV-Ejercicios/tree/master/Tema1.Introduccion-a-la-IV)
+
+## Objetivos sexta semana, 27 octubre
+
+- [X] Se ha entendido la importancia de la integración continua.
+- [X] Se ha investigado sobre los distintos sistemas de integración continua, más concretamente Travis CI, Circle CI y las GitHub actions.
+- [X] Se ha aprendido a describir las versiones del lenguaje que usa nuestra aplicación.
+- [X] Enlace a los ejercicios del Tema2. [IV-Ejercicios](https://github.com/JaviPrieto/IV-Ejercicios/tree/master/Tema2.Desarrollo-basado-en-pruebas)
+
+
+## Objetivos séptima semana, 10 noviembre.
+- [X] Se ha comprendido lo que se entiende por serverless computing.
+- [X] Entender que parámetros recibe una función desplegada en un sistema serverless.
+- [] Se han realizado los ejercicios relacionados con el tema serverless.
+
 
 
