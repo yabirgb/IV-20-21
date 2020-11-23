@@ -120,30 +120,23 @@ SKIP: {
   }
 
   if ( $this_hito > 4 ) { # Despliegue en algún lado
-    doing("hito 4");
-    my ($deployment_url) = ($README =~ m{(?:[Dd]espliegue|[Dd]eployment):\s+(https?://\S+)\b});
-    if ( $deployment_url ) {
-      diag "☑ Hallado URL de despliegue $deployment_url";
+    doing("hito 5");
+    my $serverless_url = $iv->{'URL'};
+    if ( $serverless_url ) {
+      diag "☑ Hallado URL de despliegue $serverless_url";
     } else {
       diag "✗ Problemas extrayendo URL de despliegue";
     }
-    ok( $deployment_url, "URL de despliegue hito 3");
-  SKIP: {
-      skip "Ya en el hito siguiente", 2 unless $this_hito == 4;
-      my $status = $ua->get("$deployment_url/status");
-      if ( ! $status || $status =~ /html/ ) {
-	$status = $ua->get( "$deployment_url/status"); # Por si acaso han movido la ruta
-      }
-      ok( $status->res, "Despliegue hecho en $deployment_url" );
-      say "Respuesta ", $status->res;
-      like( $status->res->headers->content_type, qr{application/json}, "Status devuelve application/json");
-      say "Content Type ", $status->res->headers->content_type;
-      my $status_ref = json_from_status( $status );
-      like ( $status_ref->{'status'}, qr/[Oo][Kk]/, "Status $status_ref de $deployment_url correcto");
-    }
+    ok( $serverless_url, "URL de despliegue hito 5");
+    my $status = $ua->get("$serverless_url");
+    ok( $status->res, "Despliegue hecho en $serverless_url" );
+    diag "☑ Respuesta ", $status->res;
+    my $serverless_json =  read_text( "5.json");
+    diag "☑ Content Type ", $status->res->headers->content_type;
+    is ( $status->res->body, $serverless_json, "Match de resultado de $serverless_url");
   }
 
-  if ( $this_hito > 4 ) { # Dockerfile y despliegue
+  if ( $this_hito > 5 ) { # Dockerfile y despliegue
     doing("hito 5");
     my ($deployment_url) = ($README =~ /(?:[Cc]ontenedor|[Cc]ontainer).+(https?:..\S+)\b/);
     if ( $deployment_url ) {
