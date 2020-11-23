@@ -130,10 +130,10 @@ SKIP: {
     ok( $serverless_url, "URL de despliegue hito 5");
     my $status = $ua->get("$serverless_url");
     ok( $status->res, "Despliegue hecho en $serverless_url" );
-    diag "☑ Respuesta ", $status->res->body;
+    diag "☑ Respuesta ", $status->res->text;
     my $serverless_json =  read_text( "$repo_dir/5.json");
     diag "☑ Content Type ", $status->res->headers->content_type;
-    cmp_ok( $status->res->body, "eq", $serverless_json, "Match de resultado de $serverless_url");
+    cmp_ok( $status->res->text, "eq", $serverless_json, "Match de resultado de $serverless_url");
   }
 
   if ( $this_hito > 5 ) { # Dockerfile y despliegue
