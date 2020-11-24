@@ -3,6 +3,8 @@
 ## Objetivos de la semana
 
 * Entender qué es un test de integración.
+* Entender la importancia de los logs para la observabilidad.
+* Entender el concepto de ruta, middleware y URI.
 
 ## Otros objetivos
 
