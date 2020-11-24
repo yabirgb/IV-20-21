@@ -42,8 +42,8 @@
 
 ## Séptima, octava y novena semana
 - [x] Darse de alta en Netlify.
-- [x] Crear un bot de Telegram en Vercel
-- [x] Usando parámetros en funciones serverless
+- [x] Crear un bot de Telegram en Vercel.
+- [x] Usando parámetros en funciones serverless.
 - [x] Entender como crear un despliegue serverless para el hito número cinco.
 - [x] Entender la importancia de los loggers para la observabilidad.
 - [x] Realizar [serverless computing](https://github.com/DanielRuizMed/EjerciciosIV/tree/master/session8-9)
