@@ -11,12 +11,13 @@ Incluye la siguiente semana que no hay clase
 
 ## Material de este periodo
 
-- Seguimos con Microservicios
+- Entender los tests de integración.
 - Comenzamos con PaaS
 
 ## Plazos en este periodo
 
 - Entregar
   el
-  [hito 6](http://jj.github.io/IV/documentos/proyecto/6.Microservicios).
+  [hito 6](http://jj.github.io/IV/documentos/proyecto/6.Microservicios). la
+  siguiente semana.
  
