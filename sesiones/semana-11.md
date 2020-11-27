@@ -7,6 +7,11 @@ Incluye la siguiente semana que no hay clase
 ## Otros objetivos
 
 - Errores frecuentes en la entrega del hito 5
+  - La rúbrica 1 lo que pedía era que se justificara la configuración
+    del repositorio *completa*, no sólo la conexión. Cada sistema
+    tendrá una configuración específica. También habrá que explicar
+    qué se ha hecho en la función de tu proyecto para adaptarla al
+    entorno serverless.
 - Qué es el middleware
 
 ## Material de este periodo
