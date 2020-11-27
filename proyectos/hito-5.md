@@ -46,7 +46,7 @@
 | RUIZ MEDINA, DANIEL| [PAndemiun](https://github.com/DanielRuizMed/PAndemium) | v0.5.0 |
 | SANZ SANCHEZ, MARIA| [MakeupIV](https://github.com/mariasanzs/makeupIV) | V5.0.5 |
 | SOLERA LINARES, SARA| [proyectoSeries](https://github.com/sarasolera/proyectoSeries) | v5.0.1|
-| STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v5.0.5 |
+| STETSKIY , NIKITA| [Micro-Calendario](https://github.com/nikitastetskiy/micro-calendario) | v5.0.6 |
 | TORRES BAREA, FRANCISCO JAVIER| [CloudFood](https://github.com/FranToBa/CloudFood)  | v5.0.0 |
 | TORRES CEBALLOS, ALBERTO JESUS| | |
 | VEGA JIMENEZ, ALEJANDRO| | |
