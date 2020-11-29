@@ -12,6 +12,9 @@ Incluye la siguiente semana que no hay clase
     tendrá una configuración específica. También habrá que explicar
     qué se ha hecho en la función de tu proyecto para adaptarla al
     entorno serverless.
+  - 200 no es el status que se devuelve siempre, es el que se devuelve
+    cuando el resultado es correcto. Para indicar que no se ha
+    encontrado o no existe, se debe devolver 404.
 - Qué es el middleware
 
 ## Material de este periodo
