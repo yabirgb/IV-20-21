@@ -15,6 +15,8 @@ Incluye la siguiente semana que no hay clase
   - 200 no es el status que se devuelve siempre, es el que se devuelve
     cuando el resultado es correcto. Para indicar que no se ha
     encontrado o no existe, se debe devolver 404.
+  - También se puede usar el error 400 (como Antonio Revelles) si hay
+    un error en el query string.
   - Poner un front-end Telegram para hacer peticiones a otro endpoint
     URL es una muy mala idea. Si los dos proyectos tienen origen en el
     mismo, simplemente habría que hacer que los datos se cogieran del
