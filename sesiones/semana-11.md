@@ -15,6 +15,14 @@ Incluye la siguiente semana que no hay clase
   - 200 no es el status que se devuelve siempre, es el que se devuelve
     cuando el resultado es correcto. Para indicar que no se ha
     encontrado o no existe, se debe devolver 404.
+  - Poner un front-end Telegram para hacer peticiones a otro endpoint
+    URL es una muy mala idea. Si los dos proyectos tienen origen en el
+    mismo, simplemente habría que hacer que los datos se cogieran del
+    mismo origen. Eso le va a añadir latencia y acoplar fuertemente el
+    uno al otro.
+  - Seguimos con los issues "Hacer no sé qué en Vercel" o "Crear
+    fichero no sé cuanto". Los issues son problemas a resolver, no
+    tareas que haya que hacer literalmente.
 - Qué es el middleware
 
 ## Material de este periodo
