@@ -54,3 +54,4 @@
 
 - [x] Solucionar problemas hito 5
 - [x] Comenzar hito 6
+- [x] [Ejercicios de autoevaluación](https://github.com/antOnioOnio/IV-autoevaluacion/blob/master/serverles.md)
