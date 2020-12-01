@@ -25,12 +25,12 @@
 | LUQUE JARAVA, BLANCA| | |
 | MARTIN LEON, ANTONIO| [Buscador-Partidos](https://github.com/antonioml97/BuscadorPartidos) | v.1.4.8  **Reenvío** |
 | MENOR MOLINERO, ALEJANDRO|[que-vemos](https://github.com/AlexMenor/que-vemos) | v1.0.7 |
-| MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v3.2.10 |
+| MERELO MOLINA, CECILIA| [VizYourData](https://github.com/cecimerelo/VizYourData) | v3.2.10  **Reenvío**|
 | MERELO MOLINA, ELENA| [goFit]( https://github.com/ElenaMerelo/goFit) | v1.0.0 |
 | MOLINERO CASTILLO, JONATHAN| | |
 | MONTESINOS PERUJO, ISMAEL| | |
 | MORENO VILCHEZ, FRANCISCO JOSE| | |
-| NUÑEZ RUIZ, MANUEL JESUS| [footStats](https://github.com/ManuelJNunez/footStats) | v5.0.3 |
+| NUÑEZ RUIZ, MANUEL JESUS| [footStats](https://github.com/ManuelJNunez/footStats) | v6.0.0 **Reenvío** |
 | PALOMINO SANCHEZ, GUILLERMO| | |
 | PELEGRINA PELEGRINA, JOSE MIGUEL| [OrganizeUDiet](https://github.com/josemip98/OrganizeUDiet) | v3.0.4 **Reenvío**|
 | PEREZ MENDEZ, PABLO| | |
@@ -51,6 +51,6 @@
 | TORRES CEBALLOS, ALBERTO JESUS| | |
 | VEGA JIMENEZ, ALEJANDRO| | |
 | VEGA PALMA, LEANDRO| | |
-| VELA PELEGRINA, SERGIO| [Organize&Go](https://github.com/sergiovp/IV-OrganizeAndGo) | v0.1.0 |
-| VICTORIA MOHAMED, JAVIER| [VGT](https://github.com/javizzyv/VideoGameTracker) | v0.5.0 |
+| VELA PELEGRINA, SERGIO| [Organize&Go](https://github.com/sergiovp/IV-OrganizeAndGo) | v0.1.1 **Reenvío** |
+| VICTORIA MOHAMED, JAVIER| [VGT](https://github.com/javizzyv/VideoGameTracker) | v0.5.3 **Reenvío** |
 | YE , BATE|[DancInform](https://github.com/WolfYe98/Proyecto_IV_Bate) | v3.1.1|
