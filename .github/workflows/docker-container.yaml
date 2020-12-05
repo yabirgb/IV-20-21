@@ -1,4 +1,4 @@
-name: "Comprueba la existencia del contenedor de docker usando artefactos"
+name: "Test del contenedor de docker usando artefactos"
 on:
   workflow_run:
     workflows: ["Extrae usuario y repo"]
