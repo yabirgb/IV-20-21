@@ -1,0 +1,33 @@
+name: "Comprueba la existencia del contenedor de docker usando artefactos"
+on:
+  worflow_run:
+    workflows: ["Extrae usuario y repo"]
+    paths:
+      - 'proyectos/hito-[34567].md'
+    types: completed
+
+jobs:
+  docker_check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descarga valores
+        uses: actions/download-artifact@v2
+        with:
+          name: user-repo
+      - name: Crea variables de entorno
+        run: |
+          cat USER_REPO
+          cat USER_REPO >> $GITHUB_ENV
+      - name: Descarga repo usuario y ejecuta contenedor
+        uses: actions/checkout@v2
+        with:
+          repository: '${{env.user}}/${{env.repo}}'
+      - name: Ejecuta contenedor
+        run: |
+          if test -f "DOCKER_USER"; then
+            echo "Usuario de Docker alternativo"
+            user=`cat DOCKER_USER`
+          fi
+          export CONTAINER=${user}/${repo}
+          docker run -t -v `pwd`:/test ${CONTAINER,,}
+
