@@ -1,6 +1,6 @@
 name: "Comprueba la existencia del contenedor de docker usando artefactos"
 on:
-  worflow_run:
+  workflow_run:
     workflows: ["Extrae usuario y repo"]
     paths:
       - 'proyectos/hito-[34567].md'
