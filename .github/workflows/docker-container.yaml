@@ -24,13 +24,13 @@ jobs:
       - name: Descarga repo usuario y ejecuta contenedor
         uses: actions/checkout@v2
         with:
-          repository: '${{env.user}}/${{env.repo}}'
+          repository: '${{env.CC_USER}}/${{env.CC_REPO}}'
       - name: Ejecuta contenedor
         run: |
           if test -f "DOCKER_USER"; then
             echo "Usuario de Docker alternativo"
             user=`cat DOCKER_USER`
           fi
-          export CONTAINER=${user}/${repo}
+          export CONTAINER=${CC_USER}/${CC_REPO}
           docker run -t -v `pwd`:/test ${CONTAINER,,}
 
