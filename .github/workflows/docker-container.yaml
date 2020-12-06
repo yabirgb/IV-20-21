@@ -24,13 +24,12 @@ jobs:
       - name: Descarga repo usuario y ejecuta contenedor
         uses: actions/checkout@v2
         with:
-          repository: '${{env.CC_USER}}/${{env.CC_REPO}}'
-      - name: Ejecuta contenedor
+          repository: '${{env.IV_USER}}/${{env.IV_REPO}}'
+      - name: Halla nombre de contenedor
         run: |
           if test -f "DOCKER_USER"; then
             echo "Usuario de Docker alternativo"
-            user=`cat DOCKER_USER`
+            IV_USER=`cat DOCKER_USER`
           fi
-          export CONTAINER=${CC_USER}/${CC_REPO}
-          docker run -t -v `pwd`:/test ${CONTAINER,,}
+          echo "CONTAINER=${IV_USER}/${IV_REPO}" >> $GITHUB_ENV
 
