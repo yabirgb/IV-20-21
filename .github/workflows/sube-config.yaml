@@ -1,13 +1,11 @@
-name: "Nombre contenedor Docker"
+name: "Crea artefacto con configuración"
 on:
   workflow_run:
     workflows: ["Extrae usuario y repo"]
-    paths:
-      - 'proyectos/hito-[34567].md'
     types: completed
 
 jobs:
-  docker_get:
+  sube_config:
     runs-on: ubuntu-latest
     steps:
       - name: Descarga valores
@@ -19,22 +17,19 @@ jobs:
           name: user-repo
       - name: Crea variables de entorno
         run: |
-          cat USER_REPO
           cat USER_REPO >> $GITHUB_ENV
       - name: Descarga repo usuario y ejecuta contenedor
         uses: actions/checkout@v2
         with:
           repository: '${{env.IV_USER}}/${{env.IV_REPO}}'
-      - name: Halla nombre de contenedor
+      - name: Descarga ysh y ejecuta
         run: |
-          if test -f "DOCKER_USER"; then
-            echo "Usuario de Docker alternativo"
-            IV_USER=`cat DOCKER_USER`
-          fi
-          echo "CONTAINER=${IV_USER}/${IV_REPO}" >> CONTAINER
+          sudo curl -s -L https://raw.githubusercontent.com/azohra/yaml.sh/v0.2.0/ysh --output /usr/bin/ysh
+          sudo chmod +x /usr/bin/ysh
+          ysh -v
+          .github/workflows/procesa_yaml.sh
       - name: "Sube el fichero"
         uses: actions/upload-artifact@v2
         with:
-          name: ${{env.IV_USER}}-iv-container
-          path: IV_CONTAINER
-
+          name: ${{env.IV_USER}}-iv-config
+          path: IV_CONFIG
