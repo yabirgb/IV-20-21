@@ -1,4 +1,4 @@
-name: "Nombre contenedor Docker"
+name: "Prueba del microservicio"
 on:
   workflow_run:
     workflows: ["Extrae usuario y repo","Nombre contenedor Docker","Crea artefacto con configuración"]
