@@ -49,7 +49,7 @@ jobs:
           repository: '${{env.IV_USER}}/${{env.IV_REPO}}'
       - name: Ejecuta test
         run: |
-          PID=$(docker run -d -t -v `pwd`:/test ${CONTAINER,,} sh)
+          PID=$(docker run -d -t -v `pwd`:/test ${CONTAINER,,} sleep infinity)
           docker exec -t ${PID} ${IV_ORDEN_TAREAS} build
           docker exec -t ${PID} ${IV_ORDEN_TAREAS} install
           docker exec -t ${PID} ${IV_ORDEN_TAREAS} test
