@@ -31,7 +31,7 @@ jobs:
             echo "Usuario de Docker alternativo"
             IV_USER=`cat DOCKER_USER`
           fi
-          echo "CONTAINER=${IV_USER}/${IV_REPO}" >> CONTAINER
+          echo "CONTAINER=${IV_USER}/${IV_REPO}" >> IV_CONTAINER
       - name: "Sube el fichero"
         uses: actions/upload-artifact@v2
         with:
