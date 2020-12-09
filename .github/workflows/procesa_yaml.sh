@@ -9,5 +9,4 @@ make=$(ysh -f iv.yaml -q "make")
 [[ $make =~ \= ]] && echo "«make» no es una cadena" && exit 2
 echo "IV_LENGUAJE=$lenguaje" >> IV_CONFIG
 echo "IV_FICHERO_TAREAS=$fichero_tareas" >> IV_CONFIG
-echo "IV_LENGUAJE=$lenguaje" >> IV_CONFIG
 echo "IV_ORDEN_TAREAS=$make" >> IV_CONFIG
