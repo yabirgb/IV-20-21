@@ -30,8 +30,8 @@ jobs:
           name: ${{env.IV_USER}}-iv-container
       - name: Crea variables de entorno para el contenedor
         run: |
-          cat CONTAINER
-          cat CONTAINER >> $GITHUB_ENV
+          cat IV_CONTAINER
+          cat IV_CONTAINER >> $GITHUB_ENV
       - name: Descarga valores configuración
         uses: dawidd6/action-download-artifact@v2
         with:
