@@ -1,7 +1,7 @@
 name: "Prueba del microservicio"
 on:
   workflow_run:
-    workflows: ["Crea artefacto con configuración"]
+    workflows: ["Nombre contenedor Docker"]
     paths:
       - 'proyectos/hito-[67].md'
     types: completed
