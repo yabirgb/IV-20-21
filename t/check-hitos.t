@@ -130,9 +130,7 @@ SKIP: {
     ok( $serverless_url, "URL de despliegue hito 5 $serverless_url correcta");
     my $status = $ua->get("$serverless_url");
     ok( $status->res, "Despliegue hecho en $serverless_url" );
-    diag "☑ Respuesta ", $status->res->text;
     my $serverless_json =  read_text( "$repo_dir/5.json");
-    diag "☑ Content Type ", $status->res->headers->content_type;
     cmp_ok( $status->res->text, "eq", $serverless_json, "Match de resultado de $serverless_url");
   }
 
