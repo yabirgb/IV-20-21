@@ -127,7 +127,7 @@ SKIP: {
     } else {
       diag "✗ Problemas extrayendo URL de despliegue";
     }
-    ok( $serverless_url, "URL de despliegue hito 5");
+    ok( $serverless_url, "URL de despliegue hito 5 $serverless_url correcta");
     my $status = $ua->get("$serverless_url");
     ok( $status->res, "Despliegue hecho en $serverless_url" );
     diag "☑ Respuesta ", $status->res->text;
