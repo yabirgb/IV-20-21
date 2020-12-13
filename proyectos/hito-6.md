@@ -5,7 +5,7 @@
 | CABRITA GOMEZ, VICTOR| | |
 | CANO JEREZ, IRENE| [proyecto-idiomas](https://github.com/irenecj/proyecto-idiomas) | v6.0.3 | 
 | CHAVES CABALLERO, MARIO| | |
-| CHEKFEH AL-SABBAGH, MOHAMED BILAL| | |
+| CHEKFEH AL-SABBAGH, MOHAMED BILAL| [GameStore](https://github.com/biilal1999/GameStore) | v6.0.3 |
 | COCA CRUZ, SIXTO| | |
 | CUADROS LAPRESTA, ANTONIO| [WhenToClass](https://github.com/antoniocuadros/WhenToClass) | v1.6.6 | 
 | DEL POZO MORENO, RAUL| | |
