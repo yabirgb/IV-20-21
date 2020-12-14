@@ -11,6 +11,6 @@
 
 ## Plazos en este periodo
 
-- Entregar
-  el
-  [hito 7](http://jj.github.io/IV/documentos/proyecto/6.Microservicios).
+- Entregar el
+  [hito 7](http://jj.github.io/IV/documentos/proyecto/7.Paas): día **23
+  de diciembre**.
