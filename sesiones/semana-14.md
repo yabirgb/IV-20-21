@@ -1,7 +1,6 @@
 # Décimo cuarta semana, 22 de diciembre
 
-Última semana del año, incluye el trabajo Navidad
-
+Última semana del año.
 
 ## Objetivo de esta semana
 
@@ -12,5 +11,5 @@
 ## Plazos en este periodo
 
 - Entregar el
-  [hito 7](http://jj.github.io/IV/documentos/proyecto/7.Paas): día **23
-  de diciembre**.
+  [hito 7](http://jj.github.io/IV/documentos/proyecto/7.Paas): día **14
+  de enero**.
