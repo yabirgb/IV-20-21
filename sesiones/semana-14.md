@@ -24,10 +24,12 @@
     deben empezar por un sustantivo que designe al recurso.
     - Si sabes el URI, usa PUT para crear el recurso
     - Usa POST si no lo sabes.
-    - GET nunca crea recursos, es idempotente. 
+    - GET nunca crea recursos, es idempotente.
     - No pongáis `/api` al principio de las rutas. Tiene su uso
       específico, no es este.
   - No pongáis como instalar nada.
+  - Seguís sin usar HUs, ni poner bien los issues, ni hacer buenos
+    mensajes de commits (en general).
     
 ## Material de esta semana
 
