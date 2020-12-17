@@ -18,6 +18,15 @@
       API. Las comparacciones genéricas pueden o no servir. Y en todo
       caso, ¿vais a notar 1000 o el número de peticiones por segundo
       que digáis en vuestro caso?
+    - Si usáis cosas tipo `ab` no uséis números arbitrarios. El nivel
+      y la calidad de servicio deben establecerse en una HU.
+  - Las rutas deben construirse alrededor de un recurso, y por tanto
+    deben empezar por un sustantivo que designe al recurso.
+    - Si sabes el URI, usa PUT para crear el recurso
+    - Usa POST si no lo sabes.
+    - GET nunca crea recursos, es idempotente. 
+    - No pongáis `/api` al principio de las rutas. Tiene su uso
+      específico, no es este.
   - No pongáis como instalar nada.
     
 ## Material de esta semana
