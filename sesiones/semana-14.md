@@ -4,8 +4,20 @@
 
 ## Objetivo de esta semana
 
+- Entender la arquitectura de aplicaciones en
+  plataformas-como-servicio.
+- Conocer los servicios más comunes.
+- Conocer los conceptos relacionados con el proceso de virtualización
+  tanto de software como de hardware y ponerlos en práctica.
+
 ## Objetivos adicionales
 
+- [Ejemplo de aplicación](http://jj.github.io/IV/documentos/temas/PaaS#creando-un-bot-de-telegram-para-heroku) de
+  un bot en Telegram para Heroku: uso de variables de configuración,
+  modos de empleo, logging, uso de contenedores Docker para el
+  despliegue.
+- [Desplegando en Heroku](http://jj.github.io/IV/documentos/temas/PaaS#desplegando-en-el-paas) usando
+  la línea de órdenes.
 - Errores frecuentes en la práctica
   - Antipatrón: Conversación que hay en el grupo alternativo de clase
     1. ¿Qué hay que poner aquí?
