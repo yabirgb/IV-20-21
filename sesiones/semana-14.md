@@ -38,6 +38,10 @@
        entienda en los grupos reales de clase o preguntando a los
        profesores, que aunque nunca te dirán qué hay que poner, te
        orientarán por lo menos en la dirección correcta.
+    5. El problema principal es que *no hay una forma de hacer las
+       cosas*. Se valora que encuentres tu propia forma, no que copies
+       la forma de otra persona. Lo importante no es el resultado, es
+       lo que se aprenda por el camino.
   - Antipatrón: Issue abierto con "Haz esto". Issue cerrado con un
     commit que dice "Se ha hecho esto". Los issues son problemas a
     resolver, y siempre tienen que estar en relación con una HU.
@@ -70,9 +74,6 @@
 ## Material de esta semana
 
 Última práctica
-
-## Plazos en este periodo
-
-- Entregar el
-  [hito 7](http://jj.github.io/IV/documentos/proyecto/7.Paas): día **14
+  [sobre PaaS](http://jj.github.io/IV/documentos/temas/PaaS),
+  [hito 7](http://jj.github.io/IV/documentos/proyecto/7.Paas). Entrega: día **14
   de enero**.
