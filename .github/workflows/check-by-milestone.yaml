@@ -1,4 +1,4 @@
-name: "Comprueba muchos milestones"
+name: "Comprueba los proyectos por hito"
 on:
   pull_request:
     paths:
