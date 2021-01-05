@@ -41,6 +41,7 @@ jobs:
       env:
         IV_USER: ${{ needs.extrae_usuario_repo.outputs.user }}
         IV_REPO: ${{ needs.extrae_usuario_repo.outputs.repo }}
+      steps:
       - name: Comprueba hitos en repo estudiante
         uses: actions/github-script@v3
         with:
