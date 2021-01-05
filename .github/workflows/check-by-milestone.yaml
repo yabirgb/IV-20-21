@@ -96,7 +96,7 @@ jobs:
               core.setFailed( " ❌ No hay ninguna historia de usuario en el repo " )
             }
 
-            const closed_issued = issues.filter( issue => issue.state === "closed" )
+            const closed_issues = issues.filter( issue => issue.state === "closed" )
             closed_issues.forEach( async function( issue ) {
               if ( ! issue.pull_request ) {
                         const query = `query($owner:String!, $name:String!, $issue:Int!) {
