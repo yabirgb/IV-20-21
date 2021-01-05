@@ -5,7 +5,7 @@ on:
       - 'proyectos/hito-[1234567].md'
 
 jobs:
-  extrae_usuario_repo:
+  pruebas_hito_1:
     runs-on: ubuntu-latest
     steps:
       - name: Extrae URL del repositorio
@@ -96,7 +96,8 @@ jobs:
               core.setFailed( " ❌ No hay ninguna historia de usuario en el repo " )
             }
 
-            issues.forEach( async function( issue ) {
+            const closed_issued = issues.filter( issue => issue.state === "closed" )
+            closed_issues.forEach( async function( issue ) {
               if ( ! issue.pull_request ) {
                         const query = `query($owner:String!, $name:String!, $issue:Int!) {
                             repository(name: $name , owner: $owner  ) {
