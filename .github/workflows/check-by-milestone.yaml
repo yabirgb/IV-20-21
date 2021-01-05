@@ -35,13 +35,13 @@ jobs:
                 console.log( "::set-output name=user::" + user )
                 console.log( "::set-output name=repo::" + repo )
             }
-    comprueba_hito_1:
-      runs-on: ubuntu-latest
-      needs: extrae_usuario_repo
-      env:
-        IV_USER: ${{ needs.extrae_usuario_repo.outputs.user }}
-        IV_REPO: ${{ needs.extrae_usuario_repo.outputs.repo }}
-      steps:
+  comprueba_hito_1:
+    runs-on: ubuntu-latest
+    needs: extrae_usuario_repo
+    env:
+      IV_USER: ${{ needs.extrae_usuario_repo.outputs.user }}
+      IV_REPO: ${{ needs.extrae_usuario_repo.outputs.repo }}
+    steps:
       - name: Comprueba hitos en repo estudiante
         uses: actions/github-script@v3
         with:
