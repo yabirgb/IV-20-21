@@ -233,7 +233,7 @@ jobs:
         with:
           filters: |
             src:
-              - 'proyectos/hito-678].md'
+              - 'proyectos/hito-[678].md'
       - name: Descarga repo usuario y ejecuta contenedor
         if: steps.hito6.outputs.src == 'true'
         uses: actions/checkout@v2
