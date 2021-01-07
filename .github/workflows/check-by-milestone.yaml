@@ -165,3 +165,53 @@ jobs:
       - name: Testea el contenedor
         if: steps.hito3.outputs.src == 'true'
         run: docker run -t -v `pwd`:/test ${CONTAINER,,}
+  test-ci-status:
+    runs-on: ubuntu-latest
+    needs: extrae_usuario_repo
+    env:
+      IV_USER: ${{ needs.extrae_usuario_repo.outputs.user }}
+      IV_REPO: ${{ needs.extrae_usuario_repo.outputs.repo }}
+    steps:
+      - name: Filtra hito
+        uses: dorny/paths-filter@v2
+        id: hito4
+        with:
+          filters: |
+            src:
+              - 'proyectos/hito-[45678].md'
+      - name: Comprueba el estado de CI
+        if: steps.hito4.outputs.src == 'true'
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const user = process.env.IV_USER // segundo resultado
+            const repo = process.env.IV_REPO // tercer resultado
+            console.log( "» Analizando repo " + repo + " del usuario 🔥" + user )
+            const checks_before_pag =
+                    await github.checks.listForRef.endpoint.merge(
+                        { owner: user,
+                          repo: repo,
+                          ref: 'HEAD',
+                          status: 'completed'
+                        })
+            const checks = await github.paginate( checks_before_pag)
+            console.log( "✅ Hay " + checks.length + " sistemas de CI configurados")
+
+            if ( checks.length < 1 ) {
+                    core.setFailed("❌ No hay suficientes sistemas de CI configurados")
+            }
+            const green_checks = checks.filter( check => check.conclusion === "success" )
+            if ( !green_checks.length ) {
+              core.setFailed("❌ No hay al menos un CI que esté en verde")
+            } else {
+              console.log( "✅ Hay " + green_checks.length + " que pasa(n) los tests correctamente" )
+            }
+            const travis_checks_green = green_checks.filter( check => check.app.slug === "travis-ci" )
+
+            if ( travis_checks_green.length == 0 ) {
+              core.setFailed("❌ Travis no está o está fallando en este momento")
+            } else {
+              console.log( "✅ Entre ellos está Travis" )
+            }
+
