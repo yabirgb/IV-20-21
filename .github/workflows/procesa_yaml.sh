@@ -10,3 +10,6 @@ make=$(ysh -f iv.yaml -q "make")
 echo "IV_LENGUAJE=$lenguaje" >> IV_CONFIG
 echo "IV_FICHERO_TAREAS=$fichero_tareas" >> IV_CONFIG
 echo "IV_ORDEN_TAREAS=$make" >> IV_CONFIG
+echo "::set-output name=IV_LENGUAJE::$lenguaje"
+echo "::set-output name=IV_FICHERO_TAREAS::$fichero_tareas"
+echo "::set-output name=IV_ORDEN_TAREAS::$make"

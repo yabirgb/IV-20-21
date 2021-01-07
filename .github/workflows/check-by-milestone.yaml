@@ -129,5 +129,29 @@ jobs:
                 }
               }
             })
-
+  ops_on_repo:
+    runs-on: ubuntu-latest
+    needs: extrae_usuario_repo
+    env:
+      IV_USER: ${{ needs.extrae_usuario_repo.outputs.user }}
+      IV_REPO: ${{ needs.extrae_usuario_repo.outputs.repo }}
+    steps:
+      - name: Descarga repo usuario y decodifica configuración
+        uses: actions/checkout@v2
+        with:
+          repository: '${{env.IV_USER}}/${{env.IV_REPO}}'
+      - name: Descarga ysh y ejecuta
+        run: |
+          sudo curl -s -L https://raw.githubusercontent.com/azohra/yaml.sh/v0.2.0/ysh --output /usr/bin/ysh
+          sudo chmod +x /usr/bin/ysh
+          ysh -v
+          # Estamos en el repo del estudiante
+          curl https://raw.githubusercontent.com/JJ/IV-20-21/master/.github/workflows/procesa_yaml.sh --output procesa_yaml.sh
+          chmod +x ./procesa_yaml.sh
+          ./procesa_yaml.sh
+          if test -f "DOCKER_USER"; then
+            echo "❢ Usuario de Docker alternativo"
+            IV_USER=`cat DOCKER_USER`
+          fi
+          echo "::set-output name=CONTAINER::${IV_USER}/${IV_REPO}"
 
