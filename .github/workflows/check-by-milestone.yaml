@@ -154,4 +154,14 @@ jobs:
             IV_USER=`cat DOCKER_USER`
           fi
           echo "::set-output name=CONTAINER::${IV_USER}/${IV_REPO}"
-
+          echo "CONTAINER=${IV_USER}/${IV_REPO}" >> $GITHUB_ENV
+      - name: Filtra hito
+        uses: dorny/paths-filter@v2
+        id: hito3
+        with:
+          filters: |
+            src:
+              - 'proyectos/hito-[345678].md'
+      - name: Testea el contenedor
+        if: steps.hito3.outputs.src == 'true'
+        run: docker run -t -v `pwd`:/test ${CONTAINER,,}
