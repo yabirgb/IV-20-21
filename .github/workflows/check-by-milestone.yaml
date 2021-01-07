@@ -132,6 +132,9 @@ jobs:
   ops_on_repo:
     runs-on: ubuntu-latest
     needs: extrae_usuario_repo
+    outputs:
+      container: ${{steps.container.outputs.CONTAINER}}
+      orden_tareas: ${{steps.container.outputs.IV_ORDEN_TAREAS}}
     env:
       IV_USER: ${{ needs.extrae_usuario_repo.outputs.user }}
       IV_REPO: ${{ needs.extrae_usuario_repo.outputs.repo }}
@@ -141,6 +144,7 @@ jobs:
         with:
           repository: '${{env.IV_USER}}/${{env.IV_REPO}}'
       - name: Descarga ysh y ejecuta
+        id: container
         run: |
           sudo curl -s -L https://raw.githubusercontent.com/azohra/yaml.sh/v0.2.0/ysh --output /usr/bin/ysh
           sudo chmod +x /usr/bin/ysh
@@ -220,8 +224,8 @@ jobs:
     env:
       IV_USER: ${{ needs.extrae_usuario_repo.outputs.user }}
       IV_REPO: ${{ needs.extrae_usuario_repo.outputs.repo }}
-      CONTAINER: ${{ needs.ops_on_repo.outputs.CONTAINER }}
-      IV_ORDEN_TAREAS: ${{ needs.ops_on_repo.outputs.IV_ORDEN_TAREAS }}
+      CONTAINER: ${{ needs.ops_on_repo.outputs.container }}
+      IV_ORDEN_TAREAS: ${{ needs.ops_on_repo.outputs.orden_tareas }}
     steps:
       - name: Filtra hito 6
         uses: dorny/paths-filter@v2
