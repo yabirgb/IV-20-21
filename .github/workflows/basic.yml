@@ -6,5 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: lista módulos de Perl
-        run: for M in `perldoc -t perllocal|grep Module |sed -e 's/^.*" //'`; do V=`perldoc -t perllocal|awk "/$M/{y=1;next}y" |grep VERSION |head -n 1`; printf "%30s %s\n" "$M" "$V"; done |sort
+        run: cpan -l
 
