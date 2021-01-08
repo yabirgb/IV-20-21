@@ -1,0 +1,9 @@
+name: Exploraciones varias
+on: [push, pull_request]
+
+jobs:
+  list-perl-modules:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lista módulos de Perl
+        run: perl -MExtUtils::Installed -e '$i=ExtUtils::Installed->new(); print "$_ ".$i->version($_)."\n" for $i->modules();'
