@@ -63,4 +63,5 @@
 
 ## Octava semana
 - [x] Conocer el concepto de Paas
-- [x] Realizados los [ejercicios de autoevaluación](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/README.md#desplegando-aplicaciones-en-la-nube-uso-de-paas) del tema sobre Paas. 
+- [x] Comprender los conceptos para trabajar con plataformas PaaS
+- [x] Realizados los [ejercicios de autoevaluación](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/README.md#ejercicio-1) 1, 2, 3 y 4 del tema sobre Paas. 
