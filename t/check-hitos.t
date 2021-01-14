@@ -150,7 +150,7 @@ SKIP: {
     doing("hito 7");
     my $recurso = $iv->{'recurso'};
     my $url_PaaS = $iv->{'PaaS'};
-     if ( $recurso && $url_PaaS ) {
+    if ( $recurso && $url_PaaS ) {
        diag "☑ Encontrado el recurso";
     } else {
       diag "✗ Problemas con el recurso del hito 7 o el URL del PaaS";
