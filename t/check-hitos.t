@@ -142,10 +142,24 @@ SKIP: {
     } else {
       diag "✗ Problemas con la orden del fichero de tareas";
     }
-    ok( $make_command, "URL de despliegue hito 5");
+    ok( $make_command, "Make hito 6");
 
   }
 
+  if ( $this_hito >= 7 ) { # Dockerfile y despliegue
+    doing("hito 7");
+    my $recurso = $iv->{'make'};
+    my $url_PaaS = $iv->{'PaaS'};
+     if ( $make_command && $url_PaaS ) {
+       diag "☑ Encontrado el recurso";
+    } else {
+      diag "✗ Problemas con el recurso del hito 7 o el URL del PaaS";
+    }
+    ok( $recurso, "Make hito 7");
+    ok( $url_PaaS, "URL $url_PaaS encontrada");
+    my $metodo = $recurso->{'metodo'};
+    like( $metodo, qr/PUT|POST/, "Método $metodo correcto" );
+    my $payload = to_json( $recurso->{'payload'};
 };
 
 done_testing();
