@@ -16,7 +16,10 @@ my $iv = LoadFile("iv.yaml");
 ok( $iv, "Fichero de configuración para corrección iv.yaml cargado correctamente" );
 
 for my $c ( KEYS ) {
-  my $output = (ref $iv->{$c} )?to_json( $iv->{$c} ):$iv->{$c};
-  set_output( $c, $output );
+  if ( $iv->{$c} ) {
+    my $output = (ref $iv->{$c} )?to_json( $iv->{$c} ):$iv->{$c};
+    set_output( $c, $output );
+  }
 }
 
+done_testing;
