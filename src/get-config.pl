@@ -24,7 +24,7 @@ for my $c ( KEYS ) {
 }
 
 for my $k (qw(taskfile make)) {
-  ok( $iv->{$k], "Clave $k está presente" );
+  ok( $iv->{$k}, "Clave $k está presente" );
 }
 
 set_output('IV_FICHERO_TAREAS',$iv->{'taskfile'});
