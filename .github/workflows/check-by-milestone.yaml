@@ -76,7 +76,7 @@ jobs:
         with:
           filters: |
             src:
-              - 'proyectos/[345678].md'
+              - 'proyectos/hito-[345678].md'
       - name: Testea el contenedor
         if: steps.hito3.outputs.src == 'true'
         run: docker run -t -v `pwd`:/test ${CONTAINER,,}
