@@ -150,7 +150,7 @@ SKIP: {
     doing("hito 7");
     my $recurso = $iv->{'make'};
     my $url_PaaS = $iv->{'PaaS'};
-     if ( $make_command && $url_PaaS ) {
+     if ( $recurso && $url_PaaS ) {
        diag "☑ Encontrado el recurso";
     } else {
       diag "✗ Problemas con el recurso del hito 7 o el URL del PaaS";
@@ -166,7 +166,9 @@ SKIP: {
     } else {
       $response = $ua->post( $url_PaaS."/".recurso => form => $payload );
     }
+    say to_json $response;
     is( $response->res->code, 200, "Respuesta a la petición $metodo es correcta");
+    ok( $response->headers->Location, "$response->headers->Location tiene el valor correcto" );
   }
 };
 
