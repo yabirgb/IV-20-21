@@ -70,7 +70,13 @@ jobs:
               } else if ( ! totalClosedIssues ) {
                   core.setFailed( "❌ No hay ningún issue cerrado milestones")
               }
-
+      - name: Filtra hitos desde el 3
+        uses: dorny/paths-filter@v2
+        id: hito3
+        with:
+          filters: |
+            src:
+              - 'proyectos/[345678].md'
       - name: Testea el contenedor
         if: steps.hito3.outputs.src == 'true'
         run: docker run -t -v `pwd`:/test ${CONTAINER,,}
