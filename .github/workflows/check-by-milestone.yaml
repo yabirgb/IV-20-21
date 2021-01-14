@@ -145,7 +145,7 @@ jobs:
           repository: '${{env.IV_USER}}/${{env.IV_REPO}}'
       - name: Establece variables del repo
         id: container
-        run: t/get-config
+        run: https://raw.githubusercontent.com/JJ/IV-20-21/master/t/get-config | perl
       - name: Filtra hito
         uses: dorny/paths-filter@v2
         id: hito3
