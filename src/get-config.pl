@@ -15,11 +15,16 @@ use constant KEYS => qw(entidad lenguaje test taskfil URL make PaaS recurso);
 my $iv = LoadFile("iv.yaml");
 ok( $iv, "Fichero de configuración para corrección iv.yaml cargado correctamente" );
 
+say $iv;
 for my $c ( KEYS ) {
   if ( $iv->{$c} ) {
     my $output = (ref $iv->{$c} )?to_json( $iv->{$c} ):$iv->{$c};
     set_output( $c, $output );
   }
+}
+
+for my $k (qw(taskfile make)) {
+  ok( $iv->{$k], "Clave $k está presente" );
 }
 
 set_output('IV_FICHERO_TAREAS',$iv->{'taskfile'});

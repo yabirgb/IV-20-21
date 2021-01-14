@@ -83,7 +83,7 @@ jobs:
               - 'proyectos/hito-7.md'
       - name: Busca historias de usuario e issues cerrados
         uses: actions/github-script@v3
-        if: steps.hito7.outputs.src == 'false'
+        if: steps.hito7.outputs.src != 'true'
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
@@ -177,7 +177,7 @@ jobs:
       - name: Ejecuta test del microservicio
         if: steps.hito6.outputs.src == 'true'
         run: |
-          docker run -t -v `pwd`:/test ${CONTAINER,,} sh -c "ls && ${IV_ORDEN_TAREAS} build && ${IV_ORDEN_TAREAS} install && ${IV_ORDEN_TAREAS} test"
+          docker run -t -v `pwd`:/test ${CONTAINER,,} sh -c "${IV_ORDEN_TAREAS} build && ${IV_ORDEN_TAREAS} install && ${IV_ORDEN_TAREAS} test"
 
   test-ci-status:
     runs-on: ubuntu-latest
