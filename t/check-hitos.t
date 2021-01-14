@@ -148,7 +148,7 @@ SKIP: {
 
   if ( $this_hito >= 7 ) { # Dockerfile y despliegue
     doing("hito 7");
-    my $recurso = $iv->{'make'};
+    my $recurso = $iv->{'recurso'};
     my $url_PaaS = $iv->{'PaaS'};
      if ( $recurso && $url_PaaS ) {
        diag "☑ Encontrado el recurso";
@@ -161,7 +161,7 @@ SKIP: {
     like( $metodo, qr/PUT|POST/, "Método $metodo correcto" );
     my $payload = $recurso->{'payload'};
     my $response;
-    if ( $metodo == 'PUT' ) {
+    if ( $metodo eq 'PUT' ) {
       $response = $ua->put( $url_PaaS."/".recurso => json => $payload );
     } else {
       $response = $ua->post( $url_PaaS."/".recurso => form => $payload );
