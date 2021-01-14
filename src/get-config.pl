@@ -22,6 +22,9 @@ for my $c ( KEYS ) {
   }
 }
 
+set_output('IV_FICHERO_TAREAS',$iv->{'taskfile'});
+set_output('IV_ORDEN_TAREAS',$iv->{'make'});
+
 my $user = $ENV{'IV_USER'};
 my $repo = $ENV{'IV_REPO'};
 if ( -f "DOCKER_USER" ) {
@@ -33,5 +36,6 @@ if ( -f "DOCKER_USER" ) {
 }
 
 set_output('CONTAINER',"$user/$repo");
+set_env('CONTAINER',"$user/$repo");
 
 done_testing;
