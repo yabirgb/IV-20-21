@@ -71,8 +71,19 @@ jobs:
                   core.setFailed( "❌ No hay ningún issue cerrado milestones")
               }
 
+      - name: Testea el contenedor
+        if: steps.hito3.outputs.src == 'true'
+        run: docker run -t -v `pwd`:/test ${CONTAINER,,}
+      - name: Filtra hito
+        uses: dorny/paths-filter@v2
+        id: hito7
+        with:
+          filters: |
+            src:
+              - 'proyectos/hito-7.md'
       - name: Busca historias de usuario e issues cerrados
         uses: actions/github-script@v3
+        if: steps.hito7.outputs.src == 'false'
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
@@ -152,7 +163,7 @@ jobs:
         with:
           filters: |
             src:
-              - 'proyectos/hito-[345678].md'
+              - 'proyectos/hito-[34567].md'
       - name: Testea el contenedor
         if: steps.hito3.outputs.src == 'true'
         run: docker run -t -v `pwd`:/test ${CONTAINER,,}

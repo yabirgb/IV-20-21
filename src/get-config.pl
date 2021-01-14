@@ -24,6 +24,7 @@ for my $c ( KEYS ) {
 
 set_output('IV_FICHERO_TAREAS',$iv->{'taskfile'});
 set_output('IV_ORDEN_TAREAS',$iv->{'make'});
+set_env('IV_ORDEN_TAREAS',$iv->{'make'});
 
 my $user = $ENV{'IV_USER'};
 my $repo = $ENV{'IV_REPO'};
