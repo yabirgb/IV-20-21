@@ -159,7 +159,15 @@ SKIP: {
     ok( $url_PaaS, "URL $url_PaaS encontrada");
     my $metodo = $recurso->{'metodo'};
     like( $metodo, qr/PUT|POST/, "Método $metodo correcto" );
-    my $payload = to_json( $recurso->{'payload'};
+    my $payload = $recurso->{'payload'};
+    my $response;
+    if ( $metodo == 'PUT' ) {
+      $response = $ua->put( $url_PaaS."/".recurso => json => $payload );
+    } else {
+      $response = $ua->post( $url_PaaS."/".recurso => form => $payload );
+    }
+    is( $response->res->code, 200, "Respuesta a la petición $metodo es correcta");
+  }
 };
 
 done_testing();
