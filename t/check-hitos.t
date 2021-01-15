@@ -161,6 +161,7 @@ SKIP: {
     my $metodo = $recurso->{'metodo'};
     like( $metodo, qr/PUT|POST/, "Método $metodo correcto" );
     my $payload = $recurso->{'payload'};
+    is( ref $payload, "HASH", "Payload debe ser un hash, no un array" );
     my $response;
     if ( $metodo eq 'PUT' ) {
       $response = $ua->put( $url_PaaS."/".recurso => json => $payload );
