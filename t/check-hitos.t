@@ -16,6 +16,7 @@ use Net::Ping;
 use Term::ANSIColor qw(:constants);
 use YAML qw(LoadFile);
 use IO::Socket::SSL;
+use Scalar::Util qw(looks_like_number);
 
 use v5.14; # For say
 
@@ -178,9 +179,9 @@ SKIP: {
         ok( $response->headers->Location, '$response->headers->Location tiene el valor correcto' );
       }
     } else {
-      my $json = $jsoner->encode( $payload );
+      my $json = $jsoner->encode( force_numbers($payload) );
       for (my $i = 0; $i <= 3; $i ++ ) {
-        $response = $ua->post( $prefix => $json );
+        $response = $ua->post( $prefix => json => $payload );
         is( $response->res->code, 200, "Respuesta a la petición $metodo sobre $prefix es correcta");
         ok( $response->headers->Location, '$response->headers->Location tiene el valor correcto' );
       }
@@ -287,3 +288,18 @@ sub json_from_status {
   say "Body → $body";
   return from_json( $body );
 }
+
+sub force_numbers
+{  
+    if (ref $_[0] eq ""){
+        if ( looks_like_number($_[0]) ){
+            $_[0] += 0;
+        }   
+    } elsif ( ref $_[0] eq 'ARRAY' ){
+        force_numbers($_) for @{$_[0]};
+    } elsif ( ref $_[0] eq 'HASH' ) {
+        force_numbers($_) for values %{$_[0]};
+    }   
+
+    return $_[0];
+} 
