@@ -155,6 +155,7 @@ SKIP: {
     } else {
       diag "✗ Problemas con el recurso del hito 7 o el URL del PaaS";
     }
+    ok( $recurso->{'IDs'}, "Se incluyen las IDs de los recursos enviados o devueltos" );
     ok( $recurso, "Make hito 7");
     ok( $url_PaaS, "URL $url_PaaS encontrada");
     my $metodo = $recurso->{'metodo'};
