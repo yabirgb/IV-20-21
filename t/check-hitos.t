@@ -183,7 +183,9 @@ SKIP: {
       for (my $i = 0; $i <= 3; $i ++ ) {
         $response = $ua->post( $prefix => $json );
         is( $response->res->code, 201, "Respuesta a la petición $metodo sobre $prefix es correcta");
-        ok( $response->res->headers->location, '$response->headers->Location tiene el valor correcto' );
+        my $location = $response->res->headers->location;
+        ok( $location, '$response->headers->Location tiene el valor correcto' );
+        is( $ua->get($url_PaaS.$location)->res->code, 200, "Se puede bajar el creado $i" );
       }
     }
   }
