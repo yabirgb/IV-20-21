@@ -156,7 +156,6 @@ SKIP: {
     } else {
       diag "✗ Problemas con el recurso del hito 7 o el URL del PaaS";
     }
-    ok( $recurso->{'IDs'}, "Se incluyen las IDs de los recursos enviados o devueltos" );
     ok( $recurso, "Make hito 7");
     ok( $url_PaaS, "URL $url_PaaS encontrada");
     my $metodo = $recurso->{'metodo'};
@@ -166,6 +165,7 @@ SKIP: {
     my $response;
     my $prefix = $url_PaaS."/".$recurso->{'nombre'};
     if ( $metodo eq 'PUT' ) {
+      ok( $recurso->{'IDs'}, "Se incluyen las IDs de los recursos enviados o devueltos" );
       for my $id ( @{$recurso->{'IDs'}} ) {
         my $URI = "$prefix/$id";
         $response = $ua->put( $URI => json => $payload );
@@ -173,7 +173,7 @@ SKIP: {
         ok( $response->headers->Location, '$response->headers->Location tiene el valor correcto' );
       }
     } else {
-      for my $id ( @{$recurso->{'IDs'}} ) {
+      for (my $i = 0; $i <= 3; $i ++ ) {
         $response = $ua->post( $prefix => form => $payload );
         is( $response->res->code, 200, "Respuesta a la petición $metodo sobre $prefix es correcta");
         ok( $response->headers->Location, '$response->headers->Location tiene el valor correcto' );
