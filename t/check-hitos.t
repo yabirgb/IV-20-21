@@ -175,15 +175,15 @@ SKIP: {
       for my $id ( @{$recurso->{'IDs'}} ) {
         my $URI = "$prefix/$id";
         $response = $ua->put( $URI => json => $payload );
-        is( $response->res->code, 200, "Respuesta a la petición $metodo sobre $URI es correcta");
+        is( $response->res->code, 201, "Respuesta a la petición $metodo sobre $URI es correcta");
         ok( $response->headers->Location, '$response->headers->Location tiene el valor correcto' );
       }
     } else {
       my $json = $jsoner->encode( force_numbers($payload) );
       for (my $i = 0; $i <= 3; $i ++ ) {
-        $response = $ua->post( $prefix => json => $payload );
-        is( $response->res->code, 200, "Respuesta a la petición $metodo sobre $prefix es correcta");
-        ok( $response->headers->Location, '$response->headers->Location tiene el valor correcto' );
+        $response = $ua->post( $prefix => $json );
+        is( $response->res->code, 201, "Respuesta a la petición $metodo sobre $prefix es correcta");
+        ok( $response->res->headers->location, '$response->headers->Location tiene el valor correcto' );
       }
     }
   }
@@ -291,10 +291,16 @@ sub json_from_status {
 
 sub force_numbers
 {  
-    if (ref $_[0] eq ""){
-        if ( looks_like_number($_[0]) ){
-            $_[0] += 0;
-        }   
+    if (ref $_[0] eq "") {
+      if ( looks_like_number($_[0]) ) {
+        $_[0] += 0;
+      } elsif ( $_[0] =~ /true|false/ ) {
+        if ($_[0] eq 'true' ) {
+          $_[0] = \1;
+        } else {
+          $_[0] = \0;
+        }
+      }
     } elsif ( ref $_[0] eq 'ARRAY' ){
         force_numbers($_) for @{$_[0]};
     } elsif ( ref $_[0] eq 'HASH' ) {
