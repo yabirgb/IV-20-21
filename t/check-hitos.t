@@ -11,6 +11,7 @@ use Git;
 use Mojo::UserAgent;
 use File::Slurper qw(read_text);
 use JSON;
+use JSON::XS;
 use Net::Ping;
 use Term::ANSIColor qw(:constants);
 use YAML qw(LoadFile);
@@ -163,7 +164,11 @@ SKIP: {
     my $payload = $recurso->{'payload'};
     is( ref $payload, "HASH", "Payload debe ser un hash, no un array" );
     my $response;
+    if ( $url_PaaS =~ m{/$} ) {
+      chop( $url_PaaS );
+    }
     my $prefix = $url_PaaS."/".$recurso->{'nombre'};
+    my $jsoner = new JSON::XS;
     if ( $metodo eq 'PUT' ) {
       ok( $recurso->{'IDs'}, "Se incluyen las IDs de los recursos enviados o devueltos" );
       for my $id ( @{$recurso->{'IDs'}} ) {
@@ -173,8 +178,9 @@ SKIP: {
         ok( $response->headers->Location, '$response->headers->Location tiene el valor correcto' );
       }
     } else {
+      my $json = $jsoner->encode( $payload );
       for (my $i = 0; $i <= 3; $i ++ ) {
-        $response = $ua->post( $prefix => form => $payload );
+        $response = $ua->post( $prefix => $json );
         is( $response->res->code, 200, "Respuesta a la petición $metodo sobre $prefix es correcta");
         ok( $response->headers->Location, '$response->headers->Location tiene el valor correcto' );
       }
